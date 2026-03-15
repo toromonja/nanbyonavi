@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4338ca"/>
+      <stop offset="100%" style="stop-color:#312e81"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1100" cy="80" r="180" fill="white" fill-opacity="0.05"/>
+  <circle cx="100" cy="550" r="220" fill="white" fill-opacity="0.05"/>
+  <text x="600" y="270" font-family="'Hiragino Kaku Gothic Pro', 'Noto Sans JP', sans-serif" font-size="96" font-weight="bold" fill="white" text-anchor="middle">ナンビョウナビ</text>
+  <text x="600" y="370" font-family="'Hiragino Kaku Gothic Pro', 'Noto Sans JP', sans-serif" font-size="36" fill="white" fill-opacity="0.85" text-anchor="middle">難病・希少疾患の患者と家族のための情報ナビ</text>
+  <text x="600" y="440" font-family="'Hiragino Kaku Gothic Pro', 'Noto Sans JP', sans-serif" font-size="28" fill="white" fill-opacity="0.65" text-anchor="middle">nanbyonavi.toromonja.com</text>
+</svg>
