@@ -1,8 +1,9 @@
 import type { MetadataRoute } from "next";
 import { siteUrl } from "@/lib/metadata";
+import { diseases } from "@/data/diseases";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages = [
+  const staticPages = [
     { url: "/", priority: 1.0, changeFrequency: "weekly" as const },
     { url: "/guides", priority: 0.9, changeFrequency: "weekly" as const },
     { url: "/guides/seido", priority: 0.9, changeFrequency: "monthly" as const },
@@ -17,10 +18,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/disclaimer", priority: 0.4, changeFrequency: "yearly" as const },
   ];
 
-  return pages.map((page) => ({
-    url: `${siteUrl}${page.url}`,
+  const diseasePages = diseases.map((d) => ({
+    url: `${siteUrl}/disease/${d.slug}`,
     lastModified: new Date(),
-    changeFrequency: page.changeFrequency,
-    priority: page.priority,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
   }));
+
+  return [
+    ...staticPages.map((page) => ({
+      url: `${siteUrl}${page.url}`,
+      lastModified: new Date(),
+      changeFrequency: page.changeFrequency,
+      priority: page.priority,
+    })),
+    ...diseasePages,
+  ];
 }
