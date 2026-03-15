@@ -7,29 +7,35 @@ import type { Disease } from "@/data/diseases";
 
 // ─── カテゴリ定義 ─────────────────────────────────────────
 const CATEGORIES = [
-  { slug: "all",      label: "すべて" },
-  { slug: "neuro",    label: "神経・筋疾患" },
-  { slug: "immune",   label: "免疫・膠原病" },
-  { slug: "gastro",   label: "消化器疾患" },
-  { slug: "cardio",   label: "循環器疾患" },
-  { slug: "metabolic",label: "代謝疾患" },
-  { slug: "blood",    label: "血液疾患" },
-  { slug: "skin",     label: "皮膚疾患" },
-  { slug: "bone",     label: "骨・関節疾患" },
+  { slug: "all",           label: "すべて" },
+  { slug: "neuro",         label: "神経・筋疾患" },
+  { slug: "immune",        label: "免疫・膠原病" },
+  { slug: "respiratory",   label: "呼吸器疾患" },
+  { slug: "renal",         label: "腎・泌尿器疾患" },
+  { slug: "ophthalmology", label: "眼疾患" },
+  { slug: "gastro",        label: "消化器疾患" },
+  { slug: "cardio",        label: "循環器疾患" },
+  { slug: "metabolic",     label: "代謝疾患" },
+  { slug: "blood",         label: "血液疾患" },
+  { slug: "skin",          label: "皮膚疾患" },
+  { slug: "bone",          label: "骨・関節疾患" },
 ] as const;
 
 type CategorySlug = typeof CATEGORIES[number]["slug"];
 
 // ─── カラーマップ ─────────────────────────────────────────
 const CATEGORY_COLOR: Record<string, { badge: string; border: string; hover: string }> = {
-  neuro:     { badge: "bg-indigo-100 text-indigo-700",  border: "border-indigo-100", hover: "hover:border-indigo-300" },
-  immune:    { badge: "bg-violet-100 text-violet-700",  border: "border-violet-100", hover: "hover:border-violet-300" },
-  gastro:    { badge: "bg-green-100 text-green-700",    border: "border-green-100",  hover: "hover:border-green-300" },
-  cardio:    { badge: "bg-pink-100 text-pink-700",      border: "border-pink-100",   hover: "hover:border-pink-300" },
-  metabolic: { badge: "bg-amber-100 text-amber-700",   border: "border-amber-100",  hover: "hover:border-amber-300" },
-  blood:     { badge: "bg-red-100 text-red-700",        border: "border-red-100",    hover: "hover:border-red-300" },
-  skin:      { badge: "bg-orange-100 text-orange-700",  border: "border-orange-100", hover: "hover:border-orange-300" },
-  bone:      { badge: "bg-teal-100 text-teal-700",      border: "border-teal-100",   hover: "hover:border-teal-300" },
+  neuro:         { badge: "bg-indigo-100 text-indigo-700",  border: "border-indigo-100", hover: "hover:border-indigo-300" },
+  immune:        { badge: "bg-violet-100 text-violet-700",  border: "border-violet-100", hover: "hover:border-violet-300" },
+  respiratory:   { badge: "bg-sky-100 text-sky-700",        border: "border-sky-100",    hover: "hover:border-sky-300" },
+  renal:         { badge: "bg-cyan-100 text-cyan-700",      border: "border-cyan-100",   hover: "hover:border-cyan-300" },
+  ophthalmology: { badge: "bg-lime-100 text-lime-700",      border: "border-lime-100",   hover: "hover:border-lime-300" },
+  gastro:        { badge: "bg-green-100 text-green-700",    border: "border-green-100",  hover: "hover:border-green-300" },
+  cardio:        { badge: "bg-pink-100 text-pink-700",      border: "border-pink-100",   hover: "hover:border-pink-300" },
+  metabolic:     { badge: "bg-amber-100 text-amber-700",    border: "border-amber-100",  hover: "hover:border-amber-300" },
+  blood:         { badge: "bg-red-100 text-red-700",        border: "border-red-100",    hover: "hover:border-red-300" },
+  skin:          { badge: "bg-orange-100 text-orange-700",  border: "border-orange-100", hover: "hover:border-orange-300" },
+  bone:          { badge: "bg-teal-100 text-teal-700",      border: "border-teal-100",   hover: "hover:border-teal-300" },
 };
 
 function getColor(slug: string) {

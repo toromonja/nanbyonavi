@@ -32,14 +32,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 const categoryColorMap: Record<string, { badge: string; bg: string; border: string }> = {
-  neuro:     { badge: "bg-indigo-100 text-indigo-700",  bg: "bg-indigo-50",  border: "border-indigo-200" },
-  immune:    { badge: "bg-violet-100 text-violet-700",  bg: "bg-violet-50",  border: "border-violet-200" },
-  gastro:    { badge: "bg-green-100 text-green-700",    bg: "bg-green-50",   border: "border-green-200" },
-  cardio:    { badge: "bg-pink-100 text-pink-700",      bg: "bg-pink-50",    border: "border-pink-200" },
-  metabolic: { badge: "bg-amber-100 text-amber-700",   bg: "bg-amber-50",   border: "border-amber-200" },
-  blood:     { badge: "bg-red-100 text-red-700",        bg: "bg-red-50",     border: "border-red-200" },
-  skin:      { badge: "bg-orange-100 text-orange-700",  bg: "bg-orange-50",  border: "border-orange-200" },
-  bone:      { badge: "bg-teal-100 text-teal-700",      bg: "bg-teal-50",    border: "border-teal-200" },
+  neuro:         { badge: "bg-indigo-100 text-indigo-700",  bg: "bg-indigo-50",  border: "border-indigo-200" },
+  immune:        { badge: "bg-violet-100 text-violet-700",  bg: "bg-violet-50",  border: "border-violet-200" },
+  respiratory:   { badge: "bg-sky-100 text-sky-700",        bg: "bg-sky-50",     border: "border-sky-200" },
+  renal:         { badge: "bg-cyan-100 text-cyan-700",      bg: "bg-cyan-50",    border: "border-cyan-200" },
+  ophthalmology: { badge: "bg-lime-100 text-lime-700",      bg: "bg-lime-50",    border: "border-lime-200" },
+  gastro:        { badge: "bg-green-100 text-green-700",    bg: "bg-green-50",   border: "border-green-200" },
+  cardio:        { badge: "bg-pink-100 text-pink-700",      bg: "bg-pink-50",    border: "border-pink-200" },
+  metabolic:     { badge: "bg-amber-100 text-amber-700",    bg: "bg-amber-50",   border: "border-amber-200" },
+  blood:         { badge: "bg-red-100 text-red-700",        bg: "bg-red-50",     border: "border-red-200" },
+  skin:          { badge: "bg-orange-100 text-orange-700",  bg: "bg-orange-50",  border: "border-orange-200" },
+  bone:          { badge: "bg-teal-100 text-teal-700",      bg: "bg-teal-50",    border: "border-teal-200" },
 };
 
 const sectionClass = "mb-10";
