@@ -222,7 +222,7 @@ export const diseases: Disease[] = [
     diagnosis:
       "遺伝子検査（CAG反復数の確認）が確定診断。発症前診断も可能だが、遺伝カウンセリングとのセットが必須。MRI（尾状核萎縮）・神経心理検査も参照。",
     treatment:
-      "根本的治療法なし。不随意運動にテトラベナジン・重酒石酸バレナクリン、精神症状に抗精神病薬・抗うつ薬。HTTタンパク質を標的とするアンチセンス療法が研究中。",
+      "根本的治療法なし。不随意運動にテトラベナジン（tetrabenazine）、精神症状に抗精神病薬・抗うつ薬。HTTタンパク質を標的とするアンチセンス療法が研究中。",
     prognosis:
       "発症後15〜20年で死亡することが多い。自殺リスクが高く、精神科的サポートが重要。",
     jrctSearchUrl:
@@ -529,7 +529,7 @@ export const diseases: Disease[] = [
     nameEn: "Pulmonary Arterial Hypertension",
     nanbyoNumber: 86,
     category: "循環器疾患",
-    categorySlug: "cardio",
+    categorySlug: "cardiovascular",
     overview:
       "肺動脈の閉塞・収縮により肺循環の抵抗が増大し、右心不全をきたす進行性疾患。若い女性に多く、早期診断・早期治療が予後改善に重要。",
     symptoms: [
@@ -557,7 +557,7 @@ export const diseases: Disease[] = [
     nameEn: "Takayasu Arteritis",
     nanbyoNumber: 40,
     category: "循環器疾患",
-    categorySlug: "cardio",
+    categorySlug: "cardiovascular",
     overview:
       "大動脈とその主要分枝の肉芽腫性炎症により、血管の狭窄・閉塞・拡張をきたす大血管炎。若い女性（10〜30代）に多い。日本で最初に報告された疾患。",
     symptoms: [
@@ -2648,7 +2648,6 @@ export const diseases: Disease[] = [
     slug: "cardiac-sarcoidosis",
     name: "心サルコイドーシス",
     nameEn: "Cardiac Sarcoidosis",
-    nanbyoNumber: 58,
     category: "心・血管疾患",
     categorySlug: "cardiovascular",
     overview:
@@ -3406,34 +3405,6 @@ export const diseases: Disease[] = [
     nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/254",
   },
   {
-    slug: "hereditary-spastic-paraplegia-new",
-    name: "遺伝性痙性対麻痺",
-    nameEn: "Hereditary Spastic Paraplegia",
-    nanbyoNumber: 126,
-    category: "神経・筋疾患",
-    categorySlug: "neuromuscular",
-    overview:
-      "皮質脊髄路（上位運動ニューロン）の変性により下肢の痙性・筋力低下・歩行障害が徐々に進行する遺伝性疾患群。単純型と複雑型（他神経症状を伴う）に分類され、80以上の遺伝子型（SPG1〜）が同定されている。",
-    symptoms: [
-      "下肢の痙性麻痺（ハサミ脚歩行）",
-      "下肢筋力低下",
-      "腱反射亢進・病的反射陽性",
-      "排尿障害（神経因性膀胱）",
-      "複雑型では感覚障害・小脳失調・知的障害等を伴う",
-    ],
-    causes:
-      "SPG4（SPAST：スパスチン）が最多（常染色体優性型の約40%）。その他SPG3A・SPG11・SPG15・SPG7等多数の遺伝子変異。常染色体優性・劣性・X連鎖性・ミトコンドリア遺伝等多様な遺伝形式。",
-    diagnosis:
-      "臨床症状・家族歴・遺伝子パネル検査（NGS）。MRI（頸髄・胸髄の萎縮・白質異常）・神経伝導検査・筋電図で評価。",
-    treatment:
-      "根本治療なし。痙性管理（バクロフェン・チザニジン・ボツリヌス毒素・バクロフェン髄腔内投与）。リハビリテーション（歩行訓練・装具・車椅子）・排尿障害管理。",
-    prognosis:
-      "単純型は緩徐進行で寿命は正常に近い。複雑型は障害が多岐にわたる。SPG4は発症年齢が早いほど進行が速い傾向。",
-    jrctSearchUrl:
-      "https://jrct.niph.go.jp/search?query=Hereditary+Spastic+Paraplegia",
-    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/240",
-  },
-  {
     slug: "nemaline-myopathy",
     name: "ネマリンミオパチー",
     nameEn: "Nemaline Myopathy",
@@ -3689,7 +3660,6 @@ export const diseases: Disease[] = [
     slug: "hereditary-pulmonary-hypertension",
     name: "遺伝性肺動脈性肺高血圧症",
     nameEn: "Hereditary Pulmonary Arterial Hypertension",
-    nanbyoNumber: 86,
     category: "呼吸器疾患",
     categorySlug: "respiratory",
     overview:
@@ -3824,34 +3794,6 @@ export const diseases: Disease[] = [
     jrctSearchUrl:
       "https://jrct.niph.go.jp/search?query=Intestinal+Behcets+Disease",
     nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/224",
-  },
-  {
-    slug: "lymphangioleiomyomatosis",
-    name: "リンパ脈管筋腫症（LAM）",
-    nameEn: "Lymphangioleiomyomatosis",
-    nanbyoNumber: 189,
-    category: "呼吸器疾患",
-    categorySlug: "respiratory",
-    overview:
-      "TSC2またはTSC1遺伝子変異による平滑筋様細胞（LAM細胞）が肺・リンパ管・腎（血管筋脂肪腫）に増殖する多系統疾患。ほぼ女性のみに発症し、進行性の気流制限と気胸を繰り返す。",
-    symptoms: [
-      "労作性息切れ・咳嗽（進行性）",
-      "自然気胸（再発性）",
-      "乳び胸・乳び腹水",
-      "腎血管筋脂肪腫（AML：腹部腫瘤・出血）",
-      "結節性硬化症の他病変（皮膚・脳）",
-    ],
-    causes:
-      "TSC2（約80%）またはTSC1遺伝子の変異（孤発性LAMは通常体細胞変異）によりmTORC1経路が過剰活性化し、LAM細胞が異常増殖・浸潤する。",
-    diagnosis:
-      "高分解能CT（両肺野均等分布の薄壁嚢腫）・血清VEGF-D高値（＞800pg/mL：高特異度）・肺生検（LAM細胞：HMB-45陽性）・腎AML（CT）・TSC2/TSC1遺伝子検査。",
-    treatment:
-      "シロリムス（mTOR阻害薬：FEV1低下速度の抑制・VEGF-D低下・LAM症状改善）が第一選択。気胸管理（胸膜固定術）・乳び腹水（食事制限・オクトレオチド・シロリムス）・腎AML（エベロリムス・塞栓術）。",
-    prognosis:
-      "シロリムス治療で進行を抑制できる。重症例では肺移植が適応。",
-    jrctSearchUrl:
-      "https://jrct.niph.go.jp/search?query=Lymphangioleiomyomatosis",
-    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/274",
   },
 
   // ─── 内分泌疾患（追加） ────────────────────────────────
@@ -4364,7 +4306,7 @@ export const diseases: Disease[] = [
     name: "遺伝性ヘモクロマトーシス",
     nameEn: "Hereditary Hemochromatosis",
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic_genetic",
+    categorySlug: "metabolic",
     overview:
       "HFE遺伝子等の変異により鉄吸収が過剰となり、肝臓・心臓・膵臓・関節・皮膚等の臓器に鉄が過剰蓄積する常染色体劣性遺伝疾患。欧米に多く、アジアでは比較的まれ。",
     symptoms: [
@@ -4392,7 +4334,7 @@ export const diseases: Disease[] = [
     name: "アルファ1アンチトリプシン欠乏症",
     nameEn: "Alpha-1 Antitrypsin Deficiency",
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic_genetic",
+    categorySlug: "metabolic",
     overview:
       "SERPINA1遺伝子変異により血清中のα1アンチトリプシン（AAT）が著減する常染色体劣性遺伝疾患。肺ではエラスターゼが阻害されずに肺胞を破壊し肺気腫をきたし、肝臓では異常AATが蓄積し肝障害をきたす。",
     symptoms: [
@@ -4419,7 +4361,7 @@ export const diseases: Disease[] = [
     name: "シスチン尿症",
     nameEn: "Cystinuria",
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic_genetic",
+    categorySlug: "metabolic",
     overview:
       "尿細管・腸管におけるシスチン・オルニチン・アルギニン・リジン（COAL）の輸送障害により、シスチンが尿中に過剰排泄される常染色体遺伝疾患。シスチンの低溶解性により尿路結石を反復する。",
     symptoms: [
@@ -4446,7 +4388,7 @@ export const diseases: Disease[] = [
     nameEn: "Hurler Syndrome (Mucopolysaccharidosis Type I)",
     nanbyoNumber: 19,
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic_genetic",
+    categorySlug: "metabolic",
     overview:
       "α-L-イズロニダーゼ欠乏によりデルマタン硫酸・ヘパラン硫酸が全身組織に蓄積するムコ多糖症の最重症型。早期から多臓器障害が進行し、精神発達遅滞・心弁膜症・気道閉塞をきたす。",
     symptoms: [
@@ -4477,7 +4419,7 @@ export const diseases: Disease[] = [
     nameEn: "Hunter Syndrome (Mucopolysaccharidosis Type II)",
     nanbyoNumber: 20,
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic_genetic",
+    categorySlug: "metabolic",
     overview:
       "イズロン酸-2-スルファターゼ欠乏によるムコ多糖症で、X染色体連鎖劣性遺伝のため男性のみ発症。重症型（神経障害あり）と軽症型に分かれる。特徴的顔貌・多発性骨異形成・心弁膜症を呈する。",
     symptoms: [
@@ -4508,7 +4450,7 @@ export const diseases: Disease[] = [
     nameEn: "Morquio Syndrome (Mucopolysaccharidosis Type IV)",
     nanbyoNumber: 21,
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic_genetic",
+    categorySlug: "metabolic",
     overview:
       "ガラクトース-6-硫酸スルファターゼ（IV-A型）またはβ-ガラクトシダーゼ（IV-B型）欠乏により、ケラタン硫酸が全身に蓄積するムコ多糖症。骨格・関節病変が主体で知能は正常。",
     symptoms: [
@@ -4965,7 +4907,7 @@ export const diseases: Disease[] = [
     nameEn: "Leber Hereditary Optic Neuropathy",
     nanbyoNumber: 129,
     category: "眼科疾患",
-    categorySlug: "ophthalmological",
+    categorySlug: "ophthalmology",
     overview:
       "ミトコンドリアDNA点変異による遺伝性視神経症。母系遺伝を示し、主に若年男性に急性〜亜急性の視力低下をきたす。両眼が数週間〜数ヶ月の間隔で侵され、中心視野が著明に障害される。",
     symptoms: [
@@ -4993,7 +4935,7 @@ export const diseases: Disease[] = [
     name: "眼皮膚白皮症",
     nameEn: "Oculocutaneous Albinism",
     category: "眼科疾患",
-    categorySlug: "ophthalmological",
+    categorySlug: "ophthalmology",
     overview:
       "メラニン合成経路の遺伝的障害により皮膚・毛髪・眼のメラニン色素が先天的に欠乏または減少する疾患群。1型（TYR遺伝子変異・最重症）から7型まで分類される常染色体劣性遺伝疾患。",
     symptoms: [
@@ -5049,7 +4991,6 @@ export const diseases: Disease[] = [
     slug: "arvc",
     name: "不整脈原性右室心筋症",
     nameEn: "Arrhythmogenic Right Ventricular Cardiomyopathy",
-    nanbyoNumber: 57,
     category: "心・血管疾患",
     categorySlug: "cardiovascular",
     overview:
@@ -5223,7 +5164,7 @@ export const diseases: Disease[] = [
     name: "代謝性先天性白内障",
     nameEn: "Metabolic Congenital Cataract",
     category: "眼科疾患",
-    categorySlug: "ophthalmological",
+    categorySlug: "ophthalmology",
     overview:
       "ガラクトース血症・ウィルソン病・ファブリー病・低カルシウム血症等の代謝異常に続発して生じる白内障。代謝産物の水晶体への蓄積や栄養障害が水晶体の透明性を障害する。",
     symptoms: [
@@ -5304,7 +5245,7 @@ export const diseases: Disease[] = [
     name: "ニーマン・ピック病C型",
     nameEn: "Niemann-Pick Disease Type C",
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic_genetic",
+    categorySlug: "metabolic",
     overview:
       "NPC1またはNPC2蛋白の欠損によりコレステロール・糖脂質のリソソーム内輸送が障害され、細胞内に蓄積する常染色体劣性リソソーム蓄積症。神経症状・肝脾腫を特徴とし、小児〜成人まで幅広い発症年齢を示す。",
     symptoms: [
@@ -5333,7 +5274,7 @@ export const diseases: Disease[] = [
     name: "クラッベ病",
     nameEn: "Krabbe Disease",
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic_genetic",
+    categorySlug: "metabolic",
     overview:
       "GALC（ガラクトセレブロシダーゼ）欠乏による球状細胞性白質ジストロフィー（グロボイド細胞白質ジストロフィー）。ガラクトシルセラミドが蓄積しミエリン破壊をきたす常染色体劣性リソソーム蓄積症。",
     symptoms: [
@@ -5359,7 +5300,7 @@ export const diseases: Disease[] = [
     name: "異染性白質ジストロフィー",
     nameEn: "Metachromatic Leukodystrophy",
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic_genetic",
+    categorySlug: "metabolic",
     overview:
       "アリールスルファターゼA（ARSA）欠乏によりスルファチドが神経組織に蓄積し、進行性の脱髄をきたす常染色体劣性リソソーム蓄積症。乳児型・若年型・成人型があり、乳児型が最重症。",
     symptoms: [
@@ -5387,7 +5328,7 @@ export const diseases: Disease[] = [
     name: "副腎白質ジストロフィー",
     nameEn: "X-linked Adrenoleukodystrophy",
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic_genetic",
+    categorySlug: "metabolic",
     overview:
       "ABCD1遺伝子変異による極長鎖脂肪酸（VLCFA）の蓄積を特徴とするX染色体連鎖ペルオキシソーム病。男性に重症の脳型（小児期）・副腎脊髄神経障害型（成人型）が発症。副腎皮質不全を合併。",
     symptoms: [
@@ -5413,7 +5354,7 @@ export const diseases: Disease[] = [
     name: "ツェルウェガー症候群",
     nameEn: "Zellweger Syndrome",
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic_genetic",
+    categorySlug: "metabolic",
     overview:
       "PEX遺伝子群変異によるペルオキシソーム形成障害を原因とする最重症のペルオキシソーム病。新生児期から神経発達障害・肝障害・特徴的顔貌を呈し、早期に死亡する重篤な疾患。",
     symptoms: [
@@ -5441,7 +5382,7 @@ export const diseases: Disease[] = [
     name: "家族性高コレステロール血症",
     nameEn: "Familial Hypercholesterolemia",
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic_genetic",
+    categorySlug: "metabolic",
     overview:
       "LDL受容体（またはApoB・PCSK9等）の遺伝子変異により血清LDLコレステロールが著明に高値となり、早発性動脈硬化・冠動脈疾患をきたす遺伝性高脂血症。ホモ接合体型は出生時から重篤。",
     symptoms: [
@@ -5495,7 +5436,7 @@ export const diseases: Disease[] = [
     name: "中鎖アシルCoA脱水素酵素欠乏症",
     nameEn: "Medium-Chain Acyl-CoA Dehydrogenase Deficiency",
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic_genetic",
+    categorySlug: "metabolic",
     overview:
       "ACADM遺伝子変異による中鎖脂肪酸β酸化障害。空腹・感染等の代謝ストレス時に低血糖・意識障害・突然死をきたす先天性代謝異常症。欧米白人に多く、新生児マススクリーニングで早期発見可能。",
     symptoms: [
@@ -5574,7 +5515,7 @@ export const diseases: Disease[] = [
     slug: "drpla",
     name: "歯状核赤核淡蒼球ルイ体萎縮症（DRPLA）",
     nameEn: "Dentatorubral-Pallidoluysian Atrophy",
-    nanbyoNumber: 20,
+    nanbyoNumber: 8,
     category: "神経・筋疾患",
     categorySlug: "neuromuscular",
     overview:
@@ -5602,7 +5543,6 @@ export const diseases: Disease[] = [
     slug: "machado-joseph-sca3",
     name: "マシャド・ジョセフ病（脊髄小脳変性症3型）",
     nameEn: "Machado-Joseph Disease / SCA3",
-    nanbyoNumber: 18,
     category: "神経・筋疾患",
     categorySlug: "neuromuscular",
     overview:
@@ -5683,7 +5623,6 @@ export const diseases: Disease[] = [
     slug: "sca1",
     name: "脊髄小脳変性症1型（SCA1）",
     nameEn: "Spinocerebellar Ataxia Type 1",
-    nanbyoNumber: 18,
     category: "神経・筋疾患",
     categorySlug: "neuromuscular",
     overview:
@@ -5711,7 +5650,6 @@ export const diseases: Disease[] = [
     slug: "sca2",
     name: "脊髄小脳変性症2型（SCA2）",
     nameEn: "Spinocerebellar Ataxia Type 2",
-    nanbyoNumber: 18,
     category: "神経・筋疾患",
     categorySlug: "neuromuscular",
     overview:
@@ -5738,7 +5676,6 @@ export const diseases: Disease[] = [
     slug: "sca6",
     name: "脊髄小脳変性症6型（SCA6）",
     nameEn: "Spinocerebellar Ataxia Type 6",
-    nanbyoNumber: 18,
     category: "神経・筋疾患",
     categorySlug: "neuromuscular",
     overview:
@@ -5764,7 +5701,6 @@ export const diseases: Disease[] = [
     slug: "sca7",
     name: "脊髄小脳変性症7型（SCA7）",
     nameEn: "Spinocerebellar Ataxia Type 7",
-    nanbyoNumber: 18,
     category: "神経・筋疾患",
     categorySlug: "neuromuscular",
     overview:
@@ -5960,7 +5896,7 @@ export const diseases: Disease[] = [
     nameEn: "Wiskott-Aldrich Syndrome",
     nanbyoNumber: 65,
     category: "免疫・自己免疫疾患",
-    categorySlug: "immunological",
+    categorySlug: "immune",
     overview:
       "WAS遺伝子変異によるX連鎖性の原発性免疫不全症。微小血小板減少性紫斑病・湿疹・免疫不全の三徴を呈する。自己免疫疾患・悪性腫瘍（リンパ腫等）の合併リスクが高い。造血幹細胞移植が根治療法。",
     symptoms: [
@@ -5987,7 +5923,7 @@ export const diseases: Disease[] = [
     nameEn: "Hyper-IgE Syndrome",
     nanbyoNumber: 66,
     category: "免疫・自己免疫疾患",
-    categorySlug: "immunological",
+    categorySlug: "immune",
     overview:
       "血清IgEの著明な高値（>2000 IU/mL）・反復性皮膚膿瘍・難治性肺炎を三徴とする原発性免疫不全症。STAT3変異による常染色体優性型（Job症候群）とDOCK8変異による常染色体劣性型がある。特徴的顔貌・骨格異常を伴う。",
     symptoms: [
@@ -6015,7 +5951,7 @@ export const diseases: Disease[] = [
     nameEn: "TNF Receptor-Associated Periodic Syndrome",
     nanbyoNumber: 269,
     category: "免疫・自己免疫疾患",
-    categorySlug: "immunological",
+    categorySlug: "immune",
     overview:
       "TNFRSF1A遺伝子変異による常染色体優性の自己炎症性疾患。長期間（1〜3週間）の発熱発作・筋肉痛・皮疹・眼症状・漿膜炎を特徴とする。アミロイドーシスの合併リスクがある。",
     symptoms: [
@@ -6043,7 +5979,7 @@ export const diseases: Disease[] = [
     nameEn: "Blau Syndrome",
     nanbyoNumber: 270,
     category: "免疫・自己免疫疾患",
-    categorySlug: "immunological",
+    categorySlug: "immune",
     overview:
       "NOD2遺伝子変異による常染色体優性の小児期発症自己炎症性疾患。肉芽腫性関節炎・皮膚炎・ぶどう膜炎の三徴を呈する。散発性の若年発症サルコイドーシス（Jabs病）と同一疾患と考えられている。",
     symptoms: [
@@ -6068,7 +6004,7 @@ export const diseases: Disease[] = [
     name: "周期性発熱・アフタ性口内炎・咽頭炎・頸部リンパ節炎（PFAPA症候群）",
     nameEn: "Periodic Fever, Aphthous Stomatitis, Pharyngitis, Adenitis (PFAPA)",
     category: "免疫・自己免疫疾患",
-    categorySlug: "immunological",
+    categorySlug: "immune",
     overview:
       "小児に好発する規則的な周期性発熱症候群。3〜6週ごとに発熱・アフタ性口内炎・咽頭炎・頸部リンパ節炎が数日間出現し、自然軽快を繰り返す。成長とともに自然寛解することが多い。",
     symptoms: [
@@ -6095,7 +6031,7 @@ export const diseases: Disease[] = [
     nameEn: "Congenital Dyserythropoietic Anemia",
     nanbyoNumber: 60,
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "骨髄での赤血球形成（赤血球造血）の異常により慢性溶血性貧血と無効造血を来す先天性貧血群。I型（CDAN1変異）、II型（SEC23B変異）、III型（KIF23変異）に分類され、それぞれ特徴的な形態異常を呈する。",
     symptoms: [
@@ -6122,9 +6058,8 @@ export const diseases: Disease[] = [
     slug: "diamond-blackfan-anemia",
     name: "ダイアモンド・ブラックファン貧血",
     nameEn: "Diamond-Blackfan Anemia",
-    nanbyoNumber: 58,
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "骨髄での赤芽球の選択的欠如による先天性赤芽球癆。生後1年以内に発症する重症大球性貧血・網状赤血球の著減を呈する。リボソームタンパク遺伝子変異が約60〜70%に同定される。先天奇形を約50%に合併。",
     symptoms: [
@@ -6152,7 +6087,7 @@ export const diseases: Disease[] = [
     nameEn: "Fanconi Anemia",
     nanbyoNumber: 57,
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "FANC遺伝子群の変異によるDNA修復障害（染色体不安定性症候群）。進行性の骨髄不全・先天奇形・悪性腫瘍（AML・固形癌）への高い感受性を特徴とする。拇指・橈骨奇形・低身長・色素異常が典型的。",
     symptoms: [
@@ -6179,7 +6114,7 @@ export const diseases: Disease[] = [
     name: "グルコース6リン酸脱水素酵素（G6PD）欠乏症",
     nameEn: "Glucose-6-Phosphate Dehydrogenase Deficiency",
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "G6PD遺伝子変異によるX連鎖性の赤血球酵素欠乏症。酸化ストレス（薬剤・感染・蚕豆摂取）への曝露で急性溶血性貧血を来す。世界で最も頻度の高い酵素欠乏症で、約4億人以上が罹患していると推定される。",
     symptoms: [
@@ -6203,9 +6138,8 @@ export const diseases: Disease[] = [
     slug: "pyruvate-kinase-deficiency",
     name: "ピルビン酸キナーゼ欠乏症",
     nameEn: "Pyruvate Kinase Deficiency",
-    nanbyoNumber: 61,
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "PKLR遺伝子変異による常染色体劣性の赤血球解糖酵素欠乏症。先天性非球状赤血球性溶血性貧血を来す赤血球酵素欠乏症の中で最も頻度が高い。新生児黄疸から成人まで幅広い重症度を示す。",
     symptoms: [
@@ -6230,7 +6164,6 @@ export const diseases: Disease[] = [
     slug: "congenital-bile-acid-synthesis-disorder",
     name: "先天性胆汁酸合成異常症",
     nameEn: "Congenital Bile Acid Synthesis Disorder",
-    nanbyoNumber: 171,
     category: "消化器疾患",
     categorySlug: "digestive",
     overview:
@@ -6535,7 +6468,7 @@ export const diseases: Disease[] = [
     name: "先天性停止性夜盲症（CSNB）",
     nameEn: "Congenital Stationary Night Blindness",
     category: "眼科疾患",
-    categorySlug: "ophthalmological",
+    categorySlug: "ophthalmology",
     overview:
       "夜間視力低下（夜盲）を呈するが進行しない先天性網膜疾患群。網膜の光受容体（桿体・錐体）からの信号伝達障害が原因で、進行性の視野障害はない。近視・眼振・斜視を合併することが多い。",
     symptoms: [
@@ -6562,7 +6495,7 @@ export const diseases: Disease[] = [
     nameEn: "Congenital Glaucoma",
     nanbyoNumber: 308,
     category: "眼科疾患",
-    categorySlug: "ophthalmological",
+    categorySlug: "ophthalmology",
     overview:
       "出生時または生後間もなく発症する房水流出路（隅角）の発達異常による眼圧上昇。角膜混濁・牛眼（眼球拡大）・視神経障害を来し、早期外科治療が行われなければ不可逆的な失明に至る。",
     symptoms: [
@@ -7452,7 +7385,6 @@ export const diseases: Disease[] = [
     slug: "protein-s-deficiency",
     name: "先天性プロテインS欠乏症",
     nameEn: "Congenital Protein S Deficiency",
-    nanbyoNumber: 65,
     category: "血液疾患",
     categorySlug: "blood",
     overview:
@@ -7618,7 +7550,7 @@ export const diseases: Disease[] = [
     name: "先天性完全房室ブロック",
     nameEn: "Congenital Complete Atrioventricular Block",
     category: "心・血管疾患",
-    categorySlug: "cardiac",
+    categorySlug: "cardiovascular",
     overview:
       "出生前または出生後早期に発症する完全房室ブロック。母体の抗Ro/La抗体による新生児ループスに伴う例と、先天性心疾患（修正大血管転位等）に伴う例がある。徐脈・心不全・突然死リスクを伴う。",
     symptoms: [
@@ -7644,7 +7576,7 @@ export const diseases: Disease[] = [
     name: "家族性心房細動",
     nameEn: "Familial Atrial Fibrillation",
     category: "心・血管疾患",
-    categorySlug: "cardiac",
+    categorySlug: "cardiovascular",
     overview:
       "遺伝的素因によって若年から発症する心房細動。KCNQ1・SCN5A・KCNE2等のイオンチャネル遺伝子変異が原因で、通常の後天性心房細動と異なり若年・無基礎疾患で発症し、脳卒中・心不全リスクを伴う。",
     symptoms: [
@@ -7811,7 +7743,7 @@ export const diseases: Disease[] = [
     name: "常染色体劣性多発性嚢胞腎（ARPKD）",
     nameEn: "Autosomal Recessive Polycystic Kidney Disease",
     category: "腎・泌尿器疾患",
-    categorySlug: "kidney",
+    categorySlug: "renal",
     overview:
       "PKHD1遺伝子変異による先天性腎・肝疾患で、集合管に多数の微小嚢胞が形成される。出生前から重篤な腎機能低下・両腎腫大・呼吸障害を呈することがあり、肝線維症・胆管拡張（カロリ症候群）を合併する。",
     symptoms: [
@@ -7838,7 +7770,7 @@ export const diseases: Disease[] = [
     name: "メチルマロン酸血症（腎合併型）",
     nameEn: "Methylmalonic Acidemia with Renal Involvement",
     category: "腎・泌尿器疾患",
-    categorySlug: "kidney",
+    categorySlug: "renal",
     overview:
       "メチルマロン酸血症の長期合併症として進行性慢性腎不全を呈する型。メチルマロン酸等の有機酸が腎尿細管に蓄積し、腎機能が進行性に低下する。代謝コントロールが良好でも腎障害が進行することがある。",
     symptoms: [
@@ -7923,7 +7855,7 @@ export const diseases: Disease[] = [
     name: "心臓横紋筋腫（結節性硬化症合併）",
     nameEn: "Cardiac Rhabdomyoma with Tuberous Sclerosis Complex",
     category: "心・血管疾患",
-    categorySlug: "cardiac",
+    categorySlug: "cardiovascular",
     overview:
       "結節性硬化症（TSC1/TSC2遺伝子変異）に合併する心臓の良性腫瘍。胎児期・新生児期に最も多く、心腔内を占拠して不整脈・流出路閉塞・心不全を呈することがある。多くは自然退縮する。",
     symptoms: [
@@ -7949,7 +7881,7 @@ export const diseases: Disease[] = [
     name: "ヌーナン症候群（腎合併型）",
     nameEn: "Noonan Syndrome with Renal Anomalies",
     category: "腎・泌尿器疾患",
-    categorySlug: "kidney",
+    categorySlug: "renal",
     overview:
       "RAS-MAPKシグナル経路の遺伝子変異によるヌーナン症候群において、腎・泌尿器奇形（水腎症・重複腎盂尿管・馬蹄腎等）を合併する型。先天性心疾患・低身長・顔貌異常に加えて腎機能管理が重要となる。",
     symptoms: [
@@ -8163,7 +8095,6 @@ export const diseases: Disease[] = [
     slug: "men1",
     name: "多発性内分泌腫瘍症1型（MEN1）",
     nameEn: "Multiple Endocrine Neoplasia Type 1",
-    nanbyoNumber: 58,
     category: "代謝・遺伝疾患",
     categorySlug: "metabolic",
     overview:
@@ -8297,7 +8228,6 @@ export const diseases: Disease[] = [
     slug: "cold-agglutinin-disease",
     name: "寒冷凝集素症",
     nameEn: "Cold Agglutinin Disease",
-    nanbyoNumber: 61,
     category: "免疫・自己免疫疾患",
     categorySlug: "immune",
     overview:
@@ -8363,7 +8293,7 @@ export const diseases: Disease[] = [
     nameEn: "Congenital Neutropenia / Kostmann Syndrome",
     nanbyoNumber: 64,
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "出生時から重篤な好中球減少症（好中球数500/μL未満）を呈する遺伝性疾患群の総称。ELANE・HAX1・G6PC3などの遺伝子変異が同定されている。反復する重症細菌感染（肺炎・皮膚感染・敗血症）を起こし、骨髄異形成症候群・急性骨髄性白血病への転化リスクがある。",
     symptoms: ["重篤な好中球減少", "反復する細菌感染", "口腔内潰瘍", "皮膚膿瘍", "肺炎", "敗血症"],
@@ -8378,9 +8308,8 @@ export const diseases: Disease[] = [
     slug: "cyclic-neutropenia",
     name: "周期性好中球減少症",
     nameEn: "Cyclic Neutropenia",
-    nanbyoNumber: 65,
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "約21日周期（通常15〜35日）で好中球数が周期的に低下し、好中球減少期（3〜6日間）に口腔内潰瘍・発熱・感染症を繰り返す遺伝性疾患。ELANE遺伝子変異が原因。重症例ではクロストリジウム菌による致死的腸炎も起こりうる。",
     symptoms: ["周期的発熱", "口腔内潰瘍", "歯肉炎", "頸部リンパ節腫脹", "腹痛", "好中球数周期的低下"],
@@ -8397,7 +8326,7 @@ export const diseases: Disease[] = [
     nameEn: "Chediak-Higashi Syndrome",
     nanbyoNumber: 66,
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "LYST遺伝子変異によりリソソーム関連オルガネラの輸送が障害される常染色体劣性遺伝疾患。部分的白子症（銀白色の毛髪・虹彩低色素）・反復細菌感染・血小板機能異常・神経障害を特徴とする。多くの患者が「加速期」（HLH様病態）を呈し致死的となる。",
     symptoms: ["部分的白子症（銀色毛髪）", "反復感染", "出血傾向", "神経障害（末梢神経・小脳）", "HLH様加速期"],
@@ -8414,7 +8343,7 @@ export const diseases: Disease[] = [
     nameEn: "Langerhans Cell Histiocytosis",
     nanbyoNumber: 67,
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "CD1a・CD207（ランゲリン）陽性の組織球様細胞が臓器に浸潤・増殖する腫瘍性疾患。BRAF V600E変異が約60%に認められる。骨・皮膚・リンパ節・下垂体・肺・肝臓など多臓器に病変を形成する。単病巣（好発：骨好酸球性肉芽腫）から多臓器重症型まで幅広い。",
     symptoms: ["骨痛・骨折", "皮膚発疹（脂漏性湿疹様）", "尿崩症（下垂体浸潤）", "肝機能障害", "呼吸障害（肺型）", "リンパ節腫脹"],
@@ -8431,7 +8360,7 @@ export const diseases: Disease[] = [
     nameEn: "Castleman Disease",
     nanbyoNumber: 68,
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "リンパ節の過形成を特徴とする稀なリンパ増殖性疾患。単中心性（UCD：通常は切除で治癒）と多中心性（MCD）に分類される。多中心性のうちHHV-8関連型とHHV-8非関連型（iMCD）があり、iMCDはIL-6過剰産生による全身炎症症状が主体。",
     symptoms: ["リンパ節腫脹", "発熱", "倦怠感", "体重減少", "浮腫", "貧血", "腎機能障害（iMCD）"],
@@ -8448,7 +8377,7 @@ export const diseases: Disease[] = [
     nameEn: "Severe Combined Immunodeficiency",
     nanbyoNumber: 69,
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "T細胞とB細胞（および/またはNK細胞）の高度な機能不全により、出生直後から重篤な感染症（細菌・ウイルス・真菌・日和見感染）を繰り返す致死的な原発性免疫不全症。X連鎖型（IL2RG変異）・ADA欠損型・RAG1/2欠損型など多様な遺伝的背景がある。",
     symptoms: ["重篤な反復感染", "慢性下痢", "体重増加不良", "カンジダ症", "PCP肺炎", "BCG接種後の播種性感染"],
@@ -8510,7 +8439,6 @@ export const diseases: Disease[] = [
     slug: "hypersensitivity-pneumonitis-chronic",
     name: "過敏性肺臓炎（慢性型）",
     nameEn: "Chronic Hypersensitivity Pneumonitis",
-    nanbyoNumber: 86,
     category: "呼吸器疾患",
     categorySlug: "respiratory",
     overview:
@@ -8589,7 +8517,7 @@ export const diseases: Disease[] = [
     name: "コーツ病（網膜毛細血管拡張症）",
     nameEn: "Coats Disease",
     category: "眼科疾患",
-    categorySlug: "ophthalmological",
+    categorySlug: "ophthalmology",
     overview:
       "網膜の毛細血管の異常拡張・蛇行（毛細血管拡張症）により血漿成分が網膜下に漏出し、滲出性網膜剥離・視力障害をきたす先天性血管奇形。男児に多く、多くは片眼性。遺伝性は少なく孤発性が大半。重症例は失明・眼球萎縮に至る。",
     symptoms: ["白色瞳孔（白色瞳孔反射）", "視力低下・失明", "斜視", "眼痛（続発性緑内障）", "片眼性（大半）"],
@@ -8653,7 +8581,7 @@ export const diseases: Disease[] = [
     name: "網膜芽細胞腫（遺伝性）",
     nameEn: "Hereditary Retinoblastoma",
     category: "眼科疾患",
-    categorySlug: "ophthalmological",
+    categorySlug: "ophthalmology",
     overview:
       "RB1腫瘍抑制遺伝子の生殖細胞変異により生じる眼内悪性腫瘍。遺伝性は両眼性・多発性が特徴で、早期乳幼児期（平均診断年齢12〜18ヵ月）に発症する。白色瞳孔（猫目）・斜視で気づかれることが多い。二次悪性腫瘍（骨肉腫など）のリスクが高い。",
     symptoms: ["白色瞳孔（白色瞳孔反射）", "斜視", "視力低下", "眼球突出（進行例）", "二次悪性腫瘍リスク"],
@@ -8669,7 +8597,7 @@ export const diseases: Disease[] = [
     nameEn: "Warm Autoimmune Hemolytic Anemia",
     nanbyoNumber: 60,
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "37℃付近で最大活性を示すIgG型自己抗体が赤血球表面に結合し、脾臓・肝臓での血管外溶血をきたす自己免疫疾患。原発性（特発性）と続発性（SLE・CLL・リンパ腫・薬剤性）がある。溶血性貧血の中で最も頻度が高いタイプ。",
     symptoms: ["貧血（倦怠感・動悸・息切れ）", "黄疸", "脾腫", "尿色濃化", "網状赤血球増加"],
@@ -8715,7 +8643,7 @@ export const diseases: Disease[] = [
     name: "先天性眼瞼下垂（重症）",
     nameEn: "Severe Congenital Ptosis",
     category: "眼科疾患",
-    categorySlug: "ophthalmological",
+    categorySlug: "ophthalmology",
     overview:
       "出生時から上眼瞼が下垂し、瞳孔を覆う程度の重症例では弱視・乱視・斜視が生じる。上眼瞼挙筋の先天性低形成が主な原因。片眼性重症例は不同視弱視のリスクが高く、視力発達の臨界期内の早期手術と弱視治療が重要。",
     symptoms: ["上眼瞼下垂", "弱視（片眼性重症）", "乱視", "斜視", "頭部後屈姿勢（代償）", "眉毛挙上"],
@@ -8730,7 +8658,7 @@ export const diseases: Disease[] = [
     name: "先天性眼球運動障害（オクソル型）",
     nameEn: "Congenital Ocular Motor Apraxia",
     category: "眼科疾患",
-    categorySlug: "ophthalmological",
+    categorySlug: "ophthalmology",
     overview:
       "随意的水平眼球運動（特に素早い随意的サッカード）が障害される先天性疾患。視線を移動する際に頭部を大きく振る特徴的な代償運動を示す。COMA（先天性眼球運動失行）とも呼ばれ、男児に多い。Joubert症候群など脳奇形との合併例もある。",
     symptoms: ["随意的水平サッカード障害", "頭部衝動運動（代償）", "読書困難", "眼振", "発達遅滞（合併例）"],
@@ -8744,7 +8672,6 @@ export const diseases: Disease[] = [
     slug: "alpha1-antitrypsin-lung",
     name: "α1アンチトリプシン欠乏症関連肺疾患",
     nameEn: "Alpha-1 Antitrypsin Deficiency Lung Disease",
-    nanbyoNumber: 171,
     category: "呼吸器疾患",
     categorySlug: "respiratory",
     overview:
@@ -8762,7 +8689,7 @@ export const diseases: Disease[] = [
     name: "温式自己免疫性溶血性貧血（難治性）",
     nameEn: "Refractory Warm AIHA",
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "ステロイド・脾摘後も溶血が持続する難治性の温式自己免疫性溶血性貧血。基礎疾患（SLE・リンパ腫・原発性免疫不全症）の合併や、エバンス症候群への移行が問題となる。免疫抑制療法の選択と感染症合併予防が管理の要点。",
     symptoms: ["難治性貧血", "黄疸", "脾腫", "溶血発作", "基礎疾患合併"],
@@ -8773,61 +8700,12 @@ export const diseases: Disease[] = [
     jrctSearchUrl: "https://jrct.niph.go.jp/search?query=Warm+Autoimmune+Hemolytic+Anemia+Refractory",
   },
   {
-    slug: "giant-cell-arteritis-detailed",
-    name: "巨細胞性動脈炎（側頭動脈炎）",
-    nameEn: "Giant Cell Arteritis",
-    nanbyoNumber: 41,
-    category: "免疫・自己免疫疾患",
-    categorySlug: "immune",
-    overview:
-      "50歳以上に発症し、大型・中型動脈（側頭動脈・眼動脈・大動脈・頸動脈）の肉芽腫性血管炎をきたす疾患。頭痛・顎跛行・視力障害（虚血性視神経症による失明）・PMR合併が特徴。ESR・CRPが著明に高値となる。",
-    symptoms: ["頭痛（側頭部）", "顎跛行", "側頭動脈圧痛・硬化", "視力障害・失明", "PMR合併（約50%）", "発熱・倦怠感"],
-    causes: "自然免疫・獲得免疫の異常活性化（Th1・Th17細胞）による血管壁への肉芽腫性炎症。遺伝的素因（HLA-DR4）。",
-    diagnosis: "側頭動脈生検（巨細胞・肉芽腫性炎症）が確定診断。側頭動脈超音波（暗輪征候）・PET-CTが補助。ESR・CRP著明高値。",
-    treatment: "高用量プレドニゾロン（40〜60mg/日）を即座に開始（失明予防）。トシリズマブで有意なステロイド減量効果。",
-    prognosis: "早期治療で失明予防が可能。大動脈瘤・大動脈解離のリスクがあり長期フォローが必要。",
-    jrctSearchUrl: "https://jrct.niph.go.jp/search?query=Giant+Cell+Arteritis",
-    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/41",
-  },
-  {
-    slug: "papa-syndrome-detailed",
-    name: "PAPA症候群",
-    nameEn: "PAPA Syndrome",
-    category: "免疫・自己免疫疾患",
-    categorySlug: "immune",
-    overview:
-      "化膿性関節炎・壊疽性膿皮症・ざ瘡を三主徴とする希少な自己炎症性疾患。PSTPIP1遺伝子変異によりピリンとPSTPIP1の相互作用が破綻し、NLRP3インフラマソームの過活性化とIL-1β過剰産生が生じる。常染色体優性遺伝。",
-    symptoms: ["反復する化膿性関節炎（無菌性）", "壊疽性膿皮症（潰瘍）", "重症ざ瘡", "皮膚創傷治癒遅延"],
-    causes: "PSTPIP1（CD2BP1）遺伝子変異。IL-1β・TNF-αの過剰産生による無菌性炎症。常染色体優性遺伝。",
-    diagnosis: "臨床三徴候、遺伝子検査（PSTPIP1変異）。培養陰性の関節液（無菌性）確認。",
-    treatment: "アナキンラ・カナキヌマブ（IL-1阻害薬）が有効。TNF阻害薬も使用される。",
-    prognosis: "適切なIL-1阻害療法で症状コントロール可能。関節破壊の予防に早期治療が重要。",
-    jrctSearchUrl: "https://jrct.niph.go.jp/search?query=PAPA+Syndrome",
-  },
-  {
-    slug: "linear-iga-bullous-dermatosis-detailed",
-    name: "線状IgA水疱性皮膚症",
-    nameEn: "Linear IgA Bullous Dermatosis",
-    nanbyoNumber: 163,
-    category: "皮膚疾患",
-    categorySlug: "dermatological",
-    overview:
-      "皮膚・粘膜基底膜部にIgA型自己抗体が線状に沈着する自己免疫性水疱症。ターゲット病変・リング状水疱が特徴的で、小児型（慢性小児水疱性皮膚症）と成人型がある。バンコマイシンなど薬剤誘発性も重要。",
-    symptoms: ["環状・リング状水疱", "ターゲット病変", "粘膜病変（口腔・結膜）", "かゆみ", "びらん"],
-    causes: "VII型コラーゲン・LAD-1（BP180細胞外ドメイン）に対するIgA自己抗体。薬剤（バンコマイシン・NSAIDs等）誘発性あり。",
-    diagnosis: "皮膚生検・直接免疫蛍光（基底膜部IgA線状沈着）、ELISA（抗LAD-1抗体）。",
-    treatment: "ダプソンが第一選択。スルファピリジン・コルヒチン。薬剤誘発性は原因薬剤中止で改善。",
-    prognosis: "小児型は多くが数年で自然消退。成人型は慢性経過で治療継続が必要な場合が多い。",
-    jrctSearchUrl: "https://jrct.niph.go.jp/search?query=Linear+IgA+Bullous+Dermatosis",
-    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/163",
-  },
-  {
     slug: "primary-immunodeficiency-cvid",
     name: "分類不能型免疫不全症（CVID）",
     nameEn: "Common Variable Immunodeficiency",
     nanbyoNumber: 70,
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "低免疫グロブリン血症・B細胞機能不全を特徴とする原発性免疫不全症の中で最も頻度が高い疾患。反復する気道・消化管感染症・自己免疫疾患・肉芽腫・リンパ増殖・悪性腫瘍リスク増大を伴う。多くは20〜30歳代に診断される後天性免疫不全症。",
     symptoms: ["反復する肺炎・副鼻腔炎", "気管支拡張症", "消化管感染症（ランブル鞭毛虫など）", "自己免疫疾患合併", "リンパ節腫脹", "脾腫"],
@@ -8955,7 +8833,7 @@ export const diseases: Disease[] = [
     name: "心臓顔面皮膚症候群（CFC症候群）",
     nameEn: "Cardiofaciocutaneous Syndrome",
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic-genetic",
+    categorySlug: "metabolic",
     overview:
       "RAS/MAPKシグナル経路の遺伝子変異（BRAF・MEK1/MEK2・KRAS）による先天性疾患。特徴的顔貌・先天性心疾患・皮膚異常・知的障害・成長障害を呈する。ヌーナン症候群・コステロ症候群と同じRASopathyに属する。",
     symptoms: ["特徴的顔貌（広い額・眉毛疎ら・低い鼻梁）", "先天性心疾患（肺動脈狭窄・心房中隔欠損）", "皮膚の過角化・毛囊角化症", "知的障害・発達遅滞", "低身長", "てんかん"],
@@ -8970,7 +8848,7 @@ export const diseases: Disease[] = [
     name: "ソトス症候群",
     nameEn: "Sotos Syndrome",
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic-genetic",
+    categorySlug: "metabolic",
     overview:
       "NSD1遺伝子の変異・欠失による過成長症候群。出生時から幼児期にかけて著明な身長・頭囲の過成長、特徴的顔貌（広い高い額・眼距離開大・顎が尖る）、知的障害・発達遅滞を呈する。多くは新生突然変異によるが常染色体優性遺伝も報告される。",
     symptoms: ["過成長（高身長・大頭症）", "特徴的顔貌", "知的障害・学習困難", "発達遅滞（言語・運動）", "行動異常（自閉スペクトラム傾向）", "先天異常（心疾患・腎疾患）"],
@@ -8986,7 +8864,7 @@ export const diseases: Disease[] = [
     nameEn: "Bardet-Biedl Syndrome",
     nanbyoNumber: 200,
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic-genetic",
+    categorySlug: "metabolic",
     overview:
       "繊毛機能不全（繊毛症）による多臓器疾患。網膜ジストロフィ・肥満・多指趾症・腎機能障害・性腺機能低下・知的障害の六主徴を特徴とする。BBS1〜BBS22など22以上の遺伝子変異が原因で、常染色体劣性遺伝。",
     symptoms: ["進行性網膜色素変性（失明）", "肥満（体幹型）", "多指趾症", "腎機能障害・腎嚢胞", "性腺機能低下", "知的障害・学習困難"],
@@ -9002,7 +8880,7 @@ export const diseases: Disease[] = [
     name: "アルストレーム症候群",
     nameEn: "Alström Syndrome",
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic-genetic",
+    categorySlug: "metabolic",
     overview:
       "ALMS1遺伝子変異による繊毛症の一種。乳幼児期からの錐体桿体ジストロフィによる失明・感音難聴・肥満・2型糖尿病・拡張型心筋症・腎機能障害・肝疾患を多臓器にわたり合併する稀な常染色体劣性遺伝疾患。",
     symptoms: ["錐体桿体ジストロフィ（光過敏・視力低下・失明）", "感音難聴", "肥満・インスリン抵抗性", "2型糖尿病", "拡張型心筋症", "腎機能障害"],
@@ -9017,7 +8895,7 @@ export const diseases: Disease[] = [
     name: "ジュベール症候群",
     nameEn: "Joubert Syndrome",
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic-genetic",
+    categorySlug: "metabolic",
     overview:
       "小脳虫部・脳幹の先天性奇形（モラーキューラー歯状核・赤核束の交叉異常）による稀な繊毛症。MRIで「臼歯様」（molar tooth sign）が特徴的。低緊張・発達遅滞・眼球運動異常・呼吸調節異常を呈し、網膜ジストロフィ・腎疾患・肝線維症を合併する。",
     symptoms: ["低緊張（筋緊張低下）", "発達遅滞・知的障害", "眼球運動異常（眼球運動失行）", "新生児期の呼吸調節異常", "小脳性失調", "網膜ジストロフィ（合併型）"],
@@ -9032,7 +8910,7 @@ export const diseases: Disease[] = [
     name: "メッケル・グルーバー症候群",
     nameEn: "Meckel-Gruber Syndrome",
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic-genetic",
+    categorySlug: "metabolic",
     overview:
       "後脳の脳瘤・多嚢胞性腎・多指趾症の三徴を呈する、致死性の常染色体劣性遺伝の繊毛症。MKS1・TMEM216・TMEM67など多数の繊毛関連遺伝子変異が原因。出生前診断が可能だが、出生後ほぼ全例が新生児期に死亡する最重症の繊毛症の一つ。",
     symptoms: ["後頭部脳瘤", "多嚢胞性腎（巨大腎・羊水過少）", "多指趾症（軸後型多趾）", "口蓋裂・口唇裂", "肝線維症", "中枢神経奇形"],
@@ -9047,7 +8925,7 @@ export const diseases: Disease[] = [
     name: "ホルト・オラム症候群",
     nameEn: "Holt-Oram Syndrome",
     category: "代謝・遺伝疾患",
-    categorySlug: "metabolic-genetic",
+    categorySlug: "metabolic",
     overview:
       "TBX5遺伝子変異による先天性上肢奇形と心疾患を特徴とする常染色体優性遺伝疾患。母指・橈側の発育異常（母指低形成〜欠損・橈骨欠損・鎖骨奇形）と心房中隔欠損・心室中隔欠損・伝導異常を呈する。全例に上肢奇形があるが重症度は様々。",
     symptoms: ["上肢奇形（母指異常・橈骨低形成・鎖骨異常）", "心房中隔欠損", "心室中隔欠損", "洞房結節・伝導系異常", "不整脈"],
@@ -9063,7 +8941,7 @@ export const diseases: Disease[] = [
     name: "ハイパーIgM症候群",
     nameEn: "Hyper-IgM Syndrome",
     category: "免疫・自己免疫疾患",
-    categorySlug: "immunological",
+    categorySlug: "immune",
     overview:
       "免疫グロブリンクラススイッチ組換え障害により、IgMは正常〜高値だがIgG・IgA・IgEが著減する原発性免疫不全症。X連鎖性（CD40L変異：最多）と常染色体劣性（AID・UNG変異など）がある。日和見感染（ニューモシスチス肺炎）・自己免疫疾患・悪性腫瘍リスクが高い。",
     symptoms: ["反復する細菌感染症（肺炎・副鼻腔炎）", "ニューモシスチス肺炎（日和見感染）", "クリプトスポリジウム胆管炎", "好中球減少症", "自己免疫性溶血性貧血", "リンパ節腫脹"],
@@ -9077,9 +8955,8 @@ export const diseases: Disease[] = [
     slug: "xla-bruton",
     name: "X連鎖無ガンマグロブリン血症（XLA）",
     nameEn: "X-linked Agammaglobulinemia",
-    nanbyoNumber: 65,
     category: "免疫・自己免疫疾患",
-    categorySlug: "immunological",
+    categorySlug: "immune",
     overview:
       "BTK遺伝子変異によりB細胞の成熟が障害され、末梢血B細胞がほぼ消失し全免疫グロブリンクラスが著減する原発性免疫不全症。男児のみ発症（X連鎖劣性）。母体移行抗体がなくなる生後6ヵ月以降に反復する重篤な細菌感染症を発症する。",
     symptoms: ["重篤な反復細菌感染症（肺炎・中耳炎・副鼻腔炎）", "ウイルス感染への脆弱性", "ポリオワクチン関連麻痺", "腸管エンテロウイルス感染による慢性脳炎", "関節炎"],
@@ -9095,7 +8972,7 @@ export const diseases: Disease[] = [
     name: "選択的IgA欠乏症（重症）",
     nameEn: "Selective IgA Deficiency",
     category: "免疫・自己免疫疾患",
-    categorySlug: "immunological",
+    categorySlug: "immune",
     overview:
       "血清IgAが著減（<7mg/dL）し他の免疫グロブリンは正常な最も頻度の高い原発性免疫不全症。多くは無症状だが、一部は反復する気道・消化管感染症・自己免疫疾患・アレルギー疾患・悪性腫瘍を合併する。IgA欠乏症のうち重症例が難治性管理の対象となる。",
     symptoms: ["反復する気道感染症（副鼻腔炎・気管支炎）", "消化管感染症・下痢", "自己免疫疾患合併（SLE・関節炎）", "アレルギー・喘息", "血液製剤へのアナフィラキシーリスク"],
@@ -9110,7 +8987,7 @@ export const diseases: Disease[] = [
     name: "自己免疫性多内分泌腺症候群（APS）",
     nameEn: "Autoimmune Polyendocrine Syndrome",
     category: "免疫・自己免疫疾患",
-    categorySlug: "immunological",
+    categorySlug: "immune",
     overview:
       "複数の内分泌腺に自己免疫性障害を来す症候群。APS1（AIRE遺伝子変異：副甲状腺機能低下・副腎不全・慢性皮膚粘膜カンジダ症）、APS2（副腎不全＋自己免疫性甲状腺炎・1型糖尿病）、APS3（甲状腺自己免疫＋他疾患）に分類される。",
     symptoms: ["副腎不全（アジソン病）", "1型糖尿病", "自己免疫性甲状腺疾患（橋本病・バセドウ病）", "副甲状腺機能低下症", "慢性皮膚粘膜カンジダ症（APS1）", "性腺機能低下症"],
@@ -9125,7 +9002,7 @@ export const diseases: Disease[] = [
     name: "抗MDA5抗体陽性皮膚筋炎",
     nameEn: "Anti-MDA5 Antibody-Positive Dermatomyositis",
     category: "免疫・自己免疫疾患",
-    categorySlug: "immunological",
+    categorySlug: "immune",
     overview:
       "抗MDA5（抗CADM-140）抗体陽性の皮膚筋炎の一型。急速進行性間質性肺炎を合併し、筋症状が軽微（clinically amyopathic dermatomyositis）であることが多い。発熱・手指の潰瘍・関節炎・皮膚潰瘍を特徴とし、間質性肺炎の急速進行が予後を決定する。",
     symptoms: ["急速進行性間質性肺炎（致死的）", "皮膚筋炎の皮疹（ゴットロン丘疹・ヘリオトロープ疹）", "手指・口腔内潰瘍", "関節炎・関節痛", "発熱", "筋力低下（軽微〜なし）"],
@@ -9140,7 +9017,7 @@ export const diseases: Disease[] = [
     name: "抗SRP抗体陽性壊死性筋症",
     nameEn: "Anti-SRP Antibody-Positive Necrotizing Myopathy",
     category: "免疫・自己免疫疾患",
-    categorySlug: "immunological",
+    categorySlug: "immune",
     overview:
       "抗シグナル認識粒子（SRP）抗体を特徴とする免疫介在性壊死性筋症（IMNM）の一型。急性〜亜急性に発症する高度な近位筋力低下・筋肉痛と著明なCK上昇を呈する。筋生検では壊死・再生筋線維が優勢で炎症細胞浸潤は乏しい。",
     symptoms: ["急速進行する近位筋力低下（上肢・下肢）", "著明なCK上昇（10,000 IU/L以上）", "筋肉痛", "嚥下障害", "間質性肺炎（一部）", "心筋炎（一部）"],
@@ -9155,7 +9032,7 @@ export const diseases: Disease[] = [
     name: "血清反応陰性関節炎（難治性）",
     nameEn: "Seronegative Arthritis (Refractory)",
     category: "免疫・自己免疫疾患",
-    categorySlug: "immunological",
+    categorySlug: "immune",
     overview:
       "リウマトイド因子・抗CCP抗体が陰性の難治性関節炎の総称。乾癬性関節炎・反応性関節炎・未分化脊椎関節炎などが含まれる。HLA-B27関連が多く、脊椎関節症の病態を持つ場合は体軸・末梢関節炎・付着部炎・ぶどう膜炎を合併する。",
     symptoms: ["末梢関節炎（非対称性）", "脊椎・仙腸関節炎", "付着部炎（腱・靱帯付着部の炎症）", "乾癬性皮疹", "ぶどう膜炎", "指腸炎（ソーセージ指）"],
@@ -9171,7 +9048,7 @@ export const diseases: Disease[] = [
     name: "ウォルデンストレームマクログロブリン血症",
     nameEn: "Waldenström Macroglobulinemia",
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "MYD88 L265P変異を有するIgMを産生するリンパ形質細胞性リンパ腫。骨髄・脾臓・リンパ節に腫瘍細胞が浸潤し、IgMの高産生による高粘稠度症候群・冷凝集素症・末梢神経障害などを引き起こす。緩徐進行性の稀な血液悪性腫瘍。",
     symptoms: ["倦怠感・貧血", "高粘稠度症候群（視力障害・頭痛・出血傾向）", "末梢神経障害（IgM関連ニューロパチー）", "リンパ節腫脹・脾腫", "冷凝集素症（寒冷時の溶血）"],
@@ -9186,7 +9063,7 @@ export const diseases: Disease[] = [
     name: "ヘアリー細胞白血病",
     nameEn: "Hairy Cell Leukemia",
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "毛様突起（ヘアリープロジェクション）を持つB細胞が骨髄・脾臓・末梢血に浸潤する稀な慢性B細胞性白血病。BRAF V600E変異が病因。汎血球減少・脾腫・易感染性を特徴とし、男性に多く、中高年に好発する。進行は緩徐だが未治療では重篤な感染症で死亡しうる。",
     symptoms: ["汎血球減少（貧血・好中球減少・血小板減少）", "脾腫（巨大脾腫）", "易感染性（非定型菌感染）", "倦怠感・体重減少", "単球減少（特徴的）"],
@@ -9201,7 +9078,7 @@ export const diseases: Disease[] = [
     name: "T細胞大顆粒リンパ球白血病",
     nameEn: "T-Cell Large Granular Lymphocyte Leukemia",
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "大顆粒リンパ球（CD3+CD8+T細胞）のクローン性増殖を特徴とする稀な血液腫瘍。STAT3変異が多くの症例で認められる。好中球減少症による反復感染・貧血（赤芽球癆合併）・脾腫を特徴とし、関節リウマチや自己免疫疾患との合併が多い。",
     symptoms: ["重篤な好中球減少症", "反復する細菌感染症", "貧血（赤芽球癆合併）", "脾腫", "関節リウマチ様関節炎", "B症状（発熱・体重減少）"],
@@ -9216,7 +9093,7 @@ export const diseases: Disease[] = [
     name: "骨髄異形成症候群（高リスク群）",
     nameEn: "Myelodysplastic Syndrome High Risk",
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "骨髄系細胞の形態異常と無効造血を特徴とする造血幹細胞腫瘍で、急性骨髄性白血病（AML）へ移行リスクが高い群。IPSS-Rスコアで高リスク・最高リスクに分類され、余命が限られ積極的治療が必要。TP53変異・複雑核型などが高リスク因子。",
     symptoms: ["重篤な貧血", "好中球減少による感染症", "血小板減少・出血傾向", "倦怠感・息切れ", "AML移行による急性症状"],
@@ -9231,7 +9108,7 @@ export const diseases: Disease[] = [
     name: "慢性骨髄単球性白血病（CMML）",
     nameEn: "Chronic Myelomonocytic Leukemia",
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "末梢血単球数が1×10^9/L以上持続し、骨髄異形成と骨髄増殖性特性を兼ね備えるクローン性造血幹細胞腫瘍。高齢者（中央年齢72歳）に好発し、TET2・SRSF2・ASXL1変異が多い。AMLへの移行リスクが高く、予後不良の疾患。",
     symptoms: ["貧血・倦怠感", "脾腫（腹部不快感・早期満腹感）", "易感染性", "血小板減少・出血傾向", "体重減少", "皮膚浸潤"],
@@ -9246,7 +9123,6 @@ export const diseases: Disease[] = [
     slug: "esophageal-achalasia",
     name: "食道アカラシア（難治性）",
     nameEn: "Esophageal Achalasia",
-    nanbyoNumber: 233,
     category: "消化器疾患",
     categorySlug: "digestive",
     overview:
@@ -9296,7 +9172,6 @@ export const diseases: Disease[] = [
     slug: "cteph",
     name: "慢性血栓塞栓性肺高血圧症（CTEPH）",
     nameEn: "Chronic Thromboembolic Pulmonary Hypertension",
-    nanbyoNumber: 86,
     category: "呼吸器疾患",
     categorySlug: "respiratory",
     overview:
@@ -9409,7 +9284,6 @@ export const diseases: Disease[] = [
     slug: "pyoderma-gangrenosum",
     name: "壊疽性膿皮症",
     nameEn: "Pyoderma Gangrenosum",
-    nanbyoNumber: 269,
     category: "皮膚疾患",
     categorySlug: "dermatological",
     overview:
@@ -9458,7 +9332,7 @@ export const diseases: Disease[] = [
     name: "フックス角膜内皮ジストロフィ",
     nameEn: "Fuchs Endothelial Corneal Dystrophy",
     category: "眼科疾患",
-    categorySlug: "ophthalmological",
+    categorySlug: "ophthalmology",
     overview:
       "角膜内皮細胞の進行性減少と異常なデスメ膜（滴状突起：グッタータ形成）による両側性角膜混濁・浮腫を来す遺伝性角膜ジストロフィ。女性に多く、中年以降に発症・進行する。角膜浮腫による視力低下・眩光・霧視が主症状で、進行すると角膜移植が必要となる。",
     symptoms: ["朝起き時に悪化する霧視（角膜浮腫）", "眩光・グレア", "進行性視力低下", "疼痛（水疱性角膜症合併時）"],
@@ -9473,7 +9347,7 @@ export const diseases: Disease[] = [
     name: "格子状角膜ジストロフィ",
     nameEn: "Lattice Corneal Dystrophy",
     category: "眼科疾患",
-    categorySlug: "ophthalmological",
+    categorySlug: "ophthalmology",
     overview:
       "TGFBI遺伝子変異によりアミロイドが角膜実質に沈着し、格子状の混濁を呈する遺伝性角膜ジストロフィ。常染色体優性遺伝（最多）。反復する角膜糜爛による疼痛・流涙と進行性視力低下を特徴とする。変異部位により複数の型がある（Biber-Haab-Dimmer型が最多）。",
     symptoms: ["反復する角膜糜爛（疼痛・流涙・羞明）", "格子状角膜混濁（細隙灯で確認）", "進行性視力低下", "霧視"],
@@ -9488,7 +9362,7 @@ export const diseases: Disease[] = [
     name: "進行性円錐角膜",
     nameEn: "Progressive Keratoconus",
     category: "眼科疾患",
-    categorySlug: "ophthalmological",
+    categorySlug: "ophthalmology",
     overview:
       "角膜が非炎症性に菲薄化・突出し、不正乱視・近視が進行する変性疾患。青年期（10〜20歳代）に発症し片眼または両眼に進行する。アレルギー・目こすり・コラーゲン代謝異常が関与。進行例では角膜移植が必要となり、難治例として管理される。",
     symptoms: ["進行する不正乱視・近視", "視力低下（眼鏡矯正困難）", "霧視・二重視", "急性角膜水腫（Descemetocele破裂：急激な視力低下・疼痛）"],
@@ -9514,44 +9388,13 @@ export const diseases: Disease[] = [
     prognosis: "IVIGに反応性が良く、長期にわたり機能維持が可能。ただし完全寛解は少なく、継続的治療が必要。",
     jrctSearchUrl: "https://jrct.niph.go.jp/search?query=Multifocal+Motor+Neuropathy",
   },
-  {
-    slug: "progressive-supranuclear-palsy-new",
-    name: "進行性核上性麻痺（PSP）追記版",
-    nameEn: "Progressive Supranuclear Palsy Detailed",
-    category: "神経・筋疾患",
-    categorySlug: "neuromuscular",
-    overview:
-      "垂直方向の核上性眼球運動障害・姿勢保持障害・軸性筋硬直・認知機能低下を特徴とするタウオパチー（4R-tau）。既存のslug 'psp'と区別するため詳細情報として記載。Richardson症候群（典型型）とPSP-P（パーキンソニズム優位型）など多様な臨床表現型を持つ。",
-    symptoms: ["垂直性眼球運動障害（下方視困難）", "転倒しやすい（後方転倒が特徴）", "軸性筋硬直（首・体幹）", "偽延髄麻痺（嚥下障害・構音障害）", "前頭葉型認知症", "無動・無表情"],
-    causes: "タウ蛋白（4リピートタウ）の異常蓄積による中脳・橋・基底核の神経変性。MAPT遺伝子のH1ハプロタイプが遺伝的危険因子。",
-    diagnosis: "MRI（ハチドリサイン・朝顔サイン）、臨床基準（NINDS-SPSP/MDS基準）。DATスキャン・MIBG心筋シンチグラフィ。",
-    treatment: "根治療法なし。パーキンソニズムにレボドパ（一部有効）。嚥下障害・転倒予防リハビリ。眼瞼痙攣にボツリヌス毒素。",
-    prognosis: "診断後5〜10年で高度障害・死亡に至る。誤嚥性肺炎・転倒外傷が主要死因。",
-    jrctSearchUrl: "https://jrct.niph.go.jp/search?query=Progressive+Supranuclear+Palsy",
-  },
-  // ===== 追加：遺伝・代謝疾患 =====
-  {
-    slug: "noonan-syndrome-cardiac-new",
-    name: "ヌーナン症候群（心疾患合併型）",
-    nameEn: "Noonan Syndrome with Heart Disease",
-    category: "代謝・遺伝疾患",
-    categorySlug: "metabolic-genetic",
-    overview:
-      "PTPN11・SOS1・RAF1・RIT1などRAS/MAPK経路遺伝子変異による常染色体優性遺伝疾患の心疾患合併型に着目。肺動脈弁狭窄・肥大型心筋症・ASD・VSDが高頻度で合併し、一部は難治性の心不全・不整脈を呈する。既存slug 'noonan-syndrome'の難治性心合併型として記載。",
-    symptoms: ["肺動脈弁狭窄（最多の心奇形）", "肥大型心筋症（RAF1変異に多い）", "心房中隔欠損", "不整脈（WPW症候群）", "低身長・特徴的顔貌", "出血傾向（凝固因子欠乏）"],
-    causes: "PTPN11（最多50%）・SOS1・RAF1・RIT1・KRAS・BRAF遺伝子変異によるRAS/MAPKシグナル過活性化。",
-    diagnosis: "遺伝子検査（RASopathyパネル）、心臓超音波（弁膜症・心筋症評価）、心電図。出血傾向の精査（凝固因子）。",
-    treatment: "肺動脈弁狭窄に経皮的バルーン弁形成術。肥大型心筋症にβ遮断薬。MEK阻害薬トラメチニブが一部で研究中。",
-    prognosis: "心疾患の重症度が予後を規定。肥大型心筋症の進行例では心不全死のリスクがある。",
-    jrctSearchUrl: "https://jrct.niph.go.jp/search?query=Noonan+Syndrome+Cardiac",
-  },
   // ===== 追加：血液疾患 =====
   {
     slug: "primary-myelofibrosis-advanced",
     name: "原発性骨髄線維症（進行期）",
     nameEn: "Primary Myelofibrosis Advanced Stage",
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "JAK2・CALR・MPL遺伝子変異を有するBCR-ABL陰性の骨髄増殖性腫瘍。進行期では重篤な貧血・巨大脾腫・骨髄不全・白血病転化リスクが増大する。JAK1/2阻害薬（ルキソリチニブ・フェドラチニブ）が症状改善に有効だが、唯一の根治的治療は同種造血幹細胞移植。",
     symptoms: ["重篤な貧血・輸血依存", "巨大脾腫（腹部膨満・疼痛・早期満腹感）", "B症状（発熱・寝汗・体重減少）", "骨痛", "門脈圧亢進症・腹水", "白血病転化"],
@@ -9566,7 +9409,7 @@ export const diseases: Disease[] = [
     name: "本態性血小板血症（難治性）",
     nameEn: "Essential Thrombocythemia Refractory",
     category: "血液疾患",
-    categorySlug: "hematological",
+    categorySlug: "blood",
     overview:
       "JAK2・CALR・MPL変異を有するBCR-ABL陰性骨髄増殖性腫瘍で、持続する血小板増多（>450×10^9/L）を特徴とする。難治性（標準治療抵抗性または不耐容）例は血栓・出血リスクが高く、骨髄線維症・AMLへの移行リスクも存在する。",
     symptoms: ["血栓症（脳・心・腸管・四肢）", "出血（血小板機能異常による）", "頭痛・めまい・視覚障害（微小血管障害）", "脾腫", "掻痒感"],
