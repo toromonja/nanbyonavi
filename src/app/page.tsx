@@ -10,6 +10,7 @@ import {
   ArrowRight,
   ChevronRight,
 } from "lucide-react";
+import HeroDiseaseSearch from "@/components/HeroDiseaseSearch";
 
 export const metadata = createMetadata();
 
@@ -59,9 +60,9 @@ const categories = [
   },
   {
     icon: Stethoscope,
-    title: "疾患情報",
+    title: "疾患を探す",
     desc: "疾患カテゴリ一覧・代表疾患",
-    href: "/guides/shikkan",
+    href: "/disease",
     bg: "bg-violet-50",
     iconColor: "text-violet-600",
   },
@@ -103,7 +104,7 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-indigo-50 via-violet-50 to-white py-20 md:py-32">
+      <section className="bg-gradient-to-br from-indigo-50 via-violet-50 to-white py-20 md:py-28">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <div className="inline-block bg-indigo-100 text-indigo-700 text-sm font-medium px-4 py-1.5 rounded-full mb-6">
             難病・希少疾患の情報ナビ
@@ -132,6 +133,11 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* ─── 疾患検索セクション ─── */}
+      <div className="bg-white border-b border-slate-100 shadow-sm">
+        <HeroDiseaseSearch />
+      </div>
 
       {/* よくある悩みカード */}
       <section className="py-16 max-w-6xl mx-auto px-4">

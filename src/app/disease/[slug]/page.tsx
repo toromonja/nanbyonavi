@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ExternalLink, ChevronRight, FlaskConical, BookOpen, AlertTriangle } from "lucide-react";
+import { ChevronRight, BookOpen, AlertTriangle } from "lucide-react";
 import { diseases, getDiseaseBySlug } from "@/data/diseases";
 import { siteUrl } from "@/lib/metadata";
+import ClinicalTrials from "@/components/ClinicalTrials";
 import type { Metadata } from "next";
 
 type Props = {
@@ -58,7 +59,7 @@ export default async function DiseasePage({ params }: Props) {
       <nav className="text-sm text-slate-500 mb-6 flex flex-wrap items-center gap-1">
         <Link href="/" className="hover:text-indigo-600">ホーム</Link>
         <ChevronRight size={14} />
-        <Link href="/guides/shikkan" className="hover:text-indigo-600">疾患カテゴリ</Link>
+        <Link href="/disease" className="hover:text-indigo-600">疾患を探す</Link>
         <ChevronRight size={14} />
         <span className="text-slate-700">{disease.name}</span>
       </nav>
@@ -154,51 +155,40 @@ export default async function DiseasePage({ params }: Props) {
         </section>
       )}
 
-      {/* 治験・外部リンク */}
-      <div className="bg-indigo-900 rounded-2xl p-6 mb-8 space-y-4">
-        <div>
-          <div className="flex items-center gap-2 text-indigo-300 text-xs font-bold mb-2 uppercase tracking-wide">
-            <FlaskConical size={15} />
-            この疾患の治験を探す
-          </div>
+      {/* ─── 治験情報（リアルタイム取得） ─── */}
+      <section className={sectionClass}>
+        <h2 className={headingClass}>
+          <span className="text-indigo-500 text-lg">🔬</span>
+          治験情報
+        </h2>
+        <ClinicalTrials
+          diseaseNameEn={disease.nameEn}
+          diseaseNameJa={disease.name}
+          jrctSearchUrl={disease.jrctSearchUrl}
+        />
+      </section>
+
+      {/* 難病情報センターリンク */}
+      {disease.nanbyouInfoUrl && (
+        <section className={sectionClass}>
+          <h2 className={headingClass}>
+            <BookOpen size={20} className="text-indigo-500" />
+            詳しい情報
+          </h2>
           <a
-            href={disease.jrctSearchUrl}
+            href={disease.nanbyouInfoUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-indigo-500 hover:bg-indigo-400 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-colors"
+            className="inline-flex items-center gap-2 bg-indigo-700 hover:bg-indigo-800 text-white font-medium text-sm px-5 py-3 rounded-xl transition-colors"
           >
-            jRCTで治験を検索する
-            <ExternalLink size={14} />
+            難病情報センターで詳細を見る
+            <span className="text-indigo-300 text-xs">（厚生労働省委託）</span>
           </a>
-          <p className="text-indigo-400 text-xs mt-1.5">
-            国立医薬品食品衛生研究所が運営する臨床研究情報ポータルサイト
-          </p>
-        </div>
-
-        {disease.nanbyouInfoUrl && (
-          <div className="border-t border-indigo-700 pt-4">
-            <div className="flex items-center gap-2 text-indigo-300 text-xs font-bold mb-2 uppercase tracking-wide">
-              <BookOpen size={15} />
-              詳しい情報
-            </div>
-            <a
-              href={disease.nanbyouInfoUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-medium text-sm px-4 py-2.5 rounded-lg transition-colors border border-white/20"
-            >
-              難病情報センターで詳細を見る
-              <ExternalLink size={14} />
-            </a>
-            <p className="text-indigo-400 text-xs mt-1.5">
-              厚生労働省委託の難病情報センターによる詳細な疾患情報
-            </p>
-          </div>
-        )}
-      </div>
+        </section>
+      )}
 
       {/* 注意事項 */}
-      <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 flex gap-3">
+      <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 flex gap-3 mb-10">
         <AlertTriangle className="text-amber-500 shrink-0 mt-0.5" size={18} />
         <div className="text-sm text-amber-800 leading-relaxed">
           <strong>注意：</strong>
@@ -207,13 +197,13 @@ export default async function DiseasePage({ params }: Props) {
       </div>
 
       {/* フッターナビ */}
-      <div className="mt-10 pt-6 border-t border-slate-200 flex flex-col sm:flex-row gap-3">
+      <div className="pt-6 border-t border-slate-200 flex flex-col sm:flex-row gap-3">
         <Link
-          href="/guides/shikkan"
+          href="/disease"
           className="inline-flex items-center gap-1 text-indigo-600 hover:text-indigo-800 text-sm font-medium"
         >
           <ChevronRight size={14} className="rotate-180" />
-          疾患カテゴリ一覧へ戻る
+          疾患一覧へ戻る
         </Link>
         <Link
           href="/guides/seido"

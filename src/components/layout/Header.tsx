@@ -6,8 +6,8 @@ import { Menu, X } from "lucide-react";
 
 const navItems = [
   { label: "ホーム", href: "/" },
+  { label: "疾患を探す", href: "/disease" },
   { label: "制度ガイド", href: "/guides/seido" },
-  { label: "疾患情報", href: "/guides/shikkan" },
   { label: "治験", href: "/guides/chiken" },
   { label: "計算ツール", href: "/tools/iryohi" },
   { label: "相談窓口", href: "/guides/shien" },
@@ -25,7 +25,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-6">
+          <nav className="hidden md:flex items-center gap-5">
             {navItems.map((item) => (
               <Link
                 key={item.href}
