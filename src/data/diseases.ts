@@ -1845,6 +1845,889 @@ export const diseases: Disease[] = [
     jrctSearchUrl:
       "https://jrct.niph.go.jp/search?disease=%E5%89%AF%E8%85%8E%E7%9A%AE%E8%B3%AA%E6%A9%9F%E8%83%BD%E4%BD%8E%E4%B8%8B%E7%97%87",
   },
+  // ─── 神経・筋疾患（追加バッチ1） ────────────────────────────────
+  {
+    slug: "moyamoya",
+    name: "もやもや病",
+    nameEn: "Moyamoya Disease",
+    nanbyoNumber: 22,
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "内頸動脈末端の進行性狭窄・閉塞により、脳底部に異常血管網（もやもや血管）が形成される疾患。脳虚血発作と脳出血の両方を引き起こす。日本人に多く、RNF213遺伝子変異との関連が示唆されている。",
+    symptoms: [
+      "脳虚血発作（TIA・脳梗塞：小児に多い）",
+      "脳出血（成人に多い）",
+      "頭痛",
+      "けいれん",
+      "認知機能障害（慢性虚血）",
+    ],
+    causes:
+      "RNF213遺伝子変異との関連が示唆されている（日本人に多い）が、詳細な発症機序は不明。内頸動脈末端の進行性狭窄により側副血行路として異常血管網が発達する。",
+    diagnosis:
+      "脳血管造影・MRA（特徴的なもやもや血管像）による診断。MRI/MRAで両側内頸動脈末端の狭窄・閉塞と側副血管の確認。",
+    treatment:
+      "脳血行再建術（直接バイパス術：浅側頭動脈-中大脳動脈吻合、間接バイパス術：EDAS・EMS等）が虚血発作予防に有効。脳出血例への外科治療も施行される。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E3%82%82%E3%82%84%E3%82%82%E3%82%84%E7%97%85",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/199",
+  },
+  {
+    slug: "cidp",
+    name: "慢性炎症性脱髄性多発神経炎（CIDP）",
+    nameEn: "Chronic Inflammatory Demyelinating Polyneuropathy",
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "自己免疫機序による末梢神経のミエリン鞘破壊が進行性または再発性に起こる疾患。四肢の脱力・感覚障害が主症状で、治療により改善が得られる例が多い。",
+    symptoms: [
+      "四肢の対称性筋力低下",
+      "しびれ・感覚障害",
+      "腱反射消失・低下",
+      "歩行障害",
+      "脳神経障害（顔面神経麻痺等、一部の例）",
+    ],
+    causes:
+      "自己免疫性末梢神経疾患。抗ノドーソパラノドーパシー（抗コンタクチン1・抗ニューロファスシン155抗体等）が一部に同定される。",
+    diagnosis:
+      "神経伝導検査（伝導速度低下・伝導ブロック）・髄液検査（蛋白細胞解離）・神経生検・自己抗体検索。",
+    treatment:
+      "静注免疫グロブリン（IVIG）・ステロイド（プレドニゾロン）・血漿交換・リツキシマブ（抗ノドーソパラノドーパシー例）。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E6%85%A2%E6%80%A7%E7%82%8E%E7%97%87%E6%80%A7%E8%84%B1%E9%AB%84%E6%80%A7%E5%A4%9A%E7%99%BA%E7%A5%9E%E7%B5%8C%E7%82%8E",
+  },
+  {
+    slug: "narcolepsy",
+    name: "ナルコレプシー",
+    nameEn: "Narcolepsy",
+    nanbyoNumber: 128,
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "オレキシン（ヒポクレチン）産生神経細胞の消失による過眠症。日中の耐えがたい眠気と情動脱力発作（カタプレキシー）が特徴。",
+    symptoms: [
+      "日中過眠（耐えがたい眠気・突発的入眠）",
+      "情動脱力発作（カタプレキシー：感情誘発性の脱力）",
+      "入眠時幻覚",
+      "睡眠麻痺（金縛り）",
+      "夜間睡眠障害",
+    ],
+    causes:
+      "視床下部のオレキシン産生神経細胞の自己免疫性消失。HLA-DQB1*06:02との強い関連があり、環境因子（インフルエンザ感染・A/H1N1ワクチン）が誘因になる場合がある。",
+    diagnosis:
+      "反復睡眠潜時検査（MSLT：平均睡眠潜時8分未満・SOREMP2回以上）・髄液オレキシン-1濃度測定（110pg/mL以下）・HLA-DQB1*06:02検査。",
+    treatment:
+      "モダフィニル・塩酸メチルフェニデート（日中過眠）・ナトリウムオキシベート（カタプレキシー・過眠）・クロミプラミン・SSRI（カタプレキシー）。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E3%83%8A%E3%83%AB%E3%82%B3%E3%83%AC%E3%83%97%E3%82%B7%E3%83%BC",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/5083",
+  },
+  {
+    slug: "creutzfeldt-jakob",
+    name: "クロイツフェルト・ヤコブ病（CJD）",
+    nameEn: "Creutzfeldt-Jakob Disease",
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "異常プリオンタンパク（PrPSc）の蓄積による急速進行性致死性脳症。孤発性（85%）・遺伝性・医原性・変異型（vCJD：BSE関連）がある。",
+    symptoms: [
+      "急速進行性認知症",
+      "ミオクローヌス（突発性筋収縮）",
+      "視覚障害・幻視",
+      "小脳失調",
+      "無動無言状態（末期）",
+    ],
+    causes:
+      "異常プリオンタンパク（PrPSc）の蓄積による神経細胞死。孤発性が85%を占め、PRNP遺伝子変異による遺伝性・医原性（硬膜移植等）・変異型（vCJD：BSE感染牛由来）がある。",
+    diagnosis:
+      "脳波（周期性鋭波複合：PSWCs）・MRI（DWI拡散制限：皮質・基底核・視床）・髄液RT-QuIC検査（高感度）・14-3-3タンパク。",
+    treatment:
+      "根本的治療法なし。緩和ケア・症状緩和（ミオクローヌスに抗てんかん薬）。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E3%82%AF%E3%83%AD%E3%82%A4%E3%83%84%E3%83%95%E3%82%A7%E3%83%AB%E3%83%88%E3%83%BB%E3%83%A4%E3%82%B3%E3%83%96%E7%97%85",
+  },
+  {
+    slug: "restless-legs",
+    name: "レストレスレッグス症候群",
+    nameEn: "Restless Legs Syndrome",
+    nanbyoNumber: 15,
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "安静時の下肢不快感と「動かしたい衝動」を主症状とする感覚運動障害。夜間に悪化し睡眠障害を引き起こす。ドパミン機能異常・鉄欠乏・遺伝的素因が関与する。",
+    symptoms: [
+      "下肢の不快感（むずむず・虫がはう感じ・灼熱感）",
+      "安静時に悪化し動かすと軽減",
+      "夕方〜夜間に悪化",
+      "周期性四肢運動（睡眠中）",
+      "不眠・日中の眠気",
+    ],
+    causes:
+      "ドパミン機能異常・脳内鉄欠乏が主因。遺伝的素因（BTBD9・MEIS1等の遺伝子多型）。続発性は鉄欠乏性貧血・腎不全・妊娠・薬剤（抗精神病薬・抗うつ薬）による。",
+    diagnosis:
+      "国際RLS研究グループ（IRLSSG）の臨床診断基準4必須項目による臨床診断。血清フェリチン測定・ドパミンアゴニスト治療反応性の確認。",
+    treatment:
+      "ドパミンアゴニスト（プラミペキソール・ロピニロール・ロチゴチンパッチ）・α2δリガンド（ガバペンチン・プレガバリン）・鉄補充（フェリチン低値例）。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E3%83%AC%E3%82%B9%E3%83%88%E3%83%AC%E3%82%B9%E3%83%AC%E3%83%83%E3%82%B0%E3%82%B9%E7%97%87%E5%80%99%E7%BE%A4",
+  },
+  {
+    slug: "syringomyelia",
+    name: "脊髄空洞症",
+    nameEn: "Syringomyelia",
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "脊髄内に液体貯留（空洞）が形成され、神経障害を引き起こす疾患。キアリ奇形・外傷・腫瘍・脊髄係留等が原因となる。",
+    symptoms: [
+      "解離性感覚障害（痛覚・温度覚低下、触覚保存）",
+      "筋力低下・筋萎縮（手内在筋）",
+      "脊柱側弯",
+      "自律神経障害",
+      "疼痛（頸部〜肩・腕）",
+    ],
+    causes:
+      "キアリ奇形（I型）が最多。外傷後・脊髄腫瘍・癒着性くも膜炎・脊髄係留・特発性も原因となる。脳脊髄液循環障害が空洞形成に関与する。",
+    diagnosis:
+      "MRI（矢状断・軸位断：脊髄内の空洞描出）。原因疾患（キアリ奇形・腫瘍等）の検索も必須。",
+    treatment:
+      "原因疾患の治療が優先（キアリ奇形：後頭蓋窩減圧術、腫瘍：摘出等）。空洞縮小が得られない例にはシャント術（空洞-くも膜下腔シャント等）。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E8%84%8A%E9%AB%84%E7%A9%BA%E6%B4%9E%E7%97%87",
+  },
+  {
+    slug: "hereditary-spastic-paraplegia",
+    name: "遺伝性痙性対麻痺",
+    nameEn: "Hereditary Spastic Paraplegia",
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "進行性の下肢痙性・歩行障害を特徴とする遺伝性神経疾患群。70以上の遺伝子座（SPG）が同定されており、SPG4（SPAST遺伝子変異）が最も多い。",
+    symptoms: [
+      "下肢痙性（痙縮）",
+      "筋力低下・歩行困難",
+      "膀胱機能障害（尿意切迫・尿失禁）",
+      "腱反射亢進・病的反射",
+      "複雑型では認知機能障害・末梢神経障害を伴う",
+    ],
+    causes:
+      "常染色体優性・劣性・X連鎖性等、多様な遺伝形式。SPAST（SPG4）変異が常染色体優性型の最多原因。軸索輸送・ミトコンドリア機能・脂質代謝等の障害が機序として示唆される。",
+    diagnosis:
+      "遺伝子検査・神経伝導検査・体性感覚誘発電位・MRI（脊髄萎縮）。家族歴の確認が重要。",
+    treatment:
+      "根治療法なし。バクロフェン・チザニジン（痙縮緩和）・ボツリヌス毒素注射・リハビリテーション・膀胱管理。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E9%81%BA%E4%BC%9D%E6%80%A7%E7%97%99%E6%80%A7%E5%AF%BE%E9%BA%BB%E7%97%BA",
+  },
+  {
+    slug: "stiff-person",
+    name: "スティッフパーソン症候群",
+    nameEn: "Stiff Person Syndrome",
+    nanbyoNumber: 136,
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "体幹・四肢の進行性筋強剛と有痛性筋痙攣を特徴とする自己免疫性神経疾患。抗GAD65抗体によるGABA作動性抑制性神経伝達障害が主な機序。",
+    symptoms: [
+      "体幹の筋強剛・腰椎前弯増強",
+      "刺激誘発性の有痛性筋痙攣",
+      "歩行障害・転倒",
+      "不安・恐怖感",
+      "自律神経症状（発汗・頻脈）",
+    ],
+    causes:
+      "抗GAD65抗体（80%以上）によるGABA作動性介在ニューロンへの攻撃で抑制性神経伝達が障害される。自己免疫性疾患（1型糖尿病・甲状腺疾患等）との合併が多い。腫瘍随伴性（抗アンフィフィシン抗体）例もある。",
+    diagnosis:
+      "抗GAD抗体測定・筋電図（持続的運動単位活動電位）・臨床症状による診断。腫瘍随伴性除外のため悪性腫瘍の検索も必要。",
+    treatment:
+      "ジアゼパム・バクロフェン（筋強剛・痙攣の緩和）・静注免疫グロブリン（IVIG）・ステロイド・血漿交換・リツキシマブ。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%83%95%E3%83%91%E3%83%BC%E3%82%BD%E3%83%B3%E7%97%87%E5%80%99%E7%BE%A4",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/5131",
+  },
+  {
+    slug: "multifocal-motor-neuropathy",
+    name: "多巣性運動ニューロパチー",
+    nameEn: "Multifocal Motor Neuropathy",
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "非対称性の純粋運動障害を示す末梢神経疾患。ALSとの鑑別が重要で、IVIGに著効する治療可能な疾患。抗GM1抗体が50〜60%に陽性。",
+    symptoms: [
+      "上肢優位の非対称性筋力低下",
+      "筋萎縮・線維束性収縮",
+      "腱反射低下〜消失",
+      "感覚障害は通常みられない",
+      "手指・手関節の筋力低下が先行しやすい",
+    ],
+    causes:
+      "抗GM1 IgM抗体（50〜60%に陽性）による末梢神経ランビエ絞輪部への攻撃が示唆される。",
+    diagnosis:
+      "神経伝導検査（多巣性伝導ブロック：運動神経のみ）・抗GM1 IgM抗体測定。感覚神経伝導は正常。",
+    treatment:
+      "静注免疫グロブリン（IVIG）が第一選択で著効する。維持療法が必要な例が多い。難治例にシクロホスファミド。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E5%A4%9A%E5%B7%A3%E6%80%A7%E9%81%8B%E5%8B%95%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%AD%E3%83%91%E3%83%81%E3%83%BC",
+  },
+  {
+    slug: "lewy-body-dementia",
+    name: "レビー小体型認知症",
+    nameEn: "Dementia with Lewy Bodies",
+    nanbyoNumber: 78,
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "αシヌクレインの蓄積（レビー小体）による認知症。パーキンソン病認知症と連続する疾患概念。認知機能の変動・繰り返す幻視・パーキンソン症状の三徴が特徴。",
+    symptoms: [
+      "認知機能の変動（覚醒度・注意の日内変動）",
+      "繰り返す具体的な幻視",
+      "パーキンソン症状（動作緩慢・振戦・固縮）",
+      "REM睡眠行動障害（寝言・寝ぼけ行動）",
+      "自律神経障害（起立性低血圧・便秘）",
+    ],
+    causes:
+      "αシヌクレインの神経細胞内蓄積（レビー小体形成）による神経細胞死。コリン作動性・ドパミン作動性神経が障害される。多くは孤発性。",
+    diagnosis:
+      "McKeith診断基準（2017）。補助的バイオマーカー：DATスキャン（線条体ドパミン取り込み低下）・心臓MIBGシンチ（交感神経障害）・睡眠ポリグラフ（REM睡眠行動障害）。",
+    treatment:
+      "コリンエステラーゼ阻害薬（リバスチグミン・ドネペジル）が認知機能・幻視に有効。抗精神病薬は過敏反応（重篤な副作用）があり原則禁忌。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E3%83%AC%E3%83%93%E3%83%BC%E5%B0%8F%E4%BD%93%E5%9E%8B%E8%AA%8D%E7%9F%A5%E7%97%87",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/5655",
+  },
+
+  // ─── 免疫・膠原病（追加バッチ1） ────────────────────────────────
+  {
+    slug: "sjogrens",
+    name: "シェーグレン症候群",
+    nameEn: "Sjögren's Syndrome",
+    nanbyoNumber: 53,
+    category: "免疫・膠原病",
+    categorySlug: "immune",
+    overview:
+      "涙腺・唾液腺を主標的とした自己免疫疾患で、口腔乾燥・眼乾燥（シッカ症候群）が主症状。全身性病変（間質性肺疾患・末梢神経炎・腎炎等）を合併しうる。悪性リンパ腫のリスクが高まる。",
+    symptoms: [
+      "口腔乾燥（唾液分泌低下・虫歯増加）",
+      "眼乾燥（ドライアイ・角膜障害）",
+      "関節炎・関節痛",
+      "間質性肺疾患",
+      "末梢神経炎・中枢神経病変",
+    ],
+    causes:
+      "抗SS-A/Ro抗体・抗SS-B/La抗体が特徴的自己抗体。T細胞・B細胞による外分泌腺への免疫攻撃。ウイルス感染（EBV等）・遺伝的素因が関与する。",
+    diagnosis:
+      "眼科検査（Schirmerテスト：涙液分泌量測定、ローズベンガル染色）・唾液腺生検（小唾液腺へのリンパ球浸潤）・抗SS-A/SS-B抗体・唾液腺シンチグラフィ。",
+    treatment:
+      "乾燥症状：人工涙液・人工唾液・塩酸セビメリン（唾液分泌促進）。全身性病変：ヒドロキシクロロキン・ステロイド・免疫抑制薬（メトトレキサート・ミゾリビン等）。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E3%82%B7%E3%82%A7%E3%83%BC%E3%82%B0%E3%83%AC%E3%83%B3%E7%97%87%E5%80%99%E7%BE%A4",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/339",
+  },
+  {
+    slug: "relapsing-polychondritis",
+    name: "再発性多発軟骨炎",
+    nameEn: "Relapsing Polychondritis",
+    nanbyoNumber: 193,
+    category: "免疫・膠原病",
+    categorySlug: "immune",
+    overview:
+      "耳介・鼻・気管・関節・眼等の軟骨・結合組織への自己免疫性炎症が再発を繰り返す疾患。気管軟骨の炎症による気道障害が生命予後に関わる。",
+    symptoms: [
+      "耳介軟骨炎（耳介の発赤・腫脹・疼痛：耳垂は非罹患）",
+      "鼻軟骨炎（鞍鼻変形）",
+      "気管・気管支軟骨炎（咳嗽・呼吸困難・気道狭窄）",
+      "眼炎症（強膜炎・ぶどう膜炎）",
+      "多関節炎・心臓弁膜症",
+    ],
+    causes:
+      "コラーゲン（特にII型）・マトリリン-1・COMP等に対する自己免疫反応が示唆される。他の自己免疫疾患（MDS・血管炎等）との合併が多い。",
+    diagnosis:
+      "McAdam基準（6項目中3項目以上、または組織生検で軟骨炎確認）による臨床診断。耳介・気管生検（好中球・リンパ球浸潤・軟骨破壊）。",
+    treatment:
+      "ステロイド（急性期）・ダプソン（軽症）・コルヒチン・免疫抑制薬（メトトレキサート・アザチオプリン等）・IL-6阻害薬（トシリズマブ）・気道病変には気管ステント。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E5%86%8D%E7%99%BA%E6%80%A7%E5%A4%9A%E7%99%BA%E8%BB%9F%E9%AA%A8%E7%82%8E",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/3703",
+  },
+  {
+    slug: "familial-mediterranean-fever",
+    name: "家族性地中海熱",
+    nameEn: "Familial Mediterranean Fever",
+    nanbyoNumber: 266,
+    category: "免疫・膠原病",
+    categorySlug: "immune",
+    overview:
+      "MEFV遺伝子変異によるピリン（マレノストリン）機能異常でIL-1βが過剰産生される自己炎症疾患。発熱・漿膜炎の発作を繰り返し、無治療では続発性AAアミロイドーシスをきたす。",
+    symptoms: [
+      "繰り返す発熱（12〜72時間・自然軽快）",
+      "腹膜炎（腹痛・腹部緊張）",
+      "胸膜炎（胸痛・呼吸困難）",
+      "関節炎（膝・足首等の大関節）",
+      "丹毒様皮疹（下腿）",
+    ],
+    causes:
+      "MEFV遺伝子変異（M694V等）によるピリンタンパク機能異常。インフラマソーム過活性化によりIL-1βが過剰産生される。地中海沿岸民族（アシュケナジユダヤ人・アルメニア人・トルコ人・アラブ人）に多い。",
+    diagnosis:
+      "遺伝子検査（MEFV遺伝子変異）・臨床基準（繰り返す発熱発作＋漿膜炎）・コルヒチン治療反応性。",
+    treatment:
+      "コルヒチン（発作予防・AAアミロイドーシス予防の標準治療）。コルヒチン抵抗例・不耐例にはIL-1阻害薬（アナキンラ・カナキヌマブ）。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E5%AE%B6%E6%97%8F%E6%80%A7%E5%9C%B0%E4%B8%AD%E6%B5%B7%E7%86%B1",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/3848",
+  },
+  {
+    slug: "caps",
+    name: "クリオピリン関連周期熱症候群（CAPS）",
+    nameEn: "Cryopyrin-Associated Periodic Syndrome",
+    category: "免疫・膠原病",
+    categorySlug: "immune",
+    overview:
+      "NLRP3遺伝子変異によるクリオピリンの機能獲得型変異でIL-1βが過剰産生される自己炎症疾患群。重症度により家族性寒冷自己炎症症候群（FCAS）・Muckle-Wells症候群（MWS）・新生児期多臓器炎症性疾患（NOMID/CINCA）に分類される。",
+    symptoms: [
+      "繰り返す発熱・蕁麻疹様皮疹",
+      "関節痛・関節炎",
+      "感音性難聴（MWS・NOMID）",
+      "眼病変（結膜炎・ぶどう膜炎）",
+      "中枢神経症状・脳症（NOMID重症型）",
+    ],
+    causes:
+      "NLRP3（CIAS1）遺伝子の常染色体優性変異によるインフラマソーム過活性化とIL-1β過剰産生。",
+    diagnosis:
+      "遺伝子検査（NLRP3変異）・臨床症状・炎症マーカー高値（CRP・SAA）。",
+    treatment:
+      "IL-1阻害薬（カナキヌマブ・アナキンラ・リロナセプト）が著効。早期治療開始が難聴・アミロイドーシス予防に重要。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E3%82%AF%E3%83%AA%E3%82%AA%E3%83%94%E3%83%AA%E3%83%B3%E9%96%A2%E9%80%A3%E5%91%A8%E6%9C%9F%E7%86%B1%E7%97%87%E5%80%99%E7%BE%A4",
+  },
+  {
+    slug: "hlh",
+    name: "血球貪食性リンパ組織球症（HLH）",
+    nameEn: "Hemophagocytic Lymphohistiocytosis",
+    category: "免疫・膠原病",
+    categorySlug: "immune",
+    overview:
+      "過剰な免疫活性化（サイトカインストーム）による生命を脅かす多臓器障害症候群。原発性（遺伝性：穿孔素欠損等）と続発性（感染・悪性腫瘍・自己免疫疾患）に分類される。",
+    symptoms: [
+      "持続する高熱（抗菌薬不応性）",
+      "血球減少（汎血球減少）",
+      "肝脾腫",
+      "高フェリチン血症（≥500ng/mL）",
+      "骨髄・脾臓での血球貪食像",
+    ],
+    causes:
+      "遺伝性：穿孔素（PRF1）・UNC13D・STX11等の変異によりNK細胞・CTL機能が障害され免疫応答が制御不能になる。続発性：EBV感染・悪性リンパ腫・自己免疫疾患等が誘因。",
+    diagnosis:
+      "HLH-2004診断基準（8項目中5項目以上）：発熱・脾腫・血球減少・高トリグリセリド血症/低フィブリノゲン血症・血球貪食像・NK細胞活性低下・高フェリチン血症・sCD25高値。",
+    treatment:
+      "HLH-94/2004プロトコール（エトポシド・デキサメタゾン・シクロスポリン）。原発性例には同種造血幹細胞移植が唯一の根治療法。EBV関連にはリツキシマブ。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E8%A1%80%E7%90%83%E8%B2%AA%E9%A3%9F%E6%80%A7%E3%83%AA%E3%83%B3%E3%83%91%E7%B5%84%E7%B9%94%E7%90%83%E7%97%87",
+  },
+  {
+    slug: "antiphospholipid-syndrome",
+    name: "抗リン脂質抗体症候群",
+    nameEn: "Antiphospholipid Syndrome",
+    nanbyoNumber: 48,
+    category: "免疫・膠原病",
+    categorySlug: "immune",
+    overview:
+      "抗リン脂質抗体（ループスアンチコアグラント・抗カルジオリピン抗体・抗β2GPI抗体）の持続陽性に伴い、動静脈血栓症や妊娠合併症をきたす自己免疫疾患。SLEに合併する続発性と、単独の原発性がある。",
+    symptoms: [
+      "深部静脈血栓症・肺塞栓症",
+      "脳梗塞・TIA（若年者の脳血管障害）",
+      "習慣性流産・死産・早産",
+      "血小板減少・網状皮斑",
+      "カタストロフィック抗リン脂質抗体症候群（CAPS：多臓器血栓症・急速進行）",
+    ],
+    causes:
+      "抗カルジオリピン抗体・ループスアンチコアグラント・抗β2GPI抗体が凝固系・内皮・血小板に作用し血栓形成促進状態をきたす。",
+    diagnosis:
+      "血栓症または妊娠合併症の臨床基準＋抗リン脂質抗体（12週以上の間隔をあけた2回以上の陽性）によるSapporo/Sydney基準。",
+    treatment:
+      "血栓症例：ワルファリン長期抗凝固療法（INR 2.0〜3.0）。妊娠例：低用量アスピリン＋ヘパリン。CAPS：多剤免疫療法（ステロイド・IVIG・血漿交換・リツキシマブ）。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E6%8A%97%E3%83%AA%E3%83%B3%E8%84%82%E8%B3%AA%E6%8A%97%E4%BD%93%E7%97%87%E5%80%99%E7%BE%A4",
+  },
+  {
+    slug: "adult-stills",
+    name: "成人スティル病",
+    nameEn: "Adult-onset Still's Disease",
+    nanbyoNumber: 44,
+    category: "免疫・膠原病",
+    categorySlug: "immune",
+    overview:
+      "弛張熱・関節炎・サーモンピンク色の一過性皮疹・高フェリチン血症を特徴とする全身性自己炎症性疾患。IL-1β・IL-18・IL-6等のサイトカインが病態に関与する。",
+    symptoms: [
+      "弛張熱（39℃以上：夕方〜夜に出現し解熱）",
+      "サーモンピンク色の一過性皮疹（発熱時に出現）",
+      "関節炎・関節痛",
+      "咽頭痛・リンパ節腫脹・肝脾腫",
+      "高フェリチン血症（>1000ng/mL）",
+    ],
+    causes:
+      "IL-1β・IL-18・IL-6等の自然免疫系サイトカインの過剰産生による自己炎症。感染（ウイルス等）が誘因となる場合がある。",
+    diagnosis:
+      "山口基準（Yamaguchi criteria：大基準4項目・小基準4項目）。感染症・悪性腫瘍・他の自己免疫疾患の除外が必須。",
+    treatment:
+      "NSAIDs・ステロイド（中等症〜重症）・IL-1受容体拮抗薬（アナキンラ）・IL-6阻害薬（トシリズマブ）・メトトレキサート（慢性関節型）。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E6%88%90%E4%BA%BA%E3%82%B9%E3%83%86%E3%82%A3%E3%83%AB%E7%97%85",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/323",
+  },
+
+  // ─── 呼吸器疾患（追加バッチ1） ────────────────────────────────
+  {
+    slug: "ipf",
+    name: "特発性肺線維症",
+    nameEn: "Idiopathic Pulmonary Fibrosis",
+    nanbyoNumber: 85,
+    category: "呼吸器疾患",
+    categorySlug: "respiratory",
+    overview:
+      "原因不明の進行性かつ不可逆性の肺線維化を特徴とするびまん性肺疾患。予後不良で、診断後の中央生存期間は2〜3年とされていたが、抗線維化薬により進行抑制が可能となった。",
+    symptoms: [
+      "労作時息切れ（進行性）",
+      "乾性咳嗽（慢性）",
+      "捻髪音（fine crackles：肺底部）",
+      "バチ指",
+      "急性増悪（感染等を契機とした急激な悪化）",
+    ],
+    causes:
+      "原因不明。反復する上皮障害と異常な修復機転（TGF-β・線維芽細胞活性化）による線維化が機序として示唆される。喫煙・加齢・遺伝的素因（MUC5B変異等）が関与。",
+    diagnosis:
+      "HRCT（UIPパターン：蜂巣肺・牽引性気管支拡張）・必要に応じて外科的肺生検（UIP病理像）。感染・薬剤性・膠原病性等の除外。",
+    treatment:
+      "抗線維化薬：ニンテダニブ（チロシンキナーゼ阻害薬）・ピルフェニドン（TGF-β抑制）が進行を遅延。急性増悪にステロイドパルス。肺移植（適応例）。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E7%89%B9%E7%99%BA%E6%80%A7%E8%82%BA%E7%B7%9A%E7%B6%AD%E7%97%87",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/237",
+  },
+  {
+    slug: "lam",
+    name: "リンパ脈管筋腫症（LAM）",
+    nameEn: "Lymphangioleiomyomatosis",
+    nanbyoNumber: 189,
+    category: "呼吸器疾患",
+    categorySlug: "respiratory",
+    overview:
+      "主に若い女性に発症するmTOR経路の異常活性化による嚢胞性肺疾患。TSC1/TSC2遺伝子変異（結節性硬化症関連）または体細胞TSC2変異（孤発性）による。",
+    symptoms: [
+      "進行性息切れ・労作時呼吸困難",
+      "自然気胸（反復しやすい）",
+      "乳び胸水・乳び腹水",
+      "腎血管筋脂肪腫（AML：多発・両側）",
+      "腹部リンパ節腫大",
+    ],
+    causes:
+      "TSC1/TSC2遺伝子変異によるmTOR（哺乳類ラパマイシン標的タンパク）経路の過活性化。LAM細胞が肺・リンパ節・腎臓等に浸潤・増殖する。女性ホルモン（エストロゲン）依存性がある。",
+    diagnosis:
+      "HRCT（両側びまん性薄壁嚢胞）・血清VEGF-D高値・腎AML確認・組織生検（HMB45陽性LAM細胞）。",
+    treatment:
+      "シロリムス（エベロリムス）：mTOR阻害薬が肺機能低下抑制・リンパ系病変縮小に有効。気胸には胸膜癒着術。重症肺機能低下例には肺移植。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E3%83%AA%E3%83%B3%E3%83%91%E8%84%88%E7%AE%A1%E7%AD%8B%E8%85%AB%E7%97%87",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/255",
+  },
+  {
+    slug: "pulmonary-alveolar-proteinosis",
+    name: "肺胞蛋白症",
+    nameEn: "Pulmonary Alveolar Proteinosis",
+    nanbyoNumber: 190,
+    category: "呼吸器疾患",
+    categorySlug: "respiratory",
+    overview:
+      "肺胞内にサーファクタント類似物質（リポ蛋白）が蓄積し呼吸不全をきたす疾患。後天性（自己免疫性：抗GM-CSF抗体陽性）が最多。",
+    symptoms: [
+      "進行性息切れ・労作時呼吸困難",
+      "乾性咳嗽",
+      "低酸素血症",
+      "易感染性（ノカルジア等の日和見感染）",
+      "軽症例では無症状のこともある",
+    ],
+    causes:
+      "後天性（自己免疫性）：抗GM-CSF自己抗体によりGM-CSFシグナルが障害され肺胞マクロファージによるサーファクタント代謝が低下。遺伝性・続発性（白血病・シリカ吸入等）もある。",
+    diagnosis:
+      "HRCT（crazy paving pattern：スリガラス影＋小葉間隔壁肥厚）・気管支肺胞洗浄（BAL：乳白色洗浄液・PAS染色陽性）・血清抗GM-CSF抗体。",
+    treatment:
+      "全肺洗浄（WLL：標準治療）。後天性にはGM-CSF吸入療法・皮下注射。リツキシマブ（再発難治例）。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E8%82%BA%E8%83%9E%E8%9B%8B%E7%99%BD%E7%97%87",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/256",
+  },
+  {
+    slug: "sarcoidosis",
+    name: "サルコイドーシス",
+    nameEn: "Sarcoidosis",
+    nanbyoNumber: 84,
+    category: "呼吸器疾患",
+    categorySlug: "respiratory",
+    overview:
+      "肺・リンパ節・眼・皮膚・心臓等の多臓器に非乾酪性類上皮細胞肉芽腫が形成される全身性疾患。多くは自然寛解するが、心臓サルコイドーシスは致死的不整脈の原因となる。",
+    symptoms: [
+      "両側肺門リンパ節腫脹・肺浸潤影（無症状のことも多い）",
+      "眼病変（ぶどう膜炎・視力障害）",
+      "皮膚病変（結節性紅斑・凍瘡状狼瘡・皮下結節）",
+      "心臓サルコイドーシス（刺激伝導障害・致死的不整脈・心不全）",
+      "神経サルコイドーシス（顔面神経麻痺・髄膜炎）",
+    ],
+    causes:
+      "原因不明の肉芽腫性疾患。環境抗原（マイコバクテリア・プロピオニバクテリウム・粉塵等）に対する異常なTh1免疫応答が示唆される。遺伝的素因もある。",
+    diagnosis:
+      "組織生検（非乾酪性類上皮細胞肉芽腫の確認）・胸部X線・CT・ガリウムシンチグラフィ・血清ACE高値・血清リゾチーム高値。心臓はPET/MRI。",
+    treatment:
+      "自然寛解例は経過観察。眼・心臓・神経・重症肺病変はステロイド治療。難治例にメトトレキサート・アザチオプリン等。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E3%82%B5%E3%83%AB%E3%82%B3%E3%82%A4%E3%83%89%E3%83%BC%E3%82%B7%E3%82%B9",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/234",
+  },
+  {
+    slug: "primary-ciliary-dyskinesia",
+    name: "原発性線毛機能不全症",
+    nameEn: "Primary Ciliary Dyskinesia",
+    category: "呼吸器疾患",
+    categorySlug: "respiratory",
+    overview:
+      "線毛の構造・機能異常により気道粘液クリアランス・精子運動・胚の左右決定が障害される遺伝性疾患。内臓逆位を伴う場合をKartagener症候群と呼ぶ。",
+    symptoms: [
+      "反復性気道感染（慢性副鼻腔炎・慢性中耳炎・気管支炎）",
+      "気管支拡張症（反復感染による）",
+      "内臓逆位（約50%：situs inversus）",
+      "男性不妊（精子鞭毛の運動障害）",
+      "水頭症（一部の例）",
+    ],
+    causes:
+      "DNAI1・DNAH5・DNAH11・CCDC39・CCDC40等、40以上の遺伝子変異が同定されている。常染色体劣性が多い。",
+    diagnosis:
+      "鼻腔NO測定（著明低値）・透過型電子顕微鏡（繊毛の超微細構造異常）・高速ビデオ顕微鏡（線毛運動解析）・遺伝子検査。",
+    treatment:
+      "気道クリアランス（体位排痰・高振動数胸壁振動装置）・早期積極的抗菌薬療法（緑膿菌除菌含む）・定期呼吸器専門管理。根治療法なし。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E5%8E%9F%E7%99%BA%E6%80%A7%E7%B7%9A%E6%AF%9B%E6%A9%9F%E8%83%BD%E4%B8%8D%E5%85%A8%E7%97%87",
+  },
+
+  // ─── 腎・泌尿器疾患（追加バッチ1） ────────────────────────────────
+  {
+    slug: "alport-syndrome",
+    name: "アルポート症候群",
+    nameEn: "Alport Syndrome",
+    nanbyoNumber: 218,
+    category: "腎・泌尿器疾患",
+    categorySlug: "renal",
+    overview:
+      "COL4A3・COL4A4・COL4A5遺伝子変異によるIV型コラーゲン異常で糸球体基底膜が障害される遺伝性腎疾患。血尿・進行性腎不全・感音性難聴・眼異常が特徴。",
+    symptoms: [
+      "持続性顕微鏡的血尿（乳児期から）",
+      "進行性蛋白尿・腎不全",
+      "感音性難聴（高音域：思春期以降に顕在化）",
+      "眼異常（前円錐水晶体・黄斑周囲網膜病変）",
+      "平滑筋腫（X連鎖型の一部）",
+    ],
+    causes:
+      "X連鎖型（COL4A5変異：最多・男性重症）・常染色体劣性型（COL4A3/A4変異）・常染色体優性型（COL4A3/A4変異：比較的軽症）。IV型コラーゲンα3α4α5鎖の異常で基底膜の菲薄化・分層化が生じる。",
+    diagnosis:
+      "遺伝子検査（COL4A3/A4/A5変異）・腎生検（光学顕微鏡・免疫蛍光・電子顕微鏡：基底膜の菲薄化・分層化・密在化）。",
+    treatment:
+      "RAS阻害薬（ACE阻害薬・ARB）による早期開始で腎不全進行抑制。末期腎不全には透析・腎移植（移植後抗GBM腎炎に注意）。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E3%82%A2%E3%83%AB%E3%83%9D%E3%83%BC%E3%83%88%E7%97%87%E5%80%99%E7%BE%A4",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/4893",
+  },
+  {
+    slug: "adpkd",
+    name: "常染色体優性多発性嚢胞腎（ADPKD）",
+    nameEn: "Autosomal Dominant Polycystic Kidney Disease",
+    nanbyoNumber: 67,
+    category: "腎・泌尿器疾患",
+    categorySlug: "renal",
+    overview:
+      "PKD1/PKD2遺伝子変異による遺伝性腎疾患の中で最も頻度が高い疾患。両側腎に多発嚢胞が形成され進行性に腎機能が低下する。肝嚢胞・脳動脈瘤等の腎外病変も重要。",
+    symptoms: [
+      "腹部膨満・腰背部痛（腎腫大による）",
+      "血尿・腎結石",
+      "高血圧（早期から）",
+      "末期腎不全（60歳頃までに約50%）",
+      "脳動脈瘤（約8%：くも膜下出血リスク）",
+    ],
+    causes:
+      "PKD1（ポリシスチン-1：約85%）またはPKD2（ポリシスチン-2：約15%）遺伝子変異。常染色体優性遺伝。嚢胞上皮細胞のmTORC1・cAMP経路過活性化が嚢胞増大に関与する。",
+    diagnosis:
+      "超音波・CT・MRI（両側腎・肝の多発嚢胞）・遺伝子検査。若年診断・腎外病変の確認のためMRA（脳動脈瘤スクリーニング）も重要。",
+    treatment:
+      "トルバプタン（V2受容体拮抗薬：嚢胞増大抑制・進行遅延）・降圧療法（ACE阻害薬/ARB）・腎移植（末期腎不全）。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E5%A4%9A%E7%99%BA%E6%80%A7%E5%9A%A2%E8%83%9E%E8%85%8E",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/135",
+  },
+  {
+    slug: "nephrotic-syndrome-primary",
+    name: "一次性ネフローゼ症候群",
+    nameEn: "Primary Nephrotic Syndrome",
+    nanbyoNumber: 222,
+    category: "腎・泌尿器疾患",
+    categorySlug: "renal",
+    overview:
+      "大量蛋白尿・低アルブミン血症・浮腫・高脂血症を四徴とする糸球体疾患群。微小変化型（小児多い）・巣状分節性糸球体硬化症・膜性腎症（成人多い）・膜性増殖性糸球体腎炎等が含まれる。",
+    symptoms: [
+      "浮腫（全身性：下腿・眼瞼・腹水・胸水）",
+      "大量蛋白尿（3.5g/日以上）",
+      "低アルブミン血症（3.0g/dL以下）",
+      "高脂血症・脂肪尿",
+      "血栓塞栓症（腎静脈血栓等のリスク）",
+    ],
+    causes:
+      "微小変化型：T細胞機能異常による糸球体透過性因子の産生。巣状分節性糸球体硬化症：遺伝性・続発性・原発性。膜性腎症：抗PLA2R抗体（成人原発性の80%）。",
+    diagnosis:
+      "尿蛋白定量・血清アルブミン・脂質・腎生検（光顕・電顕・蛍光抗体）による病理診断。抗PLA2R抗体測定（膜性腎症）。",
+    treatment:
+      "微小変化型：ステロイドが著効（高頻度再発例にシクロスポリン・ミゾリビン・リツキシマブ）。膜性腎症：リツキシマブ（第一選択へ移行中）・シクロスポリン。巣状分節性：ステロイド・免疫抑制薬。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E3%83%8D%E3%83%95%E3%83%AD%E3%83%BC%E3%82%BC%E7%97%87%E5%80%99%E7%BE%A4",
+  },
+  {
+    slug: "thin-basement-membrane",
+    name: "菲薄基底膜症候群",
+    nameEn: "Thin Basement Membrane Nephropathy",
+    category: "腎・泌尿器疾患",
+    categorySlug: "renal",
+    overview:
+      "COL4A3/COL4A4遺伝子変異（ヘテロ接合性）による糸球体基底膜の菲薄化を特徴とする疾患。持続性顕微鏡的血尿が主症状で、多くは良性経過だが一部でアルポート症候群へ移行する。",
+    symptoms: [
+      "持続性顕微鏡的血尿（無症候性）",
+      "軽度蛋白尿（一部の例）",
+      "肉眼的血尿（感染後等）",
+      "大部分では腎機能は正常または軽度低下にとどまる",
+    ],
+    causes:
+      "COL4A3またはCOL4A4遺伝子のヘテロ接合性変異による糸球体基底膜の菲薄化（正常250〜350nm → 150〜225nm）。常染色体優性遺伝。",
+    diagnosis:
+      "腎生検（電子顕微鏡：基底膜の菲薄化）・遺伝子検査（COL4A3/A4変異）。アルポート症候群との鑑別が重要。",
+    treatment:
+      "多くは経過観察。蛋白尿・高血圧例にはRAS阻害薬。定期的な尿蛋白・腎機能・血圧のモニタリングが重要。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E8%8F%B2%E8%96%84%E5%9F%BA%E5%BA%95%E8%86%9C%E7%97%87%E5%80%99%E7%BE%A4",
+  },
+
+  // ─── 眼疾患（追加バッチ1） ────────────────────────────────
+  {
+    slug: "retinitis-pigmentosa",
+    name: "網膜色素変性症",
+    nameEn: "Retinitis Pigmentosa",
+    nanbyoNumber: 90,
+    category: "眼疾患",
+    categorySlug: "ophthalmology",
+    overview:
+      "視細胞（杆体・錐体）の遺伝性変性により夜盲・視野狭窄・視力低下が進行する難病。多数の遺伝子変異（RP1・RHO・PRPF31・RPGR等）が原因となる遺伝的多様性の高い疾患群。",
+    symptoms: [
+      "夜盲（暗所での視力低下：初発症状）",
+      "求心性視野狭窄（周辺視野から中心に向けて進行）",
+      "進行性視力低下（中心視力は比較的後期まで保たれる）",
+      "色覚異常",
+      "羞明（まぶしさ）",
+    ],
+    causes:
+      "RP1・RHO・PRPF31・RPGR・RPGR ORF15等、70以上の遺伝子変異が同定されている。常染色体優性・劣性・X連鎖性等、多様な遺伝形式をとる。",
+    diagnosis:
+      "眼底検査（骨小体様色素沈着・視神経乳頭蒼白・血管狭細）・視野検査（求心性狭窄）・網膜電図（ERG：a波・b波振幅低下〜消失）・遺伝子検査。",
+    treatment:
+      "根治療法なし。ビタミンA棕榈酸エステル補充（進行緩徐化の可能性）・遮光眼鏡・低視力支援（ルーペ・拡大読書器）。遺伝子治療研究（RPE65変異型には承認済み）・人工網膜研究が進行中。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E7%B6%B2%E8%86%9C%E8%89%B2%E7%B4%A0%E5%A4%89%E6%80%A7%E7%97%87",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/271",
+  },
+  {
+    slug: "stargardt-disease",
+    name: "スタルガルト病",
+    nameEn: "Stargardt Disease",
+    category: "眼疾患",
+    categorySlug: "ophthalmology",
+    overview:
+      "ABCA4遺伝子変異による若年性黄斑変性。ビスレチノイド（A2E）蓄積によりRPEが変性し中心視力が進行性に低下する。常染色体劣性遺伝。",
+    symptoms: [
+      "中心視力の進行性低下（両眼性）",
+      "色覚異常",
+      "明所での視力低下（羞明）",
+      "暗点・読書困難",
+      "比較的早期（10〜20歳代）に発症することが多い",
+    ],
+    causes:
+      "ABCA4（ATP-binding cassette transporter）遺伝子の両アレル変異によりA2Eが蓄積しRPEが変性する。常染色体劣性遺伝が多いが、ELOVL4変異による常染色体優性型もある。",
+    diagnosis:
+      "眼底自発蛍光（FAF：黄色フレーク・RPE萎縮領域の蛍光消失）・フルオレセイン蛍光眼底造影（dark choroid現象）・ERG・遺伝子検査。",
+    treatment:
+      "根治療法なし。遮光（紫外線曝露回避）・低視力支援。遺伝子治療・細胞治療（RPE細胞移植）・ABCA4機能回復薬の臨床試験が進行中。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E3%82%B9%E3%82%BF%E3%83%AB%E3%82%AC%E3%83%AB%E3%83%88%E7%97%85",
+  },
+  {
+    slug: "leber-optic-neuropathy",
+    name: "レーバー遺伝性視神経症（LHON）",
+    nameEn: "Leber Hereditary Optic Neuropathy",
+    category: "眼疾患",
+    categorySlug: "ophthalmology",
+    overview:
+      "ミトコンドリアDNA変異（m.11778G>A・m.3460G>A・m.14484T>C等）による視神経障害。若年男性に多く、急性〜亜急性の中心視力喪失が両眼性に生じる。",
+    symptoms: [
+      "急性〜亜急性の中心視力低下（一眼から両眼へ、数週〜数ヶ月で両眼性）",
+      "中心暗点・傍中心暗点",
+      "色覚異常（赤緑色覚）",
+      "視神経萎縮（急性期後）",
+      "一部に心臓伝導障害・神経症状を伴う",
+    ],
+    causes:
+      "ミトコンドリアDNAの点変異（m.11778G>A：ND4遺伝子が85%を占める）による複合体I機能障害とATP産生低下・活性酸素増加で視神経細胞が変性する。母系遺伝。男性が発症しやすい（浸透率の性差）。",
+    diagnosis:
+      "眼底検査・視野検査・色覚検査・光干渉断層計（OCT）・ミトコンドリアDNA変異解析（血液）。",
+    treatment:
+      "イデベノン（補酵素Q10類似体：早期例の視力維持に有効）。喫煙・アルコール回避。遺伝子治療（AAV2-ND4：lenadogene nolparvovec）が一部で承認。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E3%83%AC%E3%83%BC%E3%83%90%E3%83%BC%E9%81%BA%E4%BC%9D%E6%80%A7%E8%A6%96%E7%A5%9E%E7%B5%8C%E7%97%87",
+  },
+  {
+    slug: "choroideremia",
+    name: "脈絡膜欠如",
+    nameEn: "Choroideremia",
+    category: "眼疾患",
+    categorySlug: "ophthalmology",
+    overview:
+      "CHM遺伝子（Rab escort protein 1：REP-1をコード）変異によるX連鎖劣性遺伝性網膜変性疾患。脈絡膜・RPE・視細胞が進行性に萎縮する。",
+    symptoms: [
+      "夜盲（小児期から）",
+      "進行性求心性視野狭窄",
+      "中心視力は成人期まで比較的保たれる",
+      "女性保因者は軽度の眼底異常を示すことがある",
+    ],
+    causes:
+      "CHM遺伝子（X染色体）変異によりREP-1タンパクが欠損し、Rabタンパクのゲラニルゲラニル化が障害されRPE・光受容体・脈絡膜毛細血管が変性する。X連鎖劣性遺伝（男性が重症）。",
+    diagnosis:
+      "眼底検査（脈絡膜・RPEの進行性萎縮・境界明瞭）・眼底自発蛍光・OCT・視野検査・遺伝子検査（CHM変異）。",
+    treatment:
+      "根治療法なし（現時点）。遺伝子治療（AAV2-REP1）の臨床試験が進行中。低視力支援・遮光。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E8%84%88%E7%B5%A1%E8%86%9C%E6%AC%A0%E5%A6%82",
+  },
+
+  // ─── 内分泌疾患（追加バッチ1） ────────────────────────────────
+  {
+    slug: "graves-disease",
+    name: "バセドウ病",
+    nameEn: "Graves' Disease",
+    category: "内分泌疾患",
+    categorySlug: "endocrine",
+    overview:
+      "TSH受容体に対する自己抗体（TRAb：甲状腺刺激抗体）によって甲状腺が持続的に刺激される自己免疫性甲状腺機能亢進症。女性に多く（男女比1:4〜5）、バセドウ眼症を合併することがある。",
+    symptoms: [
+      "動悸・頻脈・不整脈（心房細動）",
+      "体重減少・多食",
+      "発汗過多・暑がり",
+      "甲状腺腫大（びまん性）",
+      "眼球突出・バセドウ眼症（眼瞼後退・複視・視神経障害）",
+    ],
+    causes:
+      "TSH受容体自己抗体（TRAb/TSAb）によるTSH受容体の持続的刺激。遺伝的素因（HLA-DRB1等）＋環境因子（ストレス・ヨウ素過剰・喫煙等）の相互作用。",
+    diagnosis:
+      "TSH低値・FT3/FT4高値・TRAb（TSAb）陽性・甲状腺超音波（血流増加）・シンチグラフィ（99mTc：均一集積亢進）。",
+    treatment:
+      "抗甲状腺薬（チアマゾール・プロピルチオウラシル）・放射性ヨウ素（131I）内用療法・外科（甲状腺亜全摘・全摘）。眼症は眼科連携。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E3%83%90%E3%82%BB%E3%83%89%E3%82%A6%E7%97%85",
+  },
+  {
+    slug: "type1-diabetes",
+    name: "1型糖尿病",
+    nameEn: "Type 1 Diabetes Mellitus",
+    category: "内分泌疾患",
+    categorySlug: "endocrine",
+    overview:
+      "膵β細胞への自己免疫攻撃によりインスリン産生が絶対的に欠乏する疾患。小児〜若年者に多いが成人発症（劇症1型・緩徐進行型）もある。生涯インスリン療法が必要。",
+    symptoms: [
+      "口渇・多飲・多尿",
+      "急激な体重減少",
+      "倦怠感・易疲労感",
+      "糖尿病性ケトアシドーシス（DKA：悪心・嘔吐・腹痛・意識障害）",
+      "低血糖（インスリン治療中）",
+    ],
+    causes:
+      "膵島関連自己抗体（抗GAD抗体・抗IA-2抗体・抗ZnT8抗体・インスリン自己抗体）を伴うβ細胞破壊。HLA-DR4/DR9との関連。劇症1型はウイルス感染が誘因となる場合がある。",
+    diagnosis:
+      "血糖値・HbA1c・血清Cペプチド（著明低値）・膵島関連自己抗体（GAD抗体等）・尿ケトン体。",
+    treatment:
+      "インスリン強化療法（基礎インスリン＋追加インスリン：MDI/CSII）・持続血糖モニタリング（CGM）・人工膵臓システム（AID）。膵島移植・iPS細胞由来β細胞移植の研究が進行中。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=1%E5%9E%8B%E7%B3%96%E5%B0%BF%E7%97%85",
+  },
+  {
+    slug: "cushing-syndrome",
+    name: "クッシング症候群",
+    nameEn: "Cushing's Syndrome",
+    category: "内分泌疾患",
+    categorySlug: "endocrine",
+    overview:
+      "コルチゾール過剰産生による代謝・心血管・骨格系への広範な障害を引き起こす疾患群。下垂体ACTH産生腫瘍（クッシング病）が最多原因。",
+    symptoms: [
+      "中心性肥満・満月様顔貌（moon face）・野牛肩",
+      "皮膚線条（紫紅色：腹部・大腿等）・皮膚菲薄化・易出血性",
+      "糖尿病・高血圧・脂質異常症",
+      "骨粗鬆症・骨折",
+      "筋力低下（近位筋）・精神症状（うつ・認知機能障害）",
+    ],
+    causes:
+      "ACTH依存性：下垂体ACTH産生腫瘍（クッシング病：60〜70%）・異所性ACTH産生腫瘍（小細胞肺癌等）。ACTH非依存性：副腎腺腫・副腎癌・副腎過形成。医原性（ステロイド長期投与）も重要。",
+    diagnosis:
+      "尿中遊離コルチゾール（24時間）・深夜唾液コルチゾール・1mg DST（デキサメタゾン抑制試験）でスクリーニング。原因鑑別にACTH測定・CRH負荷試験・高用量DST・下垂体MRI・下錐体静脈洞サンプリング（IPSS）。",
+    treatment:
+      "下垂体手術（経鼻内視鏡的腫瘍摘出）・副腎手術（副腎腺腫・癌）・放射線治療・副腎皮質ステロイド合成阻害薬（メチラポン・ミトタン・オシロドロスタット）。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E3%82%AF%E3%83%83%E3%82%B7%E3%83%B3%E3%82%B0%E7%97%87%E5%80%99%E7%BE%A4",
+  },
+  {
+    slug: "acromegaly",
+    name: "先端巨大症",
+    nameEn: "Acromegaly",
+    category: "内分泌疾患",
+    categorySlug: "endocrine",
+    overview:
+      "GH産生下垂体腺腫による成長ホルモン（GH）過剰分泌によって生じる疾患。骨格・軟部組織の肥大と糖尿病・高血圧・心血管疾患・睡眠時無呼吸等の全身合併症を引き起こす。",
+    symptoms: [
+      "末端肥大（手・足・鼻・唇・下顎が大きくなる）",
+      "顔貌変化（眉弓突出・鼻・唇肥大・下顎前突）",
+      "関節痛・関節変形",
+      "糖尿病・高血圧・心肥大・心不全",
+      "睡眠時無呼吸症候群・結腸ポリープ（大腸癌リスク増加）",
+    ],
+    causes:
+      "GH産生下垂体腺腫（腺腫内のGSP・AIP・MEN1等の遺伝子変異を伴う例がある）による過剰GH→肝臓でのIGF-1過剰産生が全身作用をもたらす。",
+    diagnosis:
+      "血清IGF-1高値（年齢・性別基準値超）・GH随時値高値・OGTT-GH抑制試験（GH抑制不良）・下垂体MRI（腺腫確認）。",
+    treatment:
+      "経鼻内視鏡的下垂体腫瘍摘出術（第一選択）・ソマトスタチンアナログ（オクトレオチド・ランレオチド：GH/IGF-1抑制）・GH受容体拮抗薬（ペグビソマント：IGF-1正常化）・放射線治療（残存腫瘍）。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E5%85%88%E7%AB%AF%E5%B7%A8%E5%A4%A7%E7%97%87",
+  },
+  {
+    slug: "hashimotos-thyroiditis",
+    name: "橋本病（慢性甲状腺炎）",
+    nameEn: "Hashimoto's Thyroiditis",
+    category: "内分泌疾患",
+    categorySlug: "endocrine",
+    overview:
+      "甲状腺への自己免疫攻撃（抗TPO抗体・抗サイログロブリン抗体）による慢性炎症で、甲状腺機能低下症をきたす最も一般的な自己免疫性甲状腺疾患。女性に圧倒的に多い（男女比1:10〜20）。",
+    symptoms: [
+      "甲状腺機能低下症状（倦怠感・体重増加・浮腫・便秘・寒がり・記憶力低下）",
+      "甲状腺腫大（びまん性・無痛性）",
+      "一過性甲状腺中毒症（橋本甲状腺炎の破壊性甲状腺炎フェーズ）",
+      "不妊・月経不順",
+      "筋力低下・うつ症状",
+    ],
+    causes:
+      "抗TPO抗体（甲状腺ペルオキシダーゼ抗体）・抗サイログロブリン抗体による甲状腺への自己免疫攻撃とリンパ球浸潤による甲状腺組織破壊。遺伝的素因＋環境因子。",
+    diagnosis:
+      "TSH高値（顕性甲状腺機能低下症）またはTSH高値・FT4正常（潜在性甲状腺機能低下症）・抗TPO抗体・抗サイログロブリン抗体陽性・甲状腺超音波（不均一低エコー）。",
+    treatment:
+      "甲状腺機能低下症が顕在化した場合は甲状腺ホルモン（レボチロキシン）補充療法。機能正常例は定期経過観察。妊娠前・妊娠中は厳格な甲状腺機能管理が必要。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?disease=%E6%A9%8B%E6%9C%AC%E7%97%85",
+  },
+
   {
     slug: "systemic-mastocytosis",
     name: "全身性肥満細胞症",
