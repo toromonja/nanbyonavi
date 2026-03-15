@@ -110,8 +110,7 @@ export default function Home() {
             難病・希少疾患の情報ナビ
           </div>
           <h1 className="text-3xl md:text-5xl font-bold text-slate-800 leading-tight mb-4">
-            難病と診断されたあなたへ。<br />
-            <span className="text-indigo-600">必要な情報をわかりやすく。</span>
+            難病と診断されたあなたへ。
           </h1>
           <p className="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
             制度・支援・治験情報をわかりやすくまとめました。<br className="hidden md:block" />
