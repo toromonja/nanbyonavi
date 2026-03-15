@@ -23,7 +23,7 @@ export const diseases: Disease[] = [
     nameEn: "Amyotrophic Lateral Sclerosis",
     nanbyoNumber: 2,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "運動神経が進行性に障害され、全身の筋肉が萎縮していく神経変性疾患。根本的な治療法はまだなく、症状の進行を遅らせる治療が中心。感覚・知性・眼球運動は比較的保たれる。",
     symptoms: [
@@ -51,7 +51,7 @@ export const diseases: Disease[] = [
     nameEn: "Parkinson's Disease",
     nanbyoNumber: 6,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "脳の黒質のドパミン神経細胞が変性・脱落することで生じる神経変性疾患。高齢者に多く、国内推定患者数は約15〜20万人。適切な治療で長期にわたりQOLを維持できる。",
     symptoms: [
@@ -79,7 +79,7 @@ export const diseases: Disease[] = [
     nameEn: "Multiple Sclerosis",
     nanbyoNumber: 13,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "中枢神経系の髄鞘が免疫攻撃により脱髄する疾患。再発と寛解を繰り返すことが多く、若い女性に多い。国内患者数は約1万9千人。",
     symptoms: [
@@ -105,7 +105,7 @@ export const diseases: Disease[] = [
     nameEn: "Myasthenia Gravis",
     nanbyoNumber: 11,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "神経筋接合部のアセチルコリン受容体に対する自己抗体により、筋力低下と易疲労性が生じる自己免疫疾患。眼症状から始まることが多く、全身型に進展する場合もある。",
     symptoms: [
@@ -129,7 +129,7 @@ export const diseases: Disease[] = [
     name: "脊髄性筋萎縮症（SMA）",
     nameEn: "Spinal Muscular Atrophy",
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "脊髄の運動ニューロンが変性する遺伝性疾患。SMN1遺伝子変異による。ゾルゲンスマ（遺伝子治療）・スピンラザ（ASO療法）・エブリスディ（経口薬）の3種の治療薬が利用可能で、早期介入が予後を大きく変える。",
     symptoms: [
@@ -156,7 +156,7 @@ export const diseases: Disease[] = [
     nameEn: "Multiple System Atrophy",
     nanbyoNumber: 17,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "パーキンソン症状・小脳失調・自律神経障害が組み合わさって現れる神経変性疾患。α-シヌクレインが神経細胞に蓄積する。進行は比較的速い。",
     symptoms: [
@@ -183,7 +183,7 @@ export const diseases: Disease[] = [
     nameEn: "Spinocerebellar Degeneration",
     nanbyoNumber: 18,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "小脳・脳幹・脊髄が選択的に障害される神経変性疾患の総称。遺伝性と孤発性に分けられ、30種類以上の遺伝性サブタイプがある。",
     symptoms: [
@@ -208,7 +208,7 @@ export const diseases: Disease[] = [
     nameEn: "Huntington's Disease",
     nanbyoNumber: 8,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "HTT遺伝子内のCAG三核酸反復配列の異常伸長により、不随意運動・精神症状・認知症が進行する神経変性疾患。常染色体優性遺伝で、発症すれば全員が同様の経過をたどる。",
     symptoms: [
@@ -234,7 +234,7 @@ export const diseases: Disease[] = [
     name: "視神経脊髄炎スペクトラム障害（NMOSD）",
     nameEn: "Neuromyelitis Optica Spectrum Disorder",
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "アストロサイトの水チャネル（AQP4）に対する自己抗体により、視神経炎・横断性脊髄炎が重症かつ再発性に生じる自己免疫疾患。多発性硬化症と鑑別が重要。",
     symptoms: [
@@ -258,7 +258,7 @@ export const diseases: Disease[] = [
     nameEn: "Duchenne Muscular Dystrophy",
     nanbyoNumber: 113,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "ジストロフィン遺伝子変異によりジストロフィンが欠損する進行性筋疾患。X染色体劣性遺伝のため男児に発症し、幼児期に筋力低下が始まる。エクソンスキッピング療法など新規治療薬が相次いで登場している。",
     symptoms: [
@@ -372,7 +372,7 @@ export const diseases: Disease[] = [
       "近位筋の筋力低下・筋炎を主体とする自己免疫疾患。皮膚筋炎ではヘリオトロープ疹・Gottron徴候などの特徴的な皮疹を呈する。間質性肺疾患の合併が予後を左右する。",
     symptoms: [
       "近位筋の筋力低下（立ち上がり・腕の挙上困難）",
-      "ヘリオトープ疹（上眼瞼の紫紅色浮腫性紅斑）",
+      "ヘリオトロープ疹（上眼瞼の紫紅色浮腫性紅斑）",
       "Gottron徴候（指関節背面の丘疹・紅斑）",
       "間質性肺疾患（乾性咳嗽・呼吸困難）",
       "嚥下困難・筋肉痛",
@@ -467,7 +467,6 @@ export const diseases: Disease[] = [
       "UDCA治療で多くの患者は進行が抑制される。一部は肝硬変・肝不全に進行し、肝移植の適応となる。",
     jrctSearchUrl:
       "https://jrct.niph.go.jp/search?disease=%E5%8E%9F%E7%99%BA%E6%80%A7%E8%83%86%E6%B1%81%E6%80%A7%E8%83%86%E7%AE%A1%E7%82%8E",
-    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/271",
   },
   {
     slug: "aih",
@@ -584,7 +583,6 @@ export const diseases: Disease[] = [
     slug: "fabry",
     name: "ファブリー病",
     nameEn: "Fabry Disease",
-    nanbyoNumber: 18,
     category: "代謝疾患",
     categorySlug: "metabolic",
     overview:
@@ -602,10 +600,9 @@ export const diseases: Disease[] = [
     diagnosis:
       "酵素活性測定（男性：白血球・血漿）・遺伝子検査（女性では必須）・血漿Lyso-Gb3測定・腎生検（Gb3封入体）。",
     treatment:
-      "酵素補充療法（アガルシダーゼα：ファブラザイム、アガルシダーゼβ：リプレガル）・シャペロン療法（ミガラスタット：特定変異の患者のみ適応）。早期開始が重要。",
+      "酵素補充療法（アガルシダーゼα：リプレガル、アガルシダーゼβ：ファブラザイム）・シャペロン療法（ミガラスタット：特定変異の患者のみ適応）。早期開始が重要。",
     jrctSearchUrl:
       "https://jrct.niph.go.jp/search?disease=%E3%83%95%E3%82%A1%E3%83%96%E3%83%AA%E3%83%BC%E7%97%85",
-    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/231",
   },
   {
     slug: "gaucher",
@@ -832,7 +829,7 @@ export const diseases: Disease[] = [
     nameEn: "Friedreich Ataxia",
     nanbyoNumber: 19,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "FXN遺伝子変異によるGAA三塩基反復拡大が原因の常染色体劣性遺伝性脊髄小脳失調症。若年発症（通常10〜15歳）で進行性。心筋症・糖尿病を合併することが多い。",
     symptoms: [
@@ -861,7 +858,7 @@ export const diseases: Disease[] = [
     nameEn: "Charcot-Marie-Tooth Disease",
     nanbyoNumber: 10,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "末梢神経の遺伝性疾患群の総称で、最も頻度の高い遺伝性末梢神経疾患。PMP22遺伝子重複が最多原因。緩徐に進行するが、多くの場合は歩行能力を長期に維持できる。",
     symptoms: [
@@ -887,7 +884,7 @@ export const diseases: Disease[] = [
     nameEn: "Spinal and Bulbar Muscular Atrophy",
     nanbyoNumber: 3,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "アンドロゲン受容体遺伝子のCAGリピート異常伸長による成人男性に発症するX連鎖性運動ニューロン疾患。Kennedy病とも呼ばれる。30〜50歳代に発症することが多い。",
     symptoms: [
@@ -907,7 +904,6 @@ export const diseases: Disease[] = [
       "ALSと比べて進行が緩徐。多くの患者が発症後20〜30年にわたり歩行能力を維持できる場合もある。",
     jrctSearchUrl:
       "https://jrct.niph.go.jp/search?disease=%E7%90%83%E8%84%8A%E9%AB%84%E6%80%A7%E7%AD%8B%E8%90%8E%E7%B8%AE%E7%97%87",
-    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/216",
   },
   {
     slug: "psp",
@@ -915,7 +911,7 @@ export const diseases: Disease[] = [
     nameEn: "Progressive Supranuclear Palsy",
     nanbyoNumber: 5,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "タウタンパク質の蓄積による神経変性疾患。パーキンソン症候群の一型で、核上性眼球運動障害・姿勢不安定・認知機能障害を特徴とする。パーキンソン病との鑑別が重要。",
     symptoms: [
@@ -935,7 +931,6 @@ export const diseases: Disease[] = [
       "発症後平均5〜9年で死亡。嚥下障害による誤嚥性肺炎が主な死因。",
     jrctSearchUrl:
       "https://jrct.niph.go.jp/search?disease=%E9%80%B2%E8%A1%8C%E6%80%A7%E6%A0%B8%E4%B8%8A%E6%80%A7%E9%BA%BB%E7%97%BA",
-    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/233",
   },
   {
     slug: "cbd",
@@ -943,7 +938,7 @@ export const diseases: Disease[] = [
     nameEn: "Corticobasal Degeneration",
     nanbyoNumber: 7,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "大脳皮質と基底核の神経変性により、高度の運動障害と認知機能障害をきたすタウオパチー。一側上肢の失行や異人手症候群が特徴的だが、臨床像は多様。",
     symptoms: [
@@ -971,7 +966,7 @@ export const diseases: Disease[] = [
     nameEn: "Dementia with Lewy Bodies",
     nanbyoNumber: 78,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "レビー小体の大脳皮質への広範な蓄積による変性疾患。認知機能変動・繰り返す具体的な幻視・パーキンソン症状・REM睡眠行動障害を4大特徴とし、アルツハイマー病に次いで多い認知症。",
     symptoms: [
@@ -997,7 +992,7 @@ export const diseases: Disease[] = [
     nameEn: "Stiff Person Syndrome",
     nanbyoNumber: 136,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "抗グルタミン酸脱炭酸酵素（GAD）抗体等の自己抗体により体幹・四肢の筋強剛と有痛性筋痙攣をきたす希少自己免疫性神経疾患。他の自己免疫疾患（1型糖尿病等）との合併が多い。",
     symptoms: [
@@ -1022,7 +1017,7 @@ export const diseases: Disease[] = [
     nameEn: "Myotonic Dystrophy",
     nanbyoNumber: 116,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "DMPK遺伝子のCTGリピート異常伸長による最も頻度の高い成人発症型筋ジストロフィー。筋強直・筋萎縮に加えて多臓器合併症を伴い、表現予期（世代を経るごとに重症化）がみられる。",
     symptoms: [
@@ -1051,14 +1046,14 @@ export const diseases: Disease[] = [
     nameEn: "Lambert-Eaton Myasthenic Syndrome",
     nanbyoNumber: 12,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "電位依存性カルシウムチャネル（VGCC）に対する自己抗体によるアセチルコリン放出障害をきたす神経筋接合部疾患。悪性腫瘍（小細胞肺癌）合併例と自己免疫例がある。",
     symptoms: [
       "近位筋優位の四肢筋力低下（下肢から始まることが多い）",
       "反復運動で一時的に筋力が改善（Lambert現象）",
       "自律神経症状（口腔乾燥・便秘・起立性低血圧・勃起障害）",
-      "腱反契低下〜消失",
+      "腱反射低下〜消失",
       "眼症状・球症状（重症筋無力症より軽度）",
     ],
     causes:
@@ -1568,7 +1563,7 @@ export const diseases: Disease[] = [
       "フェニルアラニン水酸化酵素（PAH）欠損によりフェニルアラニンが蓄積し、治療しない場合は重度知的障害をきたす先天性アミノ酸代謝異常症。新生児スクリーニング対象疾患で、早期介入で正常発達が可能。",
     symptoms: [
       "治療しない場合：重度知的障害・発達遅滞・てんかん",
-      "マウスのような体臭（フェニルアセチン尿）",
+      "フェニル酢酸による特有の体臭（ネズミ様・カビ様）",
       "皮膚・毛髪・眼の色素減少（メラニン合成低下）",
       "湿疹様皮膚炎",
       "治療中でも神経心理学的問題が残ることがある",
@@ -1652,7 +1647,7 @@ export const diseases: Disease[] = [
       "ニコルスキー現象陰性（天疱瘡との鑑別点）",
     ],
     causes:
-      "抗BP180（XVII型コラーゲン・NCL6A5ドメイン）抗体および抗BP230（ジスプラキン）抗体による表皮下水疱形成。",
+      "抗BP180（XVII型コラーゲン・NC16Aドメイン）抗体および抗BP230（ジスプラキン）抗体による表皮下水疱形成。",
     diagnosis:
       "皮膚生検（表皮下水疱・好酸球浸潤）・直接蛍光抗体法（基底膜帯へのIgG/C3線状沈着）・血清抗BP180抗体ELISA（活動性の指標）。",
     treatment:
@@ -2020,32 +2015,6 @@ export const diseases: Disease[] = [
       "https://jrct.niph.go.jp/search?disease=%E9%81%BA%E4%BC%9D%E6%80%A7%E7%97%99%E6%80%A7%E5%AF%BE%E9%BA%BB%E7%97%BA",
   },
   {
-    slug: "stiff-person",
-    name: "スティッフパーソン症候群",
-    nameEn: "Stiff Person Syndrome",
-    nanbyoNumber: 136,
-    category: "神経・筋疾患",
-    categorySlug: "neuromuscular",
-    overview:
-      "体幹・四肢の進行性筋強剛と有痛性筋痙攣を特徴とする自己免疫性神経疾患。抗GAD65抗体によるGABA作動性抑制性神経伝達障害が主な機序。",
-    symptoms: [
-      "体幹の筋強剛・腰椎前弯増強",
-      "刺激誘発性の有痛性筋痙攣",
-      "歩行障害・転倒",
-      "不安・恐怖感",
-      "自律神経症状（発汗・頻脈）",
-    ],
-    causes:
-      "抗GAD65抗体（80%以上）によるGABA作動性介在ニューロンへの攻撃で抑制性神経伝達が障害される。自己免疫性疾患（1型糖尿病・甲状腺疾患等）との合併が多い。腫瘍随伴性（抗アンフィフィシン抗体）例もある。",
-    diagnosis:
-      "抗GAD抗体測定・筋電図（持続的運動単位活動電位）・臨床症状による診断。腫瘍随伴性除外のため悪性腫瘍の検索も必要。",
-    treatment:
-      "ジアゼパム・バクロフェン（筋強剛・痙攣の緩和）・静注免疫グロブリン（IVIG）・ステロイド・血漿交換・リツキシマブ。",
-    jrctSearchUrl:
-      "https://jrct.niph.go.jp/search?disease=%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%83%95%E3%83%91%E3%83%BC%E3%82%BD%E3%83%B3%E7%97%87%E5%80%99%E7%BE%A4",
-    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/5131",
-  },
-  {
     slug: "multifocal-motor-neuropathy",
     name: "多巣性運動ニューロパチー",
     nameEn: "Multifocal Motor Neuropathy",
@@ -2068,32 +2037,6 @@ export const diseases: Disease[] = [
       "静注免疫グロブリン（IVIG）が第一選択で著効する。維持療法が必要な例が多い。難治例にシクロホスファミド。",
     jrctSearchUrl:
       "https://jrct.niph.go.jp/search?disease=%E5%A4%9A%E5%B7%A3%E6%80%A7%E9%81%8B%E5%8B%95%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%AD%E3%83%91%E3%83%81%E3%83%BC",
-  },
-  {
-    slug: "lewy-body-dementia",
-    name: "レビー小体型認知症",
-    nameEn: "Dementia with Lewy Bodies",
-    nanbyoNumber: 78,
-    category: "神経・筋疾患",
-    categorySlug: "neuromuscular",
-    overview:
-      "αシヌクレインの蓄積（レビー小体）による認知症。パーキンソン病認知症と連続する疾患概念。認知機能の変動・繰り返す幻視・パーキンソン症状の三徴が特徴。",
-    symptoms: [
-      "認知機能の変動（覚醒度・注意の日内変動）",
-      "繰り返す具体的な幻視",
-      "パーキンソン症状（動作緩慢・振戦・固縮）",
-      "REM睡眠行動障害（寝言・寝ぼけ行動）",
-      "自律神経障害（起立性低血圧・便秘）",
-    ],
-    causes:
-      "αシヌクレインの神経細胞内蓄積（レビー小体形成）による神経細胞死。コリン作動性・ドパミン作動性神経が障害される。多くは孤発性。",
-    diagnosis:
-      "McKeith診断基準（2017）。補助的バイオマーカー：DATスキャン（線条体ドパミン取り込み低下）・心臓MIBGシンチ（交感神経障害）・睡眠ポリグラフ（REM睡眠行動障害）。",
-    treatment:
-      "コリンエステラーゼ阻害薬（リバスチグミン・ドネペジル）が認知機能・幻視に有効。抗精神病薬は過敏反応（重篤な副作用）があり原則禁忌。",
-    jrctSearchUrl:
-      "https://jrct.niph.go.jp/search?disease=%E3%83%AC%E3%83%93%E3%83%BC%E5%B0%8F%E4%BD%93%E5%9E%8B%E8%AA%8D%E7%9F%A5%E7%97%87",
-    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/5655",
   },
 
   // ─── 免疫・膠原病（追加バッチ1） ────────────────────────────────
@@ -2222,57 +2165,6 @@ export const diseases: Disease[] = [
       "HLH-94/2004プロトコール（エトポシド・デキサメタゾン・シクロスポリン）。原発性例には同種造血幹細胞移植が唯一の根治療法。EBV関連にはリツキシマブ。",
     jrctSearchUrl:
       "https://jrct.niph.go.jp/search?disease=%E8%A1%80%E7%90%83%E8%B2%AA%E9%A3%9F%E6%80%A7%E3%83%AA%E3%83%B3%E3%83%91%E7%B5%84%E7%B9%94%E7%90%83%E7%97%87",
-  },
-  {
-    slug: "antiphospholipid-syndrome",
-    name: "抗リン脂質抗体症候群",
-    nameEn: "Antiphospholipid Syndrome",
-    nanbyoNumber: 48,
-    category: "免疫・膠原病",
-    categorySlug: "immune",
-    overview:
-      "抗リン脂質抗体（ループスアンチコアグラント・抗カルジオリピン抗体・抗β2GPI抗体）の持続陽性に伴い、動静脈血栓症や妊娠合併症をきたす自己免疫疾患。SLEに合併する続発性と、単独の原発性がある。",
-    symptoms: [
-      "深部静脈血栓症・肺塞栓症",
-      "脳梗塞・TIA（若年者の脳血管障害）",
-      "習慣性流産・死産・早産",
-      "血小板減少・網状皮斑",
-      "カタストロフィック抗リン脂質抗体症候群（CAPS：多臓器血栓症・急速進行）",
-    ],
-    causes:
-      "抗カルジオリピン抗体・ループスアンチコアグラント・抗β2GPI抗体が凝固系・内皮・血小板に作用し血栓形成促進状態をきたす。",
-    diagnosis:
-      "血栓症または妊娠合併症の臨床基準＋抗リン脂質抗体（12週以上の間隔をあけた2回以上の陽性）によるSapporo/Sydney基準。",
-    treatment:
-      "血栓症例：ワルファリン長期抗凝固療法（INR 2.0〜3.0）。妊娠例：低用量アスピリン＋ヘパリン。CAPS：多剤免疫療法（ステロイド・IVIG・血漿交換・リツキシマブ）。",
-    jrctSearchUrl:
-      "https://jrct.niph.go.jp/search?disease=%E6%8A%97%E3%83%AA%E3%83%B3%E8%84%82%E8%B3%AA%E6%8A%97%E4%BD%93%E7%97%87%E5%80%99%E7%BE%A4",
-  },
-  {
-    slug: "adult-stills",
-    name: "成人スティル病",
-    nameEn: "Adult-onset Still's Disease",
-    nanbyoNumber: 44,
-    category: "免疫・膠原病",
-    categorySlug: "immune",
-    overview:
-      "弛張熱・関節炎・サーモンピンク色の一過性皮疹・高フェリチン血症を特徴とする全身性自己炎症性疾患。IL-1β・IL-18・IL-6等のサイトカインが病態に関与する。",
-    symptoms: [
-      "弛張熱（39℃以上：夕方〜夜に出現し解熱）",
-      "サーモンピンク色の一過性皮疹（発熱時に出現）",
-      "関節炎・関節痛",
-      "咽頭痛・リンパ節腫脹・肝脾腫",
-      "高フェリチン血症（>1000ng/mL）",
-    ],
-    causes:
-      "IL-1β・IL-18・IL-6等の自然免疫系サイトカインの過剰産生による自己炎症。感染（ウイルス等）が誘因となる場合がある。",
-    diagnosis:
-      "山口基準（Yamaguchi criteria：大基準4項目・小基準4項目）。感染症・悪性腫瘍・他の自己免疫疾患の除外が必須。",
-    treatment:
-      "NSAIDs・ステロイド（中等症〜重症）・IL-1受容体拮抗薬（アナキンラ）・IL-6阻害薬（トシリズマブ）・メトトレキサート（慢性関節型）。",
-    jrctSearchUrl:
-      "https://jrct.niph.go.jp/search?disease=%E6%88%90%E4%BA%BA%E3%82%B9%E3%83%86%E3%82%A3%E3%83%AB%E7%97%85",
-    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/323",
   },
 
   // ─── 呼吸器疾患（追加バッチ1） ────────────────────────────────
@@ -2436,7 +2328,6 @@ export const diseases: Disease[] = [
     slug: "adpkd",
     name: "常染色体優性多発性嚢胞腎（ADPKD）",
     nameEn: "Autosomal Dominant Polycystic Kidney Disease",
-    nanbyoNumber: 67,
     category: "腎・泌尿器疾患",
     categorySlug: "renal",
     overview:
@@ -2532,7 +2423,6 @@ export const diseases: Disease[] = [
       "根治療法なし。ビタミンA棕榈酸エステル補充（進行緩徐化の可能性）・遮光眼鏡・低視力支援（ルーペ・拡大読書器）。遺伝子治療研究（RPE65変異型には承認済み）・人工網膜研究が進行中。",
     jrctSearchUrl:
       "https://jrct.niph.go.jp/search?disease=%E7%B6%B2%E8%86%9C%E8%89%B2%E7%B4%A0%E5%A4%89%E6%80%A7%E7%97%87",
-    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/271",
   },
   {
     slug: "stargardt-disease",
@@ -2809,34 +2699,6 @@ export const diseases: Disease[] = [
       "https://jrct.niph.go.jp/search?query=Cardiac+Amyloidosis",
   },
   {
-    slug: "takayasu-arteritis",
-    name: "大動脈炎症候群（高安動脈炎）",
-    nameEn: "Takayasu Arteritis",
-    nanbyoNumber: 40,
-    category: "心・血管疾患",
-    categorySlug: "cardiovascular",
-    overview:
-      "大動脈とその主要分枝に肉芽腫性炎症が生じる大型血管炎。若い女性に多く、狭窄・閉塞・動脈瘤を来す。脈なし病とも呼ばれ、上肢の脈拍が触れないことがある。",
-    symptoms: [
-      "上肢の脈拍消失・左右差",
-      "上肢血圧の左右差（10mmHg以上）",
-      "頭部虚血症状（頭痛・めまい・失神）",
-      "高血圧（腎動脈病変）",
-      "炎症症状（発熱・倦怠感・筋痛）",
-    ],
-    causes:
-      "自己免疫機序による大型血管壁の炎症。HLA-B52との関連が日本人で強い。T細胞・マクロファージによる肉芽腫形成が血管壁を障害する。",
-    diagnosis:
-      "ACR/EULAR分類基準（2022年）。造影CT・MRA・PET-CTで血管病変を評価。炎症マーカー（CRP・ESR）・血管造影（確定診断）。",
-    treatment:
-      "ステロイド（初期治療の基本）。再発例・難治例にメトトレキサート・アザチオプリン・抗TNFα薬（インフリキシマブ）・抗IL-6受容体抗体（トシリズマブ）。血管病変にはインターベンション（PTA・ステント・バイパス術）。",
-    prognosis:
-      "再発率が高く（約40〜60%）長期管理が必要。視力障害・脳卒中・心不全などの臓器障害が予後に影響。",
-    jrctSearchUrl:
-      "https://jrct.niph.go.jp/search?query=Takayasu+Arteritis",
-    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/217",
-  },
-  {
     slug: "congenital-heart-disease-adult",
     name: "成人先天性心疾患",
     nameEn: "Adult Congenital Heart Disease",
@@ -2945,34 +2807,6 @@ export const diseases: Disease[] = [
     jrctSearchUrl:
       "https://jrct.niph.go.jp/search?query=Subacute+Sclerosing+Panencephalitis",
     nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/307",
-  },
-  {
-    slug: "spinal-muscular-atrophy-adult",
-    name: "球脊髄性筋萎縮症（SBMA/ケネディ病）",
-    nameEn: "Spinal and Bulbar Muscular Atrophy",
-    nanbyoNumber: 3,
-    category: "神経・筋疾患",
-    categorySlug: "neuromuscular",
-    overview:
-      "アンドロゲン受容体遺伝子のCAGリピート伸長による成人発症のX連鎖性神経変性疾患。中年男性に顔面・舌・四肢の筋萎縮・筋力低下が生じる。女性保因者は軽症または無症状。",
-    symptoms: [
-      "四肢近位筋の筋力低下・筋萎縮",
-      "球麻痺（嚥下困難・構音障害・舌萎縮）",
-      "線維束性収縮（筋肉のピクつき）",
-      "女性化乳房・精巣萎縮（アンドロゲン不応性）",
-      "感覚障害（感覚神経障害を伴う）",
-    ],
-    causes:
-      "アンドロゲン受容体（AR）遺伝子エクソン1のCAGリピート数が38以上に伸長することで、ポリグルタミン鎖を持つ異常ARが神経細胞に蓄積し毒性を発揮する。",
-    diagnosis:
-      "遺伝子検査（AR遺伝子CAGリピート数測定）で確定診断。針筋電図（慢性神経原性変化）・神経伝導検査（感覚神経障害）・血清CK上昇・血清テストステロン値。",
-    treatment:
-      "根本治療なし。テストステロン低下療法（酢酸リュープロレリン）が一部の患者で症状進行抑制の可能性（国内臨床試験実施）。嚥下リハビリ・呼吸管理・栄養管理。",
-    prognosis:
-      "ALS等に比べ進行は緩徐。多くは60〜70代まで生存するが、嚥下障害・肺炎が予後に影響。",
-    jrctSearchUrl:
-      "https://jrct.niph.go.jp/search?query=Spinal+Bulbar+Muscular+Atrophy",
-    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/5185",
   },
 
   // ─── 代謝・遺伝疾患（追加分） ────────────────────────────────
@@ -4308,7 +4142,7 @@ export const diseases: Disease[] = [
     name: "進行性多巣性白質脳症",
     nameEn: "Progressive Multifocal Leukoencephalopathy",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "JCウイルス（JCV）の再活性化による脱髄性疾患。免疫抑制状態（HIV感染・血液悪性腫瘍・免疫抑制薬使用）で発症し、脳白質に多発性脱髄病変を生じる。進行が速く、重篤な神経障害をきたす。",
     symptoms: [
@@ -4335,7 +4169,7 @@ export const diseases: Disease[] = [
     name: "急性散在性脳脊髄炎",
     nameEn: "Acute Disseminated Encephalomyelitis",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "感染症またはワクチン接種後に誘発される免疫介在性の多発性脱髄疾患。主に小児に多く、脳・脊髄の白質に広範な炎症性脱髄病変を生じる。通常は単相性だが再発型もある。",
     symptoms: [
@@ -4364,7 +4198,7 @@ export const diseases: Disease[] = [
     nameEn: "Anti-NMDA Receptor Encephalitis",
     nanbyoNumber: 127,
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "NMDA型グルタミン酸受容体に対する自己抗体（抗GluN1抗体）が産生される自己免疫性脳炎。若年女性に多く、卵巣奇形腫の合併が約半数にみられる。精神症状から始まり急速に重篤な神経症状をきたす。",
     symptoms: [
@@ -4392,7 +4226,7 @@ export const diseases: Disease[] = [
     name: "ラスムッセン脳炎",
     nameEn: "Rasmussen Encephalitis",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "主に小児に発症する一側大脳半球の慢性進行性炎症疾患。難治性焦点性てんかん（持続部分てんかん）と一側性の大脳萎縮を特徴とする。原因不明の自己免疫性疾患と考えられる。",
     symptoms: [
@@ -4419,7 +4253,7 @@ export const diseases: Disease[] = [
     name: "アレキサンダー病",
     nameEn: "Alexander Disease",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "グリア繊維性酸性蛋白（GFAP）遺伝子の変異による希少なアストロサイト疾患。前頭部優位の白質変性と、ローゼンタール線維（アストロサイト内封入体）蓄積を特徴とする白質ジストロフィー。",
     symptoms: [
@@ -4446,7 +4280,7 @@ export const diseases: Disease[] = [
     name: "カナバン病",
     nameEn: "Canavan Disease",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "アスパルトアシラーゼ（ASPA）欠乏によるN-アセチルアスパラギン酸（NAA）の蓄積を特徴とする白質ジストロフィー。アシュケナージ系ユダヤ人に多い常染色体劣性遺伝疾患。",
     symptoms: [
@@ -4473,7 +4307,7 @@ export const diseases: Disease[] = [
     name: "レフサム病",
     nameEn: "Refsum Disease",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "フィタン酸水酸化酵素（PHYH）またはPEX7遺伝子変異によりフィタン酸の代謝が障害され、組織に蓄積する常染色体劣性ペルオキシソーム病。網膜色素変性・末梢神経障害・小脳失調の三徴が特徴。",
     symptoms: [
@@ -4501,9 +4335,8 @@ export const diseases: Disease[] = [
     slug: "pls",
     name: "原発性側索硬化症",
     nameEn: "Primary Lateral Sclerosis",
-    nanbyoNumber: 3,
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "上位運動ニューロン（皮質脊髄路・皮質延髄路）のみが選択的に変性する希少疾患。ALSと異なり下位運動ニューロンは障害されない。非常に緩徐進行で生命予後は比較的良好。",
     symptoms: [
@@ -5470,7 +5303,6 @@ export const diseases: Disease[] = [
     slug: "niemann-pick-type-c",
     name: "ニーマン・ピック病C型",
     nameEn: "Niemann-Pick Disease Type C",
-    nanbyoNumber: 8,
     category: "代謝・遺伝疾患",
     categorySlug: "metabolic_genetic",
     overview:
@@ -5554,7 +5386,6 @@ export const diseases: Disease[] = [
     slug: "x-adrenoleukodystrophy",
     name: "副腎白質ジストロフィー",
     nameEn: "X-linked Adrenoleukodystrophy",
-    nanbyoNumber: 13,
     category: "代謝・遺伝疾患",
     categorySlug: "metabolic_genetic",
     overview:
@@ -5637,7 +5468,7 @@ export const diseases: Disease[] = [
     nameEn: "Progressive Myoclonic Epilepsy",
     nanbyoNumber: 136,
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "ミオクローヌス・全般てんかん発作・神経変性（小脳失調・認知症等）を三主徴とする遺伝性疾患群。ラフォラ病・ウンフェルリヒト・ルンドボルク病・MERRF症候群・ニーマン・ピック病C型等が含まれる。",
     symptoms: [
@@ -5691,7 +5522,7 @@ export const diseases: Disease[] = [
     name: "脊髄梗塞",
     nameEn: "Spinal Cord Infarction",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "脊髄を栄養する血管の閉塞または解離による脊髄虚血性疾患。突然発症の対麻痺・感覚障害・膀胱直腸障害を呈する希少な脊髄疾患。大動脈手術・解離・塞栓症が主因。",
     symptoms: [
@@ -5717,7 +5548,7 @@ export const diseases: Disease[] = [
     name: "封入体筋炎",
     nameEn: "Inclusion Body Myositis",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "50歳以上の成人に好発する、ゆっくり進行する炎症性筋疾患。手指屈筋・大腿四頭筋の筋力低下と萎縮が特徴で、嚥下障害を合併することが多い。免疫抑制療法への反応が乏しく、現在有効な治療法が確立されていない。",
     symptoms: [
@@ -5740,41 +5571,12 @@ export const diseases: Disease[] = [
       "https://jrct.niph.go.jp/search?query=Inclusion+Body+Myositis",
   },
   {
-    slug: "msa-c",
-    name: "多系統萎縮症・小脳型（MSA-C）",
-    nameEn: "Multiple System Atrophy - Cerebellar Type",
-    nanbyoNumber: 17,
-    category: "神経・筋疾患",
-    categorySlug: "neurological",
-    overview:
-      "多系統萎縮症（MSA）のうち小脳性運動失調が主症状のサブタイプ。自律神経障害（起立性低血圧・排尿障害）を必ず伴い、パーキンソニズムより小脳症状が前景に立つ。オリーブ橋小脳萎縮症（OPCA）とも呼ばれた。日本人に比較的多い。",
-    symptoms: [
-      "小脳性運動失調（歩行失調・四肢失調・構音障害）",
-      "起立性低血圧（立ちくらみ・失神）",
-      "排尿障害（尿失禁・残尿・頻尿）",
-      "構音障害・嚥下障害",
-      "REM睡眠行動障害",
-      "パーキンソニズム（軽度）",
-    ],
-    causes:
-      "α-シヌクレイン（αSyn）がオリゴデンドロサイトに蓄積（グリア細胞質封入体：GCI）し、脳幹・小脳・脊髄の神経細胞変性を引き起こす。孤発性で遺伝因子は特定されていない。",
-    diagnosis:
-      "臨床診断基準（Gilman 2008）：自律神経障害＋小脳性運動失調（±パーキンソニズム）。MRI（橋・小脳萎縮、hot cross bun sign）。脳血流SPECT。自律神経機能検査。確定診断は剖検による病理（GCI）。",
-    treatment:
-      "根本治療なし。対症療法：起立性低血圧（弾性ストッキング・フルドロコルチゾン・ミドドリン）、排尿障害（抗コリン薬・間欠自己導尿）、リハビリテーション。",
-    prognosis:
-      "発症から平均6〜9年で死亡。嚥下障害・呼吸障害・誤嚥性肺炎が主な死因。",
-    jrctSearchUrl:
-      "https://jrct.niph.go.jp/search?query=Multiple+System+Atrophy+Cerebellar",
-    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/214",
-  },
-  {
     slug: "drpla",
     name: "歯状核赤核淡蒼球ルイ体萎縮症（DRPLA）",
     nameEn: "Dentatorubral-Pallidoluysian Atrophy",
     nanbyoNumber: 20,
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "ATN1遺伝子のCAGリピート伸長による常染色体優性の神経変性疾患。小脳性運動失調・ミオクローヌス・てんかん・舞踏病・認知症を呈し、発症年齢によって症状が異なる。日本人に比較的多い希少疾患。",
     symptoms: [
@@ -5802,7 +5604,7 @@ export const diseases: Disease[] = [
     nameEn: "Machado-Joseph Disease / SCA3",
     nanbyoNumber: 18,
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "ATXN3遺伝子のCAGリピート伸長による常染色体優性の脊髄小脳変性症。世界で最も頻度の高い遺伝性脊髄小脳変性症の一つ。小脳性運動失調・眼球運動障害・錐体外路症状・末梢神経障害を呈する。",
     symptoms: [
@@ -5830,7 +5632,7 @@ export const diseases: Disease[] = [
     name: "遺伝性圧迫性末梢神経障害（HNPP）",
     nameEn: "Hereditary Neuropathy with Liability to Pressure Palsies",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "PMP22遺伝子の欠失または変異による常染色体優性の末梢神経疾患。軽微な圧迫や伸展で反復性の単神経麻痺を来す。シャルコー・マリー・トゥース病1A型とは対照的に、PMP22の1コピー欠失が原因。",
     symptoms: [
@@ -5856,7 +5658,7 @@ export const diseases: Disease[] = [
     name: "ポストポリオ症候群",
     nameEn: "Post-Polio Syndrome",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "急性ポリオ（灰白髄炎）から数十年後に、一旦安定していた機能が再び低下する症候群。疲労・筋力低下・疼痛・呼吸障害が主症状。ポリオ生存者の約25〜40%に発症すると言われる。",
     symptoms: [
@@ -5883,7 +5685,7 @@ export const diseases: Disease[] = [
     nameEn: "Spinocerebellar Ataxia Type 1",
     nanbyoNumber: 18,
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "ATXN1遺伝子のCAGリピート伸長による常染色体優性の脊髄小脳変性症。小脳性運動失調に加え、錐体路症状・眼球運動障害・嚥下障害が初期から出現しやすく、比較的進行が速い。",
     symptoms: [
@@ -5911,7 +5713,7 @@ export const diseases: Disease[] = [
     nameEn: "Spinocerebellar Ataxia Type 2",
     nanbyoNumber: 18,
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "ATXN2遺伝子のCAGリピート伸長による常染色体優性の脊髄小脳変性症。緩徐な眼球運動（サッケード低下）と末梢神経障害が特徴的で、パーキンソニズムを呈することもある。",
     symptoms: [
@@ -5938,7 +5740,7 @@ export const diseases: Disease[] = [
     nameEn: "Spinocerebellar Ataxia Type 6",
     nanbyoNumber: 18,
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "CACNA1A遺伝子のCAGリピート伸長による常染色体優性の脊髄小脳変性症。比較的高齢発症（平均50歳代）で純粋小脳型運動失調を呈し、自律神経障害や認知症は少ない。進行は比較的緩徐。",
     symptoms: [
@@ -5964,7 +5766,7 @@ export const diseases: Disease[] = [
     nameEn: "Spinocerebellar Ataxia Type 7",
     nanbyoNumber: 18,
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "ATXN7遺伝子のCAGリピート伸長による常染色体優性の脊髄小脳変性症。小脳性運動失調に加え、網膜変性（視力低下・色覚異常）が特徴的で、失明に至ることもある。若年発症例は進行が速い。",
     symptoms: [
@@ -7027,7 +6829,7 @@ export const diseases: Disease[] = [
     name: "オリーブ橋小脳萎縮症",
     nameEn: "Olivopontocerebellar Atrophy",
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "小脳・橋・下オリーブ核が進行性に萎縮する神経変性疾患。多系統萎縮症の一亜型としても位置づけられ、小脳性運動失調を主体とし、自律神経障害・パーキンソン症状を合併することが多い。",
     symptoms: [
@@ -7053,7 +6855,7 @@ export const diseases: Disease[] = [
     name: "球脊髄性筋萎縮症（延髄麻痺）",
     nameEn: "Progressive Bulbar Palsy",
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "延髄の運動ニューロンが選択的に障害され、構音障害・嚥下困難・舌萎縮を主症状とする疾患。ALSの一亜型または独立した疾患として扱われ、進行性に呼吸障害へ至る。",
     symptoms: [
@@ -7080,7 +6882,7 @@ export const diseases: Disease[] = [
     nameEn: "Dravet Syndrome",
     nanbyoNumber: 145,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "生後1年以内に発症する難治性てんかんで、SCN1A遺伝子変異が主な原因。発熱に誘発される重篤な痙攣発作から始まり、多彩な発作型・知的障害・自閉的傾向を呈する。",
     symptoms: [
@@ -7105,9 +6907,8 @@ export const diseases: Disease[] = [
     slug: "cerebrotendinous-xanthomatosis",
     name: "脳腱黄色腫症",
     nameEn: "Cerebrotendinous Xanthomatosis",
-    nanbyoNumber: 8,
     category: "神経・筋疾患",
-    categorySlug: "neuro",
+    categorySlug: "neuromuscular",
     overview:
       "CYP27A1遺伝子変異による胆汁酸合成障害で、コレスタノールが神経・腱・水晶体に蓄積する遺伝性脂質代謝異常症。若年から白内障・腱黄色腫が現れ、成人期に進行性神経症状を呈する。",
     symptoms: [
@@ -8231,7 +8032,7 @@ export const diseases: Disease[] = [
     nameEn: "Fukuyama Congenital Muscular Dystrophy",
     nanbyoNumber: 112,
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "フクチン遺伝子（FKTN）の変異により生じる常染色体劣性遺伝の先天性筋ジストロフィー。日本人に多く、筋力低下・関節拘縮とともに脳奇形（鵞卵石様脳回異常）・重度知的障害・てんかんを合併する。生後早期より筋緊張低下が顕著で、独歩不能例が多い。",
     symptoms: ["筋緊張低下", "筋力低下", "関節拘縮", "脳奇形", "重度知的障害", "てんかん", "眼異常（網膜剥離）"],
@@ -8248,7 +8049,7 @@ export const diseases: Disease[] = [
     nameEn: "Emery-Dreifuss Muscular Dystrophy",
     nanbyoNumber: 113,
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "エメリン遺伝子またはLMNA遺伝子変異により生じる筋ジストロフィー。早期の関節拘縮（肘・足首・頸部）、緩徐進行性の筋萎縮・筋力低下、そして致死的な心筋症・刺激伝導障害を三徴とする。突然死のリスクが高く、心臓管理が最重要。",
     symptoms: ["早期関節拘縮", "筋力低下", "心房細動", "刺激伝導障害", "突然死リスク", "心筋症"],
@@ -8265,7 +8066,7 @@ export const diseases: Disease[] = [
     nameEn: "Limb-Girdle Muscular Dystrophy",
     nanbyoNumber: 114,
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "肩帯・骨盤帯を中心とした筋萎縮・筋力低下を呈する遺伝性筋疾患群の総称。30以上のサブタイプが存在し、常染色体優性（LGMD1型）と劣性（LGMD2型）に分類される。発症年齢・進行速度・心肺合併症の有無はサブタイプにより大きく異なる。",
     symptoms: ["肩帯筋力低下", "骨盤帯筋力低下", "歩行障害", "階段昇降困難", "心筋症（一部）", "呼吸障害（一部）"],
@@ -8282,7 +8083,7 @@ export const diseases: Disease[] = [
     nameEn: "Congenital Myasthenic Syndrome",
     nanbyoNumber: 115,
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "神経筋接合部の遺伝的機能異常により生じる疾患群。自己免疫機序ではなく遺伝子変異が原因で、アセチルコリン受容体サブユニット・コリンエステラーゼ・シナプス前膜タンパクなど多様な遺伝子が関与する。眼症状・易疲労性・呼吸障害を呈する。",
     symptoms: ["眼瞼下垂", "外眼筋麻痺", "易疲労性", "四肢筋力低下", "呼吸困難", "嚥下障害"],
@@ -8298,7 +8099,7 @@ export const diseases: Disease[] = [
     name: "眼咽頭型筋ジストロフィー",
     nameEn: "Oculopharyngeal Muscular Dystrophy",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "PABPN1遺伝子のGCG三塩基繰り返し伸長により生じる常染色体優性遺伝の筋ジストロフィー。中年以降に発症し、眼瞼下垂と嚥下障害を主徴とする。進行すると外眼筋麻痺・四肢近位筋の筋力低下も出現する。誤嚥性肺炎が予後を左右する。",
     symptoms: ["眼瞼下垂", "嚥下障害", "外眼筋麻痺", "近位筋力低下", "誤嚥", "構音障害"],
@@ -8314,7 +8115,7 @@ export const diseases: Disease[] = [
     nameEn: "Miyoshi Myopathy",
     nanbyoNumber: 116,
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "ジスフェリン遺伝子（DYSF）変異による常染色体劣性遺伝の遠位型ミオパチー。10〜30歳代に下腿後面筋（腓腹筋・ヒラメ筋）の萎縮・筋力低下で発症し、CKが著明高値を示す。徐々に近位筋にも波及し、歩行障害が進行する。",
     symptoms: ["下腿後面筋力低下", "足首背屈困難", "CK著明高値", "歩行障害", "近位筋力低下（後期）"],
@@ -8331,7 +8132,7 @@ export const diseases: Disease[] = [
     nameEn: "Hypokalemic Periodic Paralysis",
     nanbyoNumber: 117,
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "発作性の低カリウム血症に伴う四肢弛緩性麻痺を呈する疾患。CACNA1S・SCN4A遺伝子変異による一次性（家族性）と、甲状腺機能亢進症・腎疾患などによる二次性がある。睡眠・食事・運動後に発作が誘発されやすい。",
     symptoms: ["発作性四肢麻痺", "低カリウム血症", "筋痛", "呼吸困難（重症）", "不整脈"],
@@ -8346,7 +8147,6 @@ export const diseases: Disease[] = [
     slug: "congenital-adrenal-hyperplasia",
     name: "先天性副腎過形成（21水酸化酵素欠損症）",
     nameEn: "Congenital Adrenal Hyperplasia",
-    nanbyoNumber: 48,
     category: "代謝・遺伝疾患",
     categorySlug: "metabolic",
     overview:
@@ -9044,7 +8844,7 @@ export const diseases: Disease[] = [
     name: "アイザックス症候群（神経筋強直症）",
     nameEn: "Isaacs Syndrome (Neuromyotonia)",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "末梢神経の過剰興奮により筋肉が持続的に収縮・弛緩を繰り返す自己免疫性神経疾患。抗CASPR2抗体や抗LGI1抗体が関与することが多く、筋硬直・筋痙攣・発汗過多・筋線維束攣縮を特徴とする。中年男性に多く、胸腺腫や悪性腫瘍との関連も報告されている。",
     symptoms: ["筋硬直・筋強直", "持続する筋線維束攣縮（ミオキミア）", "筋痙攣", "発汗過多", "体重減少", "不眠"],
@@ -9059,7 +8859,7 @@ export const diseases: Disease[] = [
     name: "モールバン症候群",
     nameEn: "Morvan Syndrome",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "神経筋強直症（ニューロミオトニア）に中枢神経症状（幻覚・不眠・自律神経障害・認知機能低下）を合併する稀な自己免疫性脳炎。抗CASPR2抗体が高頻度に陽性で、胸腺腫との関連が強い。アイザックス症候群の中枢型ともいえる疾患。",
     symptoms: ["高度な不眠（無睡眠に近い）", "幻覚", "筋強直・ミオキミア", "自律神経障害（発汗・血圧変動）", "認知機能低下", "疼痛"],
@@ -9074,7 +8874,7 @@ export const diseases: Disease[] = [
     name: "神経有棘赤血球症",
     nameEn: "Neuroacanthocytosis",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "末梢血に有棘赤血球（アカントサイト）が出現し、基底核変性による不随意運動・認知機能低下・神経精神症状を呈する遺伝性神経変性疾患群。コレア・アカントサイトーシス（VPS13A遺伝子変異）とマクロード症候群（XK遺伝子変異）が代表的。",
     symptoms: ["口周囲・四肢の舞踏運動", "ジストニア", "筋萎縮", "神経精神症状（強迫・衝動制御障害）", "嚥下障害", "てんかん"],
@@ -9091,7 +8891,7 @@ export const diseases: Disease[] = [
     nameEn: "Neuronal Ceroid Lipofuscinosis",
     nanbyoNumber: 218,
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "リソソームに蛍光性リポ色素（セロイドリポフスチン）が蓄積する遺伝性神経変性疾患群。CLN1〜CLN14など14種以上の遺伝子変異が原因で、小児期から成人期にかけて発症し、進行性の視力障害・認知機能低下・てんかん・運動機能低下を来す。",
     symptoms: ["進行性視力低下・失明", "てんかん発作", "認知機能低下・認知症", "運動機能低下・失調", "行動異常"],
@@ -9107,7 +8907,7 @@ export const diseases: Disease[] = [
     name: "慢性進行性外眼筋麻痺",
     nameEn: "Chronic Progressive External Ophthalmoplegia",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "ミトコンドリアDNA欠失・点変異により外眼筋が進行性に麻痺する疾患。眼瞼下垂と眼球運動障害が主徴で、四肢筋力低下・網膜色素変性・伝導障害（カーンズ・セイヤー症候群）を合併する場合がある。散発例と遺伝例（核DNA変異）が存在する。",
     symptoms: ["両側眼瞼下垂", "眼球運動障害（複視は少ない）", "四肢筋力低下", "嚥下障害", "運動耐容能低下"],
@@ -9123,7 +8923,7 @@ export const diseases: Disease[] = [
     nameEn: "Kearns-Sayre Syndrome",
     nanbyoNumber: 21,
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "20歳以前に発症し、慢性進行性外眼筋麻痺・網膜色素変性・心伝導障害の三徴を示すミトコンドリア病。ミトコンドリアDNAの大欠失（1〜8kb）が原因で散発性に発症する。小脳失調・感音難聴・内分泌異常・認知機能低下を合併することも多い。",
     symptoms: ["眼瞼下垂・眼球運動障害", "網膜色素変性による夜盲・視野狭窄", "心ブロック（突然死リスク）", "小脳性失調", "感音難聴", "低身長・内分泌障害"],
@@ -9139,7 +8939,7 @@ export const diseases: Disease[] = [
     name: "ニューロメラニン欠乏ジストニア（NBIA）",
     nameEn: "Neurodegeneration with Brain Iron Accumulation",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "脳内（特に淡蒼球・黒質）への鉄蓄積を特徴とする遺伝性神経変性疾患群。PKAN（PANK2変異）が最多で、進行性のジストニア・パーキンソニズム・錐体路徴候・網膜色素変性を呈する。MRIで「目の中の虎（eye of the tiger）サイン」が特徴的。",
     symptoms: ["ジストニア（四肢・体幹・口周囲）", "パーキンソニズム", "錐体路徴候（痙縮・腱反射亢進）", "網膜色素変性", "神経精神症状", "構音障害"],
@@ -9543,23 +9343,6 @@ export const diseases: Disease[] = [
   },
   // ===== 心・血管疾患 =====
   {
-    slug: "hht-hereditary",
-    name: "遺伝性出血性毛細血管拡張症（HHT）",
-    nameEn: "Hereditary Hemorrhagic Telangiectasia",
-    nanbyoNumber: 227,
-    category: "心・血管疾患",
-    categorySlug: "cardiovascular",
-    overview:
-      "ENG・ACVRL1・SMAD4遺伝子変異による常染色体優性遺伝の血管奇形疾患。鼻出血・皮膚粘膜の毛細血管拡張症・内臓動静脈奇形（肺・肝・脳・消化管）を特徴とする。内臓AVM（動静脈奇形）による出血・右左短絡が生命を脅かす。",
-    symptoms: ["反復する鼻出血（ほぼ全例）", "皮膚・口唇・手指の毛細血管拡張症", "肺動静脈奇形（血栓性脳梗塞・喀血）", "脳動静脈奇形（頭蓋内出血）", "肝動静脈奇形（心不全・肝硬変）", "消化管出血"],
-    causes: "ENG（HHT1型）・ACVRL1（HHT2型）・SMAD4（HHT/若年性ポリポーシス合併型）遺伝子の常染色体優性変異。",
-    diagnosis: "キュラソー基準（鼻出血・毛細血管拡張症・内臓AVM・家族歴）3項目以上で確定診断。遺伝子検査。",
-    treatment: "鼻出血にレーザー焼灼・ベバシズマブ点鼻・全身投与。肺・脳・肝AVMにコイル塞栓術・外科切除。",
-    prognosis: "適切なAVM管理により生命予後は改善。未治療の肺AVM（脳塞栓・喀血）・脳AVM（頭蓋内出血）が主要死因。",
-    jrctSearchUrl: "https://jrct.niph.go.jp/search?query=Hereditary+Hemorrhagic+Telangiectasia",
-    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/227",
-  },
-  {
     slug: "leopard-syndrome",
     name: "レオパード症候群（多発性黒子症候群）",
     nameEn: "LEOPARD Syndrome",
@@ -9721,7 +9504,7 @@ export const diseases: Disease[] = [
     name: "多巣性運動ニューロパチー（MMN）",
     nameEn: "Multifocal Motor Neuropathy",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "多発単神経炎の分布を示す純粋な運動性末梢神経障害。抗GM1 IgM抗体が陽性のことが多く、神経伝導検査で局所的な伝導ブロックを認める。筋萎縮性側索硬化症（ALS）との鑑別が重要で、免疫グロブリン大量静注療法（IVIG）が有効な免疫介在性疾患。",
     symptoms: ["非対称性の上肢遠位筋力低下・筋萎縮", "筋線維束攣縮", "感覚障害なし（純粋運動性）", "手指の巧緻運動障害", "腱反射低下〜消失"],
@@ -9736,7 +9519,7 @@ export const diseases: Disease[] = [
     name: "進行性核上性麻痺（PSP）追記版",
     nameEn: "Progressive Supranuclear Palsy Detailed",
     category: "神経・筋疾患",
-    categorySlug: "neurological",
+    categorySlug: "neuromuscular",
     overview:
       "垂直方向の核上性眼球運動障害・姿勢保持障害・軸性筋硬直・認知機能低下を特徴とするタウオパチー（4R-tau）。既存のslug 'psp'と区別するため詳細情報として記載。Richardson症候群（典型型）とPSP-P（パーキンソニズム優位型）など多様な臨床表現型を持つ。",
     symptoms: ["垂直性眼球運動障害（下方視困難）", "転倒しやすい（後方転倒が特徴）", "軸性筋硬直（首・体幹）", "偽延髄麻痺（嚥下障害・構音障害）", "前頭葉型認知症", "無動・無表情"],
