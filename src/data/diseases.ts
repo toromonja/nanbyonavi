@@ -2752,6 +2752,1557 @@ export const diseases: Disease[] = [
     jrctSearchUrl:
       "https://jrct.niph.go.jp/search?disease=%E8%82%A5%E6%BA%80%E7%B4%B0%E8%83%9E%E7%97%87",
   },
+
+  // ─── 心・血管疾患（追加分） ────────────────────────────────
+  {
+    slug: "cardiac-sarcoidosis",
+    name: "心サルコイドーシス",
+    nameEn: "Cardiac Sarcoidosis",
+    nanbyoNumber: 58,
+    category: "心・血管疾患",
+    categorySlug: "cardiovascular",
+    overview:
+      "サルコイドーシスの心臓病変で、非乾酪性肉芽腫が心筋に形成される。伝導障害・心室頻拍・心不全・突然死を来す。全サルコイドーシス患者の約5〜30%に心病変が生じるとされ、日本では欧米より高率。",
+    symptoms: [
+      "完全房室ブロック・束枝ブロック",
+      "心室頻拍・心室細動",
+      "心不全（息切れ・浮腫）",
+      "失神・突然死",
+      "心筋壁運動異常",
+    ],
+    causes:
+      "サルコイドーシスの全身性肉芽腫形成の一部として心臓に非乾酪性肉芽腫が浸潤する。原因は不明だが、免疫異常（Th1優位）と環境因子・遺伝的素因の関与が示唆される。",
+    diagnosis:
+      "心臓MRI（遅延造影：ガドリニウム）・FDG-PETが主要検査。心電図・ホルター心電図・心エコー・心臓カテーテル（生検）を組み合わせる。日本心臓病学会・日本サルコイドーシス/肉芽腫性疾患学会の診断基準を用いる。",
+    treatment:
+      "ステロイド（プレドニゾロン）が基本。伝導障害には恒久ペースメーカー植込み、致死性不整脈には植込み型除細動器（ICD）が必要。心不全管理（β遮断薬・ACE阻害薬・利尿薬）。",
+    prognosis:
+      "心室頻拍・重度ブロック・心不全が予後不良因子。適切な治療介入で突然死リスクを軽減できる。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Cardiac+Sarcoidosis",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/296",
+  },
+  {
+    slug: "cardiac-amyloidosis",
+    name: "心アミロイドーシス",
+    nameEn: "Cardiac Amyloidosis",
+    category: "心・血管疾患",
+    categorySlug: "cardiovascular",
+    overview:
+      "アミロイド線維が心筋に沈着し、拘束型心筋症・心不全・不整脈を来す疾患。主にAL型（免疫グロブリン軽鎖）とTTR型（トランスサイレチン）がある。TTR型はトランスサイレチン安定化薬の登場で予後が改善している。",
+    symptoms: [
+      "心不全（息切れ・浮腫・疲労感）",
+      "拘束型心筋症による拡張障害",
+      "不整脈（心房細動・房室ブロック）",
+      "起立性低血圧",
+      "手根管症候群（TTR型の先行症状）",
+    ],
+    causes:
+      "AL型：形質細胞由来の免疫グロブリン軽鎖が線維化し心筋沈着。TTR型：トランスサイレチン（野生型または遺伝性変異型）が誤って折り畳まれアミロイドを形成。",
+    diagnosis:
+      "心エコー（心筋輝度増加・スペックルトラッキング法：基底部保存・心尖部低下パターン）・心臓MRI・テクネチウムシンチ（TTR型）・血液検査（血清FLC・BNP・トロポニン）・心筋生検。",
+    treatment:
+      "TTR型：タファミジス（トランスサイレチン安定化薬）・siRNA製剤（パチシランなど）。AL型：骨髄腫治療（化学療法・自家造血幹細胞移植）。心不全管理（利尿薬：ループ利尿薬）。",
+    prognosis:
+      "AL型は未治療では予後不良（中央生存期間1年未満）。TTR型はタファミジスで死亡率・入院率が有意に改善。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Cardiac+Amyloidosis",
+  },
+  {
+    slug: "takayasu-arteritis",
+    name: "大動脈炎症候群（高安動脈炎）",
+    nameEn: "Takayasu Arteritis",
+    nanbyoNumber: 40,
+    category: "心・血管疾患",
+    categorySlug: "cardiovascular",
+    overview:
+      "大動脈とその主要分枝に肉芽腫性炎症が生じる大型血管炎。若い女性に多く、狭窄・閉塞・動脈瘤を来す。脈なし病とも呼ばれ、上肢の脈拍が触れないことがある。",
+    symptoms: [
+      "上肢の脈拍消失・左右差",
+      "上肢血圧の左右差（10mmHg以上）",
+      "頭部虚血症状（頭痛・めまい・失神）",
+      "高血圧（腎動脈病変）",
+      "炎症症状（発熱・倦怠感・筋痛）",
+    ],
+    causes:
+      "自己免疫機序による大型血管壁の炎症。HLA-B52との関連が日本人で強い。T細胞・マクロファージによる肉芽腫形成が血管壁を障害する。",
+    diagnosis:
+      "ACR/EULAR分類基準（2022年）。造影CT・MRA・PET-CTで血管病変を評価。炎症マーカー（CRP・ESR）・血管造影（確定診断）。",
+    treatment:
+      "ステロイド（初期治療の基本）。再発例・難治例にメトトレキサート・アザチオプリン・抗TNFα薬（インフリキシマブ）・抗IL-6受容体抗体（トシリズマブ）。血管病変にはインターベンション（PTA・ステント・バイパス術）。",
+    prognosis:
+      "再発率が高く（約40〜60%）長期管理が必要。視力障害・脳卒中・心不全などの臓器障害が予後に影響。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Takayasu+Arteritis",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/217",
+  },
+  {
+    slug: "congenital-heart-disease-adult",
+    name: "成人先天性心疾患",
+    nameEn: "Adult Congenital Heart Disease",
+    category: "心・血管疾患",
+    categorySlug: "cardiovascular",
+    overview:
+      "胎児期の心臓発達異常に起因する心臓構造異常の総称。医療の進歩で小児期を生き延びた患者が成人に達し、成人先天性心疾患（ACHD）として管理が必要となる。心房中隔欠損・ファロー四徴症・大血管転位症などが含まれる。",
+    symptoms: [
+      "動悸・不整脈（成人期に増加）",
+      "心不全症状（息切れ・浮腫）",
+      "チアノーゼ（複雑心奇形・Eisenmenger症候群）",
+      "血栓塞栓症（心房細動合併）",
+      "感染性心内膜炎",
+    ],
+    causes:
+      "遺伝的素因（22q11欠失・ダウン症候群・ターナー症候群等）、胎内環境（母体糖尿病・風疹・薬剤）などが関与するが、多くは原因不明の多因子性。",
+    diagnosis:
+      "心エコー（経胸壁・経食道）・心臓MRI・造影CT・心臓カテーテル検査。成人期の解剖学的・生理学的変化に精通した専門施設での評価が必要。",
+    treatment:
+      "疾患・重症度に応じた外科的修復術・カテーテルインターベンション（ASD閉鎖術等）。合併症管理（抗凝固療法・抗不整脈薬・心不全治療）。ACHD専門外来での長期フォロー。",
+    prognosis:
+      "適切な管理で多くが長期生存可能。修復後も残遺症・続発症（不整脈・心不全・感染性心内膜炎）のリスクが継続する。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Adult+Congenital+Heart+Disease",
+  },
+  {
+    slug: "hereditary-hemorrhagic-telangiectasia",
+    name: "遺伝性出血性毛細血管拡張症（オスラー病）",
+    nameEn: "Hereditary Hemorrhagic Telangiectasia",
+    nanbyoNumber: 227,
+    category: "心・血管疾患",
+    categorySlug: "cardiovascular",
+    overview:
+      "ENG・ACVRL1等の遺伝子変異による常染色体優性遺伝疾患。全身の毛細血管・小静脈に異常血管拡張（テランジェクタジア）と動静脈奇形（AVM）が生じる。繰り返す鼻出血が特徴的。",
+    symptoms: [
+      "反復性鼻出血（最も一般的な症状）",
+      "皮膚・粘膜の毛細血管拡張",
+      "消化管出血（貧血）",
+      "肺動静脈奇形（低酸素血症・脳塞栓）",
+      "脳・肝臓の動静脈奇形",
+    ],
+    causes:
+      "ENG（エンドグリン）・ACVRL1（ALK1）・SMAD4等の遺伝子変異によるBMP/TGF-βシグナル異常。血管発達障害により異常血管が形成される。",
+    diagnosis:
+      "Curaçao基準（鼻出血・毛細血管拡張・内臓AVM・家族歴）。造影CT・MRIで肺・脳・肝臓のAVM検索。遺伝子検査で原因遺伝子を同定。",
+    treatment:
+      "鼻出血：鼻腔レーザー焼灼・ベバシズマブ（抗VEGF薬）点鼻・全身投与。肺AVM：コイル塞栓術。脳AVM：外科切除・定位放射線。貧血には鉄補充・輸血。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Hereditary+Hemorrhagic+Telangiectasia",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/4803",
+  },
+
+  // ─── 神経・筋疾患（追加分） ────────────────────────────────
+  {
+    slug: "prion-disease",
+    name: "プリオン病（クロイツフェルト・ヤコブ病を含む）",
+    nameEn: "Prion Disease",
+    nanbyoNumber: 20,
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "異常プリオン蛋白（PrPSc）が脳に蓄積し、急速進行性認知症・神経症状を来す致死的疾患群。孤発性・家族性・獲得性（医原性・変異型）に分類される。クロイツフェルト・ヤコブ病（CJD）が代表的。",
+    symptoms: [
+      "急速進行性認知症",
+      "ミオクローヌス（筋肉の不随意収縮）",
+      "小脳失調・視覚異常",
+      "錐体路・錐体外路症状",
+      "無動性無言状態（末期）",
+    ],
+    causes:
+      "異常プリオン蛋白（PrPSc）が正常PrPCを鋳型として連鎖的に変換・蓄積し神経細胞死を引き起こす。孤発性（85%）・PRNP遺伝子変異による家族性・汚染組織による獲得性がある。",
+    diagnosis:
+      "脳MRI（DWI：大脳皮質・基底核の拡散制限）・髄液RT-QuIC法（高感度・特異度）・脳波（周期性同期性放電）・血液・髄液14-3-3蛋白。確定診断は脳生検または剖検。",
+    treatment:
+      "根本的治療法なし。対症療法（抗痙攣薬・疼痛管理）と緩和ケアが中心。四次元的なサーベイランス体制が整備されている。",
+    prognosis:
+      "孤発性CJDは発症から数ヶ月〜1年以内に死亡することが多い。家族性は経過が様々。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Prion+Disease",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/298",
+  },
+  {
+    slug: "sspe",
+    name: "亜急性硬化性全脳炎（SSPE）",
+    nameEn: "Subacute Sclerosing Panencephalitis",
+    nanbyoNumber: 24,
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "麻疹ウイルスの変異株が脳内に持続感染し、数年後に発症する進行性神経変性疾患。小児・青年期に多く、認知機能低下・ミオクローヌス・植物状態と進行し致死的。麻疹ワクチンで予防可能。",
+    symptoms: [
+      "人格変化・認知機能低下（初期）",
+      "周期性大振幅ミオクローヌス",
+      "小脳失調・視覚障害",
+      "自律神経症状",
+      "植物状態・死亡（末期）",
+    ],
+    causes:
+      "幼少期（2歳以前）の麻疹感染後、変異した欠損型麻疹ウイルスが脳内に潜伏し、数年〜十数年後に免疫回避して持続感染・脳炎を引き起こす。",
+    diagnosis:
+      "臨床症状・脳波（Radermecker複合波）・髄液・血清の麻疹抗体高値（IgG）・MRI（白質病変）。髄液中の抗麻疹IgG抗体の高値が特徴的。",
+    treatment:
+      "確立した根本治療なし。イノシンプラノベクス（免疫賦活薬）・インターフェロンα脳室内投与が進行抑制に部分的効果。",
+    prognosis:
+      "多くは発症後1〜3年で死亡。まれに自然寛解例あり。麻疹ワクチン2回接種による予防が重要。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Subacute+Sclerosing+Panencephalitis",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/307",
+  },
+  {
+    slug: "spinal-muscular-atrophy-adult",
+    name: "球脊髄性筋萎縮症（SBMA/ケネディ病）",
+    nameEn: "Spinal and Bulbar Muscular Atrophy",
+    nanbyoNumber: 3,
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "アンドロゲン受容体遺伝子のCAGリピート伸長による成人発症のX連鎖性神経変性疾患。中年男性に顔面・舌・四肢の筋萎縮・筋力低下が生じる。女性保因者は軽症または無症状。",
+    symptoms: [
+      "四肢近位筋の筋力低下・筋萎縮",
+      "球麻痺（嚥下困難・構音障害・舌萎縮）",
+      "線維束性収縮（筋肉のピクつき）",
+      "女性化乳房・精巣萎縮（アンドロゲン不応性）",
+      "感覚障害（感覚神経障害を伴う）",
+    ],
+    causes:
+      "アンドロゲン受容体（AR）遺伝子エクソン1のCAGリピート数が38以上に伸長することで、ポリグルタミン鎖を持つ異常ARが神経細胞に蓄積し毒性を発揮する。",
+    diagnosis:
+      "遺伝子検査（AR遺伝子CAGリピート数測定）で確定診断。針筋電図（慢性神経原性変化）・神経伝導検査（感覚神経障害）・血清CK上昇・血清テストステロン値。",
+    treatment:
+      "根本治療なし。テストステロン低下療法（酢酸リュープロレリン）が一部の患者で症状進行抑制の可能性（国内臨床試験実施）。嚥下リハビリ・呼吸管理・栄養管理。",
+    prognosis:
+      "ALS等に比べ進行は緩徐。多くは60〜70代まで生存するが、嚥下障害・肺炎が予後に影響。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Spinal+Bulbar+Muscular+Atrophy",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/5185",
+  },
+
+  // ─── 代謝・遺伝疾患（追加分） ────────────────────────────────
+  {
+    slug: "galactosemia",
+    name: "ガラクトース血症",
+    nameEn: "Galactosemia",
+    nanbyoNumber: 248,
+    category: "代謝・遺伝疾患",
+    categorySlug: "metabolic",
+    overview:
+      "ガラクトース代謝酵素の先天的欠損により、ガラクトースおよびその代謝物が体内に蓄積する常染色体劣性遺伝疾患。新生児マススクリーニングで発見される。早期発見・乳糖除去食で重症合併症を予防できる。",
+    symptoms: [
+      "新生児期の哺乳不良・嘔吐・黄疸",
+      "肝腫大・肝不全（重症型）",
+      "大腸菌敗血症（新生児期）",
+      "白内障（ガラクチトール蓄積）",
+      "知的障害・言語発達遅滞（長期合併症）",
+    ],
+    causes:
+      "GALT（ガラクトース-1-リン酸ウリジルトランスフェラーゼ）欠損が最多（古典型）。他にGALK（ガラクトキナーゼ）・GALE（エピメラーゼ）欠損型もある。常染色体劣性遺伝。",
+    diagnosis:
+      "新生児マススクリーニング（ガラクトース・酵素活性）。血液・尿のガラクトース-1-リン酸測定・酵素活性測定・遺伝子検査で確定。",
+    treatment:
+      "乳糖（ガラクトース）制限食が基本。母乳・乳糖含有ミルクを中止しガラクトースフリーミルクへ切り替え。カルシウム・ビタミンD補充。",
+    prognosis:
+      "早期治療で急性期合併症は予防できる。長期的に認知・言語・卵巣機能（女性）への影響が残る場合がある。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Galactosemia",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/246",
+  },
+  {
+    slug: "maple-syrup-urine-disease",
+    name: "メープルシロップ尿症",
+    nameEn: "Maple Syrup Urine Disease",
+    nanbyoNumber: 243,
+    category: "代謝・遺伝疾患",
+    categorySlug: "metabolic",
+    overview:
+      "分岐鎖アミノ酸（ロイシン・イソロイシン・バリン）の代謝酵素（BCKD複合体）欠損による先天代謝異常症。尿・汗にメープルシロップ様の甘い臭いが生じることが名称の由来。新生児期に急性脳症を来す。",
+    symptoms: [
+      "新生児期の哺乳不良・嘔吐・昏睡",
+      "特有の甘い臭い（尿・汗・耳垢）",
+      "筋緊張低下・痙攣",
+      "脳浮腫・脳症（急性期）",
+      "知的障害（管理不良例）",
+    ],
+    causes:
+      "BCKDHA・BCKDHB・DBT・DLD遺伝子のいずれかの変異による分岐鎖ケト酸デヒドロゲナーゼ（BCKD）複合体活性低下。常染色体劣性遺伝。",
+    diagnosis:
+      "新生児マススクリーニング（タンデムマス法：分岐鎖アミノ酸高値）。血漿アミノ酸分析・尿有機酸分析・酵素活性・遺伝子検査。",
+    treatment:
+      "分岐鎖アミノ酸制限食（特殊ミルク使用）。急性代謝不全時は高カロリー輸液・腹膜透析・血液透析。チアミン（ビタミンB1）反応型には大量チアミン投与。",
+    prognosis:
+      "早期診断・厳格な食事療法で知的予後は改善する。発熱・感染時の代謝危機（metabolic crisis）に注意が必要。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Maple+Syrup+Urine+Disease",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/4637",
+  },
+  {
+    slug: "homocystinuria",
+    name: "ホモシスチン尿症",
+    nameEn: "Homocystinuria",
+    nanbyoNumber: 246,
+    category: "代謝・遺伝疾患",
+    categorySlug: "metabolic",
+    overview:
+      "シスタチオニンβ合成酵素（CBS）等の欠損によりホモシステインが蓄積する先天代謝異常症。マルファン様体型・水晶体脱臼・骨粗鬆症・血栓症・知的障害が特徴的。",
+    symptoms: [
+      "水晶体脱臼（視力障害）",
+      "マルファン様体型（高身長・蜘蛛状指）",
+      "骨粗鬆症・脊柱側弯",
+      "静脈・動脈血栓症",
+      "知的障害・精神症状",
+    ],
+    causes:
+      "CBS遺伝子変異（最多）・MTHFR欠損・コバラミン代謝異常等により、メチオニン代謝経路でホモシステインが蓄積。常染色体劣性遺伝。",
+    diagnosis:
+      "新生児マススクリーニング（タンデムマス法：メチオニン高値）。血漿ホモシステイン・アミノ酸分析・尿アミノ酸分析・酵素活性・遺伝子検査。",
+    treatment:
+      "ビタミンB6（ピリドキシン）反応型：大量B6投与。非反応型：メチオニン制限食＋シスチン補充・ベタイン投与・葉酸・B12補充。血栓予防（抗血小板薬・抗凝固薬）。",
+    prognosis:
+      "早期治療で合併症（血栓・知的障害）を予防できる。未治療では30歳までに血栓イベントが高頻度。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Homocystinuria",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/249",
+  },
+  {
+    slug: "glutaric-acidemia",
+    name: "グルタル酸血症1型",
+    nameEn: "Glutaric Acidemia Type 1",
+    nanbyoNumber: 261,
+    category: "代謝・遺伝疾患",
+    categorySlug: "metabolic",
+    overview:
+      "グルタリルCoAデヒドロゲナーゼ欠損による有機酸代謝異常症。発熱・感染などの急性期に線条体（尾状核・被殻）が選択的に障害され、ジストニアなどの不可逆的な運動障害を来す。",
+    symptoms: [
+      "大頭症（出生時から）",
+      "急性脳症エピソード（発熱時）後のジストニア",
+      "舞踏運動・アテトーゼ",
+      "筋緊張異常",
+      "発達遅滞",
+    ],
+    causes:
+      "GCDH遺伝子変異によるグルタリルCoAデヒドロゲナーゼ（GCDH）欠損。グルタル酸・3-ヒドロキシグルタル酸が蓄積し神経毒性を発揮。常染色体劣性遺伝。",
+    diagnosis:
+      "新生児マススクリーニング（タンデムマス法：グルタリルカルニチン高値）。尿有機酸分析（グルタル酸高値）・酵素活性・遺伝子検査・頭部MRI（側頭葉の開口・線条体病変）。",
+    treatment:
+      "リジン制限食（グルタル酸前駆体制限）・L-カルニチン補充。急性期管理が最重要（積極的エネルギー補充・リジン制限強化・カルニチン静注）で線条体障害を予防。",
+    prognosis:
+      "発症前に適切な急性期管理を徹底することで線条体障害を予防できる。一度ジストニアが生じると不可逆的。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Glutaric+Acidemia",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/4627",
+  },
+  {
+    slug: "propionic-acidemia",
+    name: "プロピオン酸血症",
+    nameEn: "Propionic Acidemia",
+    nanbyoNumber: 257,
+    category: "代謝・遺伝疾患",
+    categorySlug: "metabolic",
+    overview:
+      "プロピオニルCoAカルボキシラーゼ欠損による有機酸血症。新生児期の代謝性アシドーシス・高アンモニア血症で発症し、心筋症・基底核障害を来すことがある。",
+    symptoms: [
+      "新生児期の嘔吐・哺乳不良・意識障害",
+      "代謝性アシドーシス・ケトアシドーシス",
+      "高アンモニア血症",
+      "心筋症・QT延長",
+      "基底核変性（ジストニア・舞踏運動）",
+    ],
+    causes:
+      "PCCA・PCCB遺伝子変異によるプロピオニルCoAカルボキシラーゼ欠損。プロピオン酸・メチルクエン酸・3-ヒドロキシプロピオン酸が蓄積し多臓器障害を引き起こす。常染色体劣性遺伝。",
+    diagnosis:
+      "新生児マススクリーニング（タンデムマス法：プロピオニルカルニチン高値）。尿有機酸分析・血液アミノ酸分析・酵素活性・遺伝子検査。",
+    treatment:
+      "タンパク質制限食（イソロイシン・バリン・メチオニン・スレオニン制限）・L-カルニチン補充・ビオチン補充。急性期は高カロリー輸液・透析。肝移植が根本治療として有効。",
+    prognosis:
+      "早期介入で急性死亡を回避できる。長期的に心筋症・神経合併症・成長障害が問題となる。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Propionic+Acidemia",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/4635",
+  },
+  {
+    slug: "isovaleric-acidemia",
+    name: "イソ吉草酸血症",
+    nameEn: "Isovaleric Acidemia",
+    nanbyoNumber: 259,
+    category: "代謝・遺伝疾患",
+    categorySlug: "metabolic",
+    overview:
+      "イソバレリルCoAデヒドロゲナーゼ欠損によるロイシン代謝障害。特有の「汗臭・チーズ臭」が特徴的で、新生児マススクリーニングで発見される。",
+    symptoms: [
+      "特有の汗臭・チーズ臭",
+      "新生児期の嘔吐・哺乳不良・昏睡",
+      "代謝性アシドーシス",
+      "好中球減少・血小板減少",
+      "知的障害（管理不良例）",
+    ],
+    causes:
+      "IVD遺伝子変異によるイソバレリルCoAデヒドロゲナーゼ（IVD）欠損。ロイシン代謝障害によりイソ吉草酸・イソバレリルグリシンが蓄積。常染色体劣性遺伝。",
+    diagnosis:
+      "新生児マススクリーニング（タンデムマス法：イソバレリルカルニチン高値）。尿有機酸分析（イソバレリルグリシン高値）・酵素活性・遺伝子検査。",
+    treatment:
+      "ロイシン制限食・L-カルニチン補充・グリシン補充（イソ吉草酸の排泄促進）。急性期は高カロリー輸液でタンパク異化を抑制。",
+    prognosis:
+      "新生児マススクリーニングで早期発見・治療することで予後は良好。急性型は緊急治療が必要。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Isovaleric+Acidemia",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/4629",
+  },
+
+  // ─── 免疫・アレルギー疾患（追加分） ────────────────────────────────
+  {
+    slug: "chronic-active-ebv",
+    name: "慢性活動性EBウイルス感染症",
+    nameEn: "Chronic Active Epstein-Barr Virus Infection",
+    nanbyoNumber: 22,
+    category: "免疫・アレルギー疾患",
+    categorySlug: "immune",
+    overview:
+      "EBウイルス（EBV）がTリンパ球またはNKリンパ球に感染し慢性活動性感染を来す疾患。発熱・肝脾腫・リンパ節腫脹が持続し、悪性リンパ腫・血球貪食症候群へ移行する可能性がある。",
+    symptoms: [
+      "長期持続する発熱・倦怠感",
+      "肝脾腫・リンパ節腫脹",
+      "肝障害（肝炎）",
+      "血球減少（汎血球減少）",
+      "蚊アレルギー（種痘様水疱症様リンパ増殖症では）",
+    ],
+    causes:
+      "EBウイルスがT細胞またはNK細胞に感染し、免疫系による排除を逃れて持続増殖する。宿主免疫異常（先天性・後天性）が背景にあると考えられるが、詳細機序は不明。",
+    diagnosis:
+      "EBV-DNA定量（末梢血・感染細胞の同定）・血清EBV抗体価（VCA-IgA・EA-IgA等の異常パターン）・組織生検（T/NK細胞浸潤・EBER陽性）。感染T/NK細胞の同定が診断の鍵。",
+    treatment:
+      "同種造血幹細胞移植（唯一の根治療法）が施行可能な症例に推奨。化学療法（L-アスパラギナーゼ含むレジメン）でコントロールしながら移植を目指す。",
+    prognosis:
+      "未治療または移植不能例では数年以内に血球貪食症候群・悪性リンパ腫・臓器不全で死亡することが多い。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Chronic+Active+EBV+Infection",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/472",
+  },
+  {
+    slug: "iga-vasculitis",
+    name: "IgA血管炎（ヘノッホ・シェーンライン紫斑病）",
+    nameEn: "IgA Vasculitis",
+    nanbyoNumber: 223,
+    category: "免疫・アレルギー疾患",
+    categorySlug: "immune",
+    overview:
+      "IgAを主体とする免疫複合体が小型血管壁に沈着し炎症を来す全身性血管炎。皮膚紫斑・腹痛・関節痛・腎炎（IgA腎症様）の4主徴が特徴的。小児に多いが成人例は重症化しやすい。",
+    symptoms: [
+      "触知可能な紫斑（下肢・臀部）",
+      "関節痛・関節炎（膝・足首）",
+      "腹痛・消化管出血（腸管紫斑）",
+      "腎炎（血尿・蛋白尿）",
+      "陰嚢腫脹（小児男性）",
+    ],
+    causes:
+      "感染（溶連菌等）・薬剤・食物等が引き金となり、IgA1免疫複合体が血管壁・腎メサンギウムに沈着して炎症を誘発。発症機序にIgA1の糖鎖異常が関与する。",
+    diagnosis:
+      "EULAR/PRINTO/PRES分類基準。皮膚・腎生検（IgA沈着の確認）。血液検査（血清IgA高値50〜70%）・尿検査（腎炎評価）。",
+    treatment:
+      "多くは自然軽快。重症腹痛・腎炎にはステロイド（プレドニゾロン）。腎炎の重症例にはステロイド大量療法・免疫抑制薬（ミコフェノール酸モフェチル）・扁桃摘出術。",
+    prognosis:
+      "小児の多くは数週間で自然軽快。成人・腎炎例は慢性腎疾患への進行に注意が必要。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=IgA+Vasculitis",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/5188",
+  },
+
+  // ─── 血液疾患（追加分） ────────────────────────────────
+  {
+    slug: "pure-red-cell-aplasia",
+    name: "赤芽球癆",
+    nameEn: "Pure Red Cell Aplasia",
+    nanbyoNumber: 63,
+    category: "血液疾患",
+    categorySlug: "blood",
+    overview:
+      "骨髄における赤血球系前駆細胞（赤芽球）が選択的に障害され、重篤な貧血を来す疾患。後天性は自己免疫機序（抗EPO抗体・T細胞性）や胸腺腫・リンパ腫・ウイルス感染（B19パルボウイルス）と関連する。",
+    symptoms: [
+      "重篤な貧血（急速に進行することも）",
+      "息切れ・動悸・疲労感",
+      "顔面蒼白",
+      "胸腺腫合併例では縦隔腫瘍症状",
+      "白血球・血小板数は正常",
+    ],
+    causes:
+      "後天性：自己抗体（抗EPO受容体抗体）・細胞傷害性T細胞による赤芽球破壊。胸腺腫・リンパ腫・SLE・薬剤（エリスロポエチン製剤抗体など）・B19パルボウイルス感染が誘因。先天性（Diamond-Blackfan貧血）は別疾患。",
+    diagnosis:
+      "骨髄検査（赤芽球の著明減少・欠如：網赤血球ほぼゼロ）。胸腺腫検索（胸部CT）。ウイルス検索（B19 DNA）・自己抗体検索・リンパ腫評価。",
+    treatment:
+      "胸腺腫合併例は胸腺摘出術。免疫抑制療法（シクロスポリン・ステロイド）が主体。B19ウイルス性には免疫グロブリン静注（IVIG）。リツキシマブ・エルスロポエチン製剤。",
+    prognosis:
+      "免疫抑制療法で50〜60%が奏効。再発例・難治例では長期の輸血依存となりうる。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Pure+Red+Cell+Aplasia",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/327",
+  },
+  {
+    slug: "sideroblastic-anemia",
+    name: "鉄芽球性貧血",
+    nameEn: "Sideroblastic Anemia",
+    nanbyoNumber: 64,
+    category: "血液疾患",
+    categorySlug: "blood",
+    overview:
+      "骨髄の赤芽球ミトコンドリアに鉄が異常沈着（環状鉄芽球）し、効率的な赤血球産生が障害される疾患群。先天性（X連鎖・常染色体遺伝）と後天性（骨髄異形成症候群関連・薬剤性・アルコール性等）がある。",
+    symptoms: [
+      "貧血症状（息切れ・動悸・倦怠感）",
+      "鉄過剰症状（肝障害・心臓合併症）",
+      "脾腫（髄外造血）",
+      "小球性〜正球性貧血",
+      "血清フェリチン高値・トランスフェリン飽和度上昇",
+    ],
+    causes:
+      "先天性：ALAS2（X連鎖型）・SLC25A38・GLRX5等の遺伝子変異。後天性：MDS（SF3B1変異）・アルコール・薬剤（イソニアジド・クロラムフェニコール）・銅欠乏。ヘム合成経路障害が共通機序。",
+    diagnosis:
+      "骨髄塗抹・鉄染色（環状鉄芽球：鉄芽球の15%以上が環状型）。血液検査（血清鉄・フェリチン・TIBC）・遺伝子検査（先天性疑い時）。",
+    treatment:
+      "先天性X連鎖型：ピリドキシン（ビタミンB6）反応型に大量B6投与。後天性：原因除去（薬剤中止・禁酒）。鉄過剰には瀉血または鉄キレート療法（デフェラシロクス）。MDS関連には輸血・造血幹細胞移植。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Sideroblastic+Anemia",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/4818",
+  },
+
+  // ─── 皮膚疾患（追加分） ────────────────────────────────
+  {
+    slug: "xeroderma-pigmentosum",
+    name: "色素性乾皮症",
+    nameEn: "Xeroderma Pigmentosum",
+    nanbyoNumber: 159,
+    category: "皮膚疾患",
+    categorySlug: "skin",
+    overview:
+      "核酸除去修復（NER）または複製後修復遺伝子の欠損により、紫外線によるDNA損傷が修復されず、皮膚がんと神経変性が生じる常染色体劣性遺伝疾患。日光過敏・皮膚悪性腫瘍・神経症状が三主徴。",
+    symptoms: [
+      "日光過敏（軽微な日光暴露で重度の日焼け・水疱）",
+      "色素沈着・色素脱失の混在",
+      "皮膚悪性腫瘍（基底細胞がん・扁平上皮がん・悪性黒色腫）の早期・多発",
+      "眼症状（羞明・角膜炎・眼瞼がん）",
+      "神経症状（XP-A/D/G型：進行性神経変性・難聴・小頭症）",
+    ],
+    causes:
+      "XPA〜XPG・XPVの8つの相補性群に分類される遺伝子（NER関連）のいずれかの変異。日本ではXP-A型（XPA遺伝子変異）が多数を占める。常染色体劣性遺伝。",
+    diagnosis:
+      "臨床症状・家族歴・DNA修復能試験（紫外線照射後の不定期DNA合成：UDS）・遺伝子検査（相補性群同定）。",
+    treatment:
+      "根本治療なし。紫外線の完全遮断（外出時の完全防護・UV遮断フィルム）が最重要。皮膚腫瘍の早期外科切除・経口レチノイン酸（予防的）。神経症状には対症療法。",
+    prognosis:
+      "厳格な紫外線防護で皮膚腫瘍発生を大幅に抑制できる。神経型（XP-A）では神経変性が進行し予後不良。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Xeroderma+Pigmentosum",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/292",
+  },
+  {
+    slug: "linear-iga-bullous-dermatosis",
+    name: "線状IgA水疱性皮膚症",
+    nameEn: "Linear IgA Bullous Dermatosis",
+    nanbyoNumber: 163,
+    category: "皮膚疾患",
+    categorySlug: "skin",
+    overview:
+      "皮膚基底膜部へのIgA自己抗体による表皮下水疱を形成する自己免疫性水疱症。直線状または弧状に配列する水疱・緊満性疱疹が特徴的。成人型と小児型（小児慢性類天疱瘡）がある。",
+    symptoms: [
+      "躯幹・四肢の緊満性水疱・びらん",
+      "弧状・環状に配列する水疱（花環状配列）",
+      "口腔粘膜病変（口内炎・びらん）",
+      "掻痒感",
+      "眼症状（結膜炎・瘢痕性眼瞼炎：一部）",
+    ],
+    causes:
+      "基底膜ゾーン構成タンパク（XVII型コラーゲン・ラミニン332等）に対するIgA自己抗体が形成される。薬剤（バンコマイシン等）誘発性もある。",
+    diagnosis:
+      "皮膚生検（H&E：表皮下水疱）・直接蛍光抗体法（DIF：基底膜帯へのIgA線状沈着）・間接蛍光抗体法・ELISA（抗基底膜帯IgA抗体）。",
+    treatment:
+      "ダプソン（DDS）が第一選択。ステロイド全身投与・コルヒチン・スルファピリジン。重症例にはIVIG・免疫抑制薬。",
+    prognosis:
+      "多くは治療でコントロール可能。小児型は思春期に自然寛解することがある。成人型は慢性経過。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Linear+IgA+Bullous+Dermatosis",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/285",
+  },
+  {
+    slug: "refractory-skin-ulcer",
+    name: "難治性皮膚潰瘍",
+    nameEn: "Refractory Skin Ulcer",
+    nanbyoNumber: 268,
+    category: "皮膚疾患",
+    categorySlug: "skin",
+    overview:
+      "通常の治療に抵抗し8週間以上治癒しない皮膚潰瘍の総称。壊疽性膿皮症・リポデルマトスクレローシス・カルシフィラキシス・血管炎性潰瘍等が含まれる。基礎疾患の管理と創傷管理が重要。",
+    symptoms: [
+      "慢性・難治性の皮膚潰瘍（下腿・足部に多い）",
+      "潰瘍辺縁の疼痛・発赤",
+      "滲出液・壊死組織",
+      "治癒不全・再発",
+      "基礎疾患症状（糖尿病・膠原病・血管炎等）",
+    ],
+    causes:
+      "血管障害（動脈硬化・静脈不全・血管炎）・免疫異常（壊疽性膿皮症）・代謝障害（糖尿病性神経障害・カルシフィラキシス）・感染・悪性腫瘍など多因子性。",
+    diagnosis:
+      "創傷の詳細評価（大きさ・深さ・辺縁・滲出液）・生検（壊疽性膿皮症の除外診断）・血管評価（ABI・超音波）・基礎疾患検索（血液検査・免疫検査）。",
+    treatment:
+      "創傷管理（適切な被覆材・デブリードマン）・基礎疾患治療・血行再建術（血管障害例）・高気圧酸素療法・陰圧創傷療法（NPWT）。壊疽性膿皮症にはステロイド・シクロスポリン・生物学的製剤。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Refractory+Skin+Ulcer",
+  },
+
+  // ─── 骨・筋肉疾患（追加分） ────────────────────────────────
+  {
+    slug: "fibrous-dysplasia",
+    name: "線維性骨異形成症",
+    nameEn: "Fibrous Dysplasia",
+    nanbyoNumber: 192,
+    category: "骨・筋肉疾患",
+    categorySlug: "bone",
+    overview:
+      "骨の正常組織が線維組織と未熟な骨組織に置き換わる非腫瘍性骨疾患。GNAS遺伝子の体細胞変異が原因で、単骨性・多骨性（マクーン・オルブライト症候群を含む）に分類される。",
+    symptoms: [
+      "骨痛・骨変形（脚長差・頭蓋顔面変形）",
+      "病的骨折（荷重部位：大腿骨の「羊飼いの杖」変形）",
+      "内分泌異常（多骨性：GH過剰・甲状腺機能亢進症等）",
+      "皮膚カフェオレ斑（マクーン・オルブライト症候群）",
+      "思春期早発症（多骨性女性）",
+    ],
+    causes:
+      "GNAS遺伝子（Gsα）の機能獲得型体細胞変異（R201H/C等）により、骨芽細胞分化が障害されて線維組織が蓄積する。出生後の体細胞変異でモザイク状に生じる。",
+    diagnosis:
+      "X線（すりガラス状陰影・骨変形）・MRI・骨シンチグラフィ（全身病変評価）・骨生検（線維組織と未熟骨梁の混在）・GNAS遺伝子検査（病変組織）。",
+    treatment:
+      "根本治療なし。ビスホスホネート（パミドロン酸・ゾレドロン酸）で骨痛改善・骨折予防。整形外科的手術（骨折治療・矯正骨切り術）。",
+    prognosis:
+      "多くは骨格成熟後に安定する。病変が広範な多骨性では機能障害・疼痛が持続する。悪性転化はまれ（<1%）。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Fibrous+Dysplasia",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/308",
+  },
+
+  // ─── 希少遺伝疾患 ────────────────────────────────
+  {
+    slug: "williams-syndrome",
+    name: "ウィリアムズ症候群",
+    nameEn: "Williams Syndrome",
+    nanbyoNumber: 344,
+    category: "希少遺伝疾患",
+    categorySlug: "rare_genetic",
+    overview:
+      "7番染色体長腕（7q11.23）の微細欠失による隣接遺伝子症候群。大動脈弁上狭窄を含む先天性心疾患・特徴的な顔貌・知的障害・過社交性（over-friendliness）・高カルシウム血症が特徴的。",
+    symptoms: [
+      "特徴的顔貌（妖精様顔貌：星状虹彩・鞍鼻・厚い唇）",
+      "大動脈弁上狭窄・末梢性肺動脈狭窄",
+      "知的障害（軽度〜中等度）と特異な認知プロファイル",
+      "過社交性・言語能力の相対的保存",
+      "高カルシウム血症・腎尿路異常",
+    ],
+    causes:
+      "7q11.23領域の約1.5Mbの微細欠失（ELN・LIMK1・GTF2IRD1等の複数遺伝子を含む）。多くは新生突然変異で、常染色体優性遺伝形式をとる。",
+    diagnosis:
+      "FISH法またはMLPA・マイクロアレイCGHによる7q11.23欠失の検出。臨床症状（特徴的顔貌・心血管奇形・発達特性）も診断の手がかり。",
+    treatment:
+      "対症療法が中心。心血管奇形（大動脈弁上狭窄等）の外科的修復・カテーテル治療。高カルシウム血症管理（カルシウム・ビタミンD制限）。早期療育・特別支援教育・就労支援。",
+    prognosis:
+      "適切な支援で社会参加が可能。成人期に心血管合併症・高血圧・関節拘縮の管理が重要。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Williams+Syndrome",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/6251",
+  },
+  {
+    slug: "russell-silver-syndrome",
+    name: "ラッセル・シルバー症候群",
+    nameEn: "Russell-Silver Syndrome",
+    nanbyoNumber: 95,
+    category: "希少遺伝疾患",
+    categorySlug: "rare_genetic",
+    overview:
+      "子宮内発育遅延・出生後の低身長・身体的非対称性・特徴的顔貌・摂食困難を特徴とする先天性発育障害。11p15のインプリンティング異常またはUPD(7)matが主な原因。",
+    symptoms: [
+      "子宮内発育遅延（出生体重・身長の著明な低下）",
+      "出生後の低身長（成長障害）",
+      "身体的非対称性（半側肥大）",
+      "特徴的顔貌（三角形顔・広い前額部・小さな顎）",
+      "摂食困難・低血糖（乳幼児期）",
+    ],
+    causes:
+      "11番染色体短腕（11p15.5）のインプリンティング異常（ICR1のメチル化消失：約40%）または母由来7番染色体のUPD（UPD(7)mat：約10%）が多い。残り50%は他の遺伝的変化または不明。",
+    diagnosis:
+      "臨床診断基準（Netchine-Harbison スコア）に基づく。確定診断にはメチル化解析（11p15）・マイクロアレイ・染色体検査・UPD検索。",
+    treatment:
+      "成長ホルモン補充療法（低身長・筋肉量低下の改善）。摂食支援・栄養管理（低血糖予防）。心理・教育支援・作業療法。",
+    prognosis:
+      "成長ホルモン治療で身長改善が期待できる。成人期の最終身長は依然低めとなることが多い。学習困難を伴う場合あり。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Russell+Silver+Syndrome",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/4851",
+  },
+  {
+    slug: "prader-willi-syndrome",
+    name: "プラダー・ウィリー症候群",
+    nameEn: "Prader-Willi Syndrome",
+    nanbyoNumber: 98,
+    category: "希少遺伝疾患",
+    categorySlug: "rare_genetic",
+    overview:
+      "15番染色体父由来領域（15q11-q13）の機能消失による先天性インプリンティング疾患。新生児期の筋緊張低下・哺乳不良から、幼児期以降に過食・肥満・知的障害・行動障害へと症状が変化する。",
+    symptoms: [
+      "新生児期の筋緊張低下（フロッピーインファント）・哺乳不良",
+      "過食・肥満（2〜3歳以降に顕在化）",
+      "低身長（成長ホルモン分泌不全）",
+      "性腺機能低下症（陰茎・陰嚢低形成・停留精巣）",
+      "知的障害・行動障害（こだわり・自傷行為）",
+    ],
+    causes:
+      "父由来15q11-q13の欠失（約70%）・母由来UPD（UPD(15)mat：約25%）・インプリンティングセンター異常（約5%）。父由来SNRPN等の遺伝子群が機能しないことが病因。",
+    diagnosis:
+      "メチル化解析（15q11-q13）でほぼ全例診断可能。欠失はFISH・マイクロアレイで確認。UPDはマイクロサテライト解析で同定。",
+    treatment:
+      "成長ホルモン補充療法（身長・筋肉量・QOL改善）が中心。食事管理（過食・肥満対策）・行動療法・特別支援教育・性ホルモン補充（思春期以降）。",
+    prognosis:
+      "適切な管理で多くが成人に達する。肥満合併症（2型糖尿病・睡眠時無呼吸）と行動・精神症状が成人期の主な問題。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Prader+Willi+Syndrome",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/4845",
+  },
+  {
+    slug: "angelman-syndrome",
+    name: "アンジェルマン症候群",
+    nameEn: "Angelman Syndrome",
+    nanbyoNumber: 99,
+    category: "希少遺伝疾患",
+    categorySlug: "rare_genetic",
+    overview:
+      "母由来15q11-q13（UBE3A）の機能消失による先天性インプリンティング疾患。重度知的障害・てんかん・笑いの多発・言語発達欠如・運動失調が特徴的で、「幸せな人形症候群」とも呼ばれた。",
+    symptoms: [
+      "重度知的障害・言語発達欠如（発語なし〜数語）",
+      "難治性てんかん（2〜3歳頃に発症）",
+      "頻回の笑い・上機嫌な性格",
+      "運動失調・振戦（手を上げた歩行）",
+      "小頭症・色素希薄化（金髪・青い眼が多い）",
+    ],
+    causes:
+      "母由来15q11-q13の欠失（約70%）・父由来UPD（UPD(15)pat：約7%）・UBE3A遺伝子変異（約11%）・インプリンティング異常（約3%）。母由来UBE3A遺伝子が機能しないことが病因。",
+    diagnosis:
+      "メチル化解析（15q11-q13）・FISH・マイクロアレイ・UBE3A遺伝子シーケンス。臨床診断基準に基づく臨床評価と遺伝学的検査の組み合わせ。",
+    treatment:
+      "根本治療なし。てんかん：バルプロ酸・クロナゼパム・レベチラセタム（lamotrigineは悪化の可能性）。コミュニケーション支援（AAC）・理学・作業・言語療法。",
+    prognosis:
+      "てんかんは成人期に軽減することもある。知的・言語障害は持続する。適切な支援で社会参加の質が向上する。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Angelman+Syndrome",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/4839",
+  },
+  {
+    slug: "rett-syndrome",
+    name: "レット症候群",
+    nameEn: "Rett Syndrome",
+    nanbyoNumber: 156,
+    category: "希少遺伝疾患",
+    categorySlug: "rare_genetic",
+    overview:
+      "MECP2遺伝子変異による神経発達疾患で、ほぼ女児のみに発症する。6〜18ヶ月の正常発達の後、目的手運動の喪失・手もみ運動・コミュニケーション障害・てんかん・呼吸異常が特徴的に生じる。",
+    symptoms: [
+      "目的手運動の喪失・手もみ・手洗い様ステレオタイプ運動",
+      "コミュニケーション・社会性の後退",
+      "不規則呼吸（過換気・呼吸停止）",
+      "難治性てんかん",
+      "脊柱側弯・運動機能低下",
+    ],
+    causes:
+      "Xq28に位置するMECP2（メチルCpG結合タンパク2）遺伝子の変異。ほぼ全例が新生突然変異。MeCP2はシナプス成熟・神経回路形成に重要な転写調節因子。男性では致死的または重篤。",
+    diagnosis:
+      "臨床診断基準（Neul 2010年改訂版）。MECP2遺伝子シーケンス・欠失重複解析（NGSパネル含む）。",
+    treatment:
+      "根本治療なし（遺伝子治療の臨床試験進行中）。てんかん管理・呼吸管理・脊柱側弯管理（装具・外科）。トロフィネチド（MECP2変異によるレット症候群に米国FDA承認・2023年）。理学・作業・言語療法。",
+    prognosis:
+      "多くは成人まで生存するが、重度障害が持続する。心臓自律神経異常（QT延長）による突然死リスクがある。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Rett+Syndrome",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/157",
+  },
+  {
+    slug: "22q11-deletion",
+    name: "22q11.2欠失症候群（ディジョージ症候群）",
+    nameEn: "22q11.2 Deletion Syndrome",
+    nanbyoNumber: 346,
+    category: "希少遺伝疾患",
+    categorySlug: "rare_genetic",
+    overview:
+      "22番染色体長腕近位部（22q11.2）の微細欠失による最多の染色体微細欠失症候群。先天性心疾患・口蓋異常・免疫不全（胸腺低形成）・低カルシウム血症・学習障害・精神疾患リスクが特徴。",
+    symptoms: [
+      "先天性心疾患（円錐動脈幹奇形：ファロー四徴症・総動脈幹症等）",
+      "口蓋裂・粘膜下口蓋裂・鼻咽腔閉鎖不全（鼻声）",
+      "T細胞免疫不全（胸腺低形成・反復感染）",
+      "低カルシウム血症（副甲状腺低形成）",
+      "学習障害・統合失調症リスク増大",
+    ],
+    causes:
+      "22q11.2領域の約3Mbの微細欠失（TBX1を含む30以上の遺伝子）。約90%は新生突然変異で、10%は親から遺伝。常染色体優性遺伝形式。",
+    diagnosis:
+      "FISH法・MLPA・マイクロアレイCGHで22q11.2欠失を検出。先天性心疾患・口蓋異常・低Ca血症・免疫異常の組み合わせで疑う。",
+    treatment:
+      "先天性心疾患の外科的修復。低カルシウム血症：カルシウム・活性型ビタミンD補充。免疫不全：感染管理・必要時に胸腺移植。言語療法・発達支援・精神科的サポート（統合失調症予防・治療）。",
+    prognosis:
+      "心疾患の重症度や合併症により多様。精神疾患（統合失調症：成人期に約25〜30%）が長期的な生活の質に影響する。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=22q11+Deletion+Syndrome",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/6253",
+  },
+
+  // ─── 神経・筋疾患（さらに追加） ────────────────────────────────
+  {
+    slug: "fabry-neurological",
+    name: "ファブリー病（神経型）",
+    nameEn: "Fabry Disease (Neurological Type)",
+    nanbyoNumber: 98,
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "α-ガラクトシダーゼA欠損によるライソゾーム蓄積症。神経型では四肢末梢の灼熱痛（ファブリー疼痛）・脳卒中が先行することがある。X連鎖性遺伝で男性に重症、女性保因者も症状を呈する。",
+    symptoms: [
+      "四肢末梢の灼熱痛・刺痛（アクロパレスチジア）",
+      "発汗低下（無汗症）",
+      "角膜混濁（ボルティセラ角膜）",
+      "若年性脳卒中・TIA",
+      "腎障害・心肥大（臓器蓄積による）",
+    ],
+    causes:
+      "GLA遺伝子変異によるα-ガラクトシダーゼA（α-Gal A）欠損。グロボトリアオシルセラミド（Gb3）が神経・血管・腎・心に蓄積し障害を引き起こす。X連鎖劣性遺伝。",
+    diagnosis:
+      "α-Gal A酵素活性（白血球・血漿：男性で低下）・血漿Gb3・リゾ-Gb3・GLA遺伝子検査（女性は酵素活性正常でも変異で診断）。",
+    treatment:
+      "酵素補充療法（アガルシダーゼα・アガルシダーゼβ：2週毎静注）。シャペロン療法（ミガラスタット：特定変異に経口投与）。疼痛管理（カルバマゼピン・ガバペンチン）。",
+    prognosis:
+      "酵素補充療法の早期開始で臓器障害の進行を抑制できる。脳卒中・腎不全・心筋症が生命予後に影響する。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Fabry+Disease+Neurological",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/254",
+  },
+  {
+    slug: "hereditary-spastic-paraplegia-new",
+    name: "遺伝性痙性対麻痺",
+    nameEn: "Hereditary Spastic Paraplegia",
+    nanbyoNumber: 126,
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "皮質脊髄路（上位運動ニューロン）の変性により下肢の痙性・筋力低下・歩行障害が徐々に進行する遺伝性疾患群。単純型と複雑型（他神経症状を伴う）に分類され、80以上の遺伝子型（SPG1〜）が同定されている。",
+    symptoms: [
+      "下肢の痙性麻痺（ハサミ脚歩行）",
+      "下肢筋力低下",
+      "腱反射亢進・病的反射陽性",
+      "排尿障害（神経因性膀胱）",
+      "複雑型では感覚障害・小脳失調・知的障害等を伴う",
+    ],
+    causes:
+      "SPG4（SPAST：スパスチン）が最多（常染色体優性型の約40%）。その他SPG3A・SPG11・SPG15・SPG7等多数の遺伝子変異。常染色体優性・劣性・X連鎖性・ミトコンドリア遺伝等多様な遺伝形式。",
+    diagnosis:
+      "臨床症状・家族歴・遺伝子パネル検査（NGS）。MRI（頸髄・胸髄の萎縮・白質異常）・神経伝導検査・筋電図で評価。",
+    treatment:
+      "根本治療なし。痙性管理（バクロフェン・チザニジン・ボツリヌス毒素・バクロフェン髄腔内投与）。リハビリテーション（歩行訓練・装具・車椅子）・排尿障害管理。",
+    prognosis:
+      "単純型は緩徐進行で寿命は正常に近い。複雑型は障害が多岐にわたる。SPG4は発症年齢が早いほど進行が速い傾向。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Hereditary+Spastic+Paraplegia",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/240",
+  },
+  {
+    slug: "nemaline-myopathy",
+    name: "ネマリンミオパチー",
+    nameEn: "Nemaline Myopathy",
+    nanbyoNumber: 116,
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "骨格筋にネマリン小体（棹状体）が蓄積する先天性ミオパチー。NEB・ACTA1等の遺伝子変異が原因で、筋緊張低下・筋力低下・呼吸障害が生じる。重症度は多様で新生児致死型から軽症型まで。",
+    symptoms: [
+      "筋緊張低下（出生時または乳児期）",
+      "全身筋力低下（近位筋優位・顔面筋含む）",
+      "呼吸筋障害（呼吸不全）",
+      "嚥下困難・哺乳不良",
+      "細長い顔・高口蓋・脊柱変形",
+    ],
+    causes:
+      "NEB（ネブリン）・ACTA1（骨格筋アクチン）・TPM2・TPM3・TNNT1等の遺伝子変異によるサルコメア構成タンパクの異常。常染色体優性・劣性両者あり。",
+    diagnosis:
+      "筋生検（Gomori trichrome染色でネマリン小体の確認）・遺伝子パネル検査（NGS）・筋電図（ミオパチーパターン）・呼吸機能検査。",
+    treatment:
+      "根本治療なし。呼吸管理（NPPV・気管切開）・栄養管理（胃瘻）・リハビリテーション・装具療法。",
+    prognosis:
+      "重症型（新生児型）は呼吸障害で早期死亡が多い。軽症型は長期生存可能で歩行可能なことも多い。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Nemaline+Myopathy",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/5185",
+  },
+  {
+    slug: "melas",
+    name: "MELAS（ミトコンドリア脳筋症・乳酸アシドーシス・脳卒中様発作症候群）",
+    nameEn: "MELAS Syndrome",
+    nanbyoNumber: 21,
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "ミトコンドリアDNA（主にmt.3243A>G変異）によるエネルギー産生障害で、脳卒中様発作・痙攣・乳酸アシドーシス・筋力低下・難聴などが生じる母系遺伝性ミトコンドリア病。",
+    symptoms: [
+      "脳卒中様発作（突然の頭痛・視覚障害・失語・片麻痺）",
+      "痙攣・てんかん",
+      "乳酸アシドーシス",
+      "難聴（感音性）",
+      "筋力低下・運動不耐性・易疲労感",
+    ],
+    causes:
+      "ミトコンドリアDNA（mtDNA）mt.3243A>G変異（約80%）によるtRNALeu(UUR)異常。電子伝達系複合体の機能不全でATP産生が低下し、高エネルギー要求臓器（脳・筋）が障害される。母系遺伝（ヘテロプラスミー）。",
+    diagnosis:
+      "血液・髄液の乳酸・ピルビン酸高値。mtDNA変異検索（血液・尿沈渣・筋生検）。頭部MRI（後頭葉〜頭頂葉の拡散制限・皮質信号変化）・FDG-PET・脳波。筋生検（ラギッドレッドファイバー）。",
+    treatment:
+      "根本治療なし。アルギニン（急性期静注：脳卒中様発作の軽減）・シトルリン（慢性期予防）。CoQ10・ビタミンB群・カルニチン補充。てんかん管理（バルプロ酸は禁忌）。",
+    prognosis:
+      "脳卒中様発作の繰り返しで神経症状が段階的に悪化する。予後は変異型・ヘテロプラスミー率・臓器病変の程度による。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=MELAS+Syndrome",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/288",
+  },
+  {
+    slug: "merrf",
+    name: "MERRF症候群",
+    nameEn: "MERRF Syndrome",
+    nanbyoNumber: 21,
+    category: "神経・筋疾患",
+    categorySlug: "neuromuscular",
+    overview:
+      "ミオクローヌスてんかん・ラギッドレッドファイバーを特徴とするミトコンドリア病。mt.8344A>G変異（tRNALys）が主な原因で、難聴・小脳失調・認知機能低下を伴う。",
+    symptoms: [
+      "ミオクローヌスてんかん（難治性）",
+      "小脳失調（歩行障害・構音障害）",
+      "筋力低下・運動不耐性",
+      "感音性難聴",
+      "認知機能低下・短身長",
+    ],
+    causes:
+      "mtDNA mt.8344A>G変異（約80〜90%）によるtRNALys機能障害。ミトコンドリア呼吸鎖複合体I・IVの欠損が生じる。母系遺伝（ヘテロプラスミー）。",
+    diagnosis:
+      "血液・髄液乳酸高値・mtDNA変異検索。筋生検（ラギッドレッドファイバー・SDH強陽性線維）。脳波（多焦点性棘波）・脳MRI・聴力検査。",
+    treatment:
+      "根本治療なし。てんかん管理（レベチラセタム・クロナゼパム：バルプロ酸は可能な限り回避）。CoQ10・ビタミンB群補充。リハビリテーション。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=MERRF+Syndrome",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/289",
+  },
+
+  // ─── 代謝・遺伝疾患（さらに追加） ────────────────────────────────
+  {
+    slug: "methylmalonic-acidemia",
+    name: "メチルマロン酸血症",
+    nameEn: "Methylmalonic Acidemia",
+    nanbyoNumber: 258,
+    category: "代謝・遺伝疾患",
+    categorySlug: "metabolic",
+    overview:
+      "メチルマロニルCoAムターゼ（MUT）またはコバラミン代謝酵素の欠損による有機酸代謝異常症。プロピオン酸血症と並ぶ主要な有機酸血症で、腎障害・眼病変・代謝危機を来す。",
+    symptoms: [
+      "新生児期の嘔吐・哺乳不良・意識障害",
+      "代謝性アシドーシス・高アンモニア血症",
+      "慢性腎障害（長期合併症）",
+      "視神経障害（眼底病変）",
+      "基底核病変（代謝危機後の神経障害）",
+    ],
+    causes:
+      "MMUT遺伝子変異（MUTase欠損型：mut0・mut-）・MMAA・MMAB・MMADHC等のコバラミン代謝遺伝子変異。常染色体劣性遺伝。",
+    diagnosis:
+      "新生児マススクリーニング（タンデムマス法：プロピオニルカルニチン高値）。血漿メチルマロン酸・尿有機酸分析・酵素活性・遺伝子検査・ビタミンB12反応試験。",
+    treatment:
+      "タンパク制限食（イソロイシン・バリン・メチオニン・スレオニン制限）・L-カルニチン補充。ビタミンB12反応型（cbI型）には大量B12投与。急性期は透析・高カロリー輸液。肝移植または肝腎同時移植。",
+    prognosis:
+      "mut0型は予後不良。早期診断・治療と肝移植で腎障害の進行を抑制できる可能性がある。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Methylmalonic+Acidemia",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/4633",
+  },
+  {
+    slug: "biotinidase-deficiency",
+    name: "ビオチニダーゼ欠損症",
+    nameEn: "Biotinidase Deficiency",
+    nanbyoNumber: 263,
+    category: "代謝・遺伝疾患",
+    categorySlug: "metabolic",
+    overview:
+      "ビオチニダーゼ欠損によりビオチンが再利用されず、多種カルボキシラーゼ欠損が生じる先天代謝異常症。痙攣・皮膚炎・脱毛・視聴覚障害が生じるが、早期診断でビオチン投与により症状発現を完全に予防できる。",
+    symptoms: [
+      "難治性てんかん・痙攣",
+      "皮膚炎・落屑・脱毛",
+      "視神経萎縮（視力障害）・難聴",
+      "筋緊張低下・発達遅滞",
+      "代謝性アシドーシス（重症例）",
+    ],
+    causes:
+      "BTD遺伝子変異によるビオチニダーゼ（BTD）欠損。ビオチン再利用障害により複数のカルボキシラーゼが機能不全となる。常染色体劣性遺伝。",
+    diagnosis:
+      "新生児マススクリーニング（BTD活性：蛍光法・比色法）。確定診断に酵素活性定量・BTD遺伝子検査。",
+    treatment:
+      "経口ビオチン補充（5〜20mg/日）が唯一かつ非常に有効な治療。早期開始で症状発現を完全に予防できる。",
+    prognosis:
+      "新生児マススクリーニングで早期発見し生涯ビオチンを継続することで正常な発達が期待できる。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Biotinidase+Deficiency",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/4621",
+  },
+  {
+    slug: "tyrosinemia-type1",
+    name: "チロシン血症1型",
+    nameEn: "Tyrosinemia Type 1",
+    nanbyoNumber: 244,
+    category: "代謝・遺伝疾患",
+    categorySlug: "metabolic",
+    overview:
+      "フマリルアセト酢酸ヒドロラーゼ（FAH）欠損によるチロシン代謝最終段階の障害。サクシニルアセトンが蓄積し肝障害・腎障害・神経症状（急性ポルフィリン様発作）・肝細胞がんを来す。",
+    symptoms: [
+      "急性肝不全（乳児期早期）",
+      "慢性肝障害・肝硬変・肝細胞がん",
+      "ファンコニ症候群（腎尿細管障害）",
+      "神経症状（急性ポルフィリン様発作：疼痛・筋力低下）",
+      "くる病様骨病変",
+    ],
+    causes:
+      "FAH遺伝子変異によるフマリルアセト酢酸ヒドロラーゼ欠損。サクシニルアセトン（強力なΔ-ALA脱水酵素阻害薬）の蓄積が多臓器に毒性を発揮。常染色体劣性遺伝。",
+    diagnosis:
+      "新生児マススクリーニング（タンデムマス法：チロシン高値・サクシニルアセトン高値）。尿有機酸分析・血液アミノ酸分析・FAH酵素活性・遺伝子検査。",
+    treatment:
+      "ニチシノン（NTBC：4-ヒドロキシフェニルピルビン酸ジオキシゲナーゼ阻害薬）が劇的に予後を改善する第一選択薬。チロシン・フェニルアラニン制限食の併用。肝細胞がんのサーベイランス。肝移植。",
+    prognosis:
+      "NTBC早期開始で肝不全・神経発作を予防できる。肝細胞がんリスクは残存するためサーベイランスが重要。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Tyrosinemia+Type+1",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/4641",
+  },
+
+  // ─── 免疫・アレルギー疾患（さらに追加） ────────────────────────────────
+  {
+    slug: "common-variable-immunodeficiency",
+    name: "分類不能型免疫不全症（CVID）",
+    nameEn: "Common Variable Immunodeficiency",
+    category: "免疫・アレルギー疾患",
+    categorySlug: "immune",
+    overview:
+      "低ガンマグロブリン血症と抗体産生障害を特徴とする最も頻度の高い症候性原発性免疫不全症。反復性細菌感染・自己免疫疾患・リンパ増殖症・消化管病変・悪性腫瘍リスク増大を来す。",
+    symptoms: [
+      "反復性呼吸器感染（肺炎・副鼻腔炎・中耳炎）",
+      "慢性肺疾患（気管支拡張症・間質性肺炎）",
+      "消化器症状（慢性下痢・吸収不良・炎症性腸疾患様）",
+      "自己免疫性血球減少（ITP・AIHA）",
+      "リンパ節腫大・脾腫",
+    ],
+    causes:
+      "B細胞分化・抗体産生に関わる複数の遺伝子（TNFRSF13B・TNFRSF13C・ICOS・CD19・CD20等）変異が一部で同定されるが、多くは原因不明の多因子性。",
+    diagnosis:
+      "血清IgG著明低下（年齢正常値の2SD以下）＋IgA・IgMの低下。ワクチン（肺炎球菌・インフルエンザ）接種後の特異的抗体産生不良。他の低Ig血症原因の除外。",
+    treatment:
+      "免疫グロブリン補充療法（IVIG：3〜4週毎静注またはSCIG：皮下注）が主体。感染の早期・適切な抗菌薬治療。自己免疫合併症にはステロイド・リツキシマブ等。",
+    prognosis:
+      "適切なIg補充で感染合併症は大幅に減少。肺の不可逆的障害・悪性リンパ腫・胃がんリスクに注意。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Common+Variable+Immunodeficiency",
+  },
+  {
+    slug: "hemophagocytic-lymphohistiocytosis-primary",
+    name: "原発性血球貪食性リンパ組織球症（FHL）",
+    nameEn: "Familial Hemophagocytic Lymphohistiocytosis",
+    nanbyoNumber: 16,
+    category: "免疫・アレルギー疾患",
+    categorySlug: "immune",
+    overview:
+      "細胞傷害性Tリンパ球・NK細胞の機能障害による過剰な免疫活性化で致死的なサイトカインストームを来す遺伝性疾患。幼小児に多く、発熱・肝脾腫・血球減少・凝固異常が急速に進行する。",
+    symptoms: [
+      "高熱（持続性・抗生物質不応性）",
+      "肝脾腫",
+      "汎血球減少（貧血・血小板減少・白血球減少）",
+      "フィブリノゲン低下・高フェリチン血症",
+      "神経症状（痙攣・意識障害）",
+    ],
+    causes:
+      "FHL1〜5：PRF1（パーフォリン）・UNC13D・STX11・STXBP2等の遺伝子変異によりNK/CTL細胞の顆粒開口分泌が障害される。常染色体劣性遺伝。",
+    diagnosis:
+      "HLH-2004診断基準（8項目中5項目以上）：発熱・脾腫・血球減少・高TG/低フィブリノゲン・血球貪食・低NK活性・高フェリチン・高sCD25。遺伝子検査で確定。",
+    treatment:
+      "HLH-94/HLH-2004プロトコル（デキサメタゾン・エトポシド・シクロスポリン）で寛解導入後、同種造血幹細胞移植（唯一の根治療法）。",
+    prognosis:
+      "未治療では致命的。移植後5年生存率は約60〜70%。再発・神経後遺症が予後に影響。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Familial+Hemophagocytic+Lymphohistiocytosis",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/464",
+  },
+  {
+    slug: "chronic-granulomatous-disease",
+    name: "慢性肉芽腫症",
+    nameEn: "Chronic Granulomatous Disease",
+    category: "免疫・アレルギー疾患",
+    categorySlug: "immune",
+    overview:
+      "食細胞（好中球・マクロファージ）のNADPHオキシダーゼ機能欠損により活性酸素産生が障害される原発性免疫不全症。特定の細菌・真菌（カタラーゼ陽性菌）への易感染性と肉芽腫形成が特徴。",
+    symptoms: [
+      "反復性・重症感染症（アスペルギルス・スタフィロコッカス・ノカルジア等）",
+      "肺炎・リンパ節炎・肝膿瘍・骨髄炎",
+      "各臓器の肉芽腫形成（消化管・膀胱：閉塞症状）",
+      "BCGitis（BCGワクチン関連：播種性）",
+      "炎症性腸疾患様症状",
+    ],
+    causes:
+      "CYBB遺伝子変異（X連鎖型：gp91phox欠損、約70%）・CYBA・NCF1・NCF2・NCF4遺伝子変異（常染色体劣性型）によるNADPHオキシダーゼ機能不全。",
+    diagnosis:
+      "DHR（ジヒドロローダミン）フローサイトメトリー・NBTテスト（好中球のオキシダーゼ活性）・遺伝子検査。",
+    treatment:
+      "予防的抗菌薬（トリメトプリム-スルファメトキサゾール）・抗真菌薬（イトラコナゾール）・IFN-γ投与。感染時には積極的な抗菌・抗真菌療法・外科的ドレナージ。同種造血幹細胞移植が根治療法。",
+    prognosis:
+      "適切な予防療法で感染合併症を軽減できる。造血幹細胞移植後の長期生存率は改善している。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Chronic+Granulomatous+Disease",
+  },
+
+  // ─── 呼吸器疾患（追加） ────────────────────────────────
+  {
+    slug: "hereditary-pulmonary-hypertension",
+    name: "遺伝性肺動脈性肺高血圧症",
+    nameEn: "Hereditary Pulmonary Arterial Hypertension",
+    nanbyoNumber: 86,
+    category: "呼吸器疾患",
+    categorySlug: "respiratory",
+    overview:
+      "BMPR2等の遺伝子変異により肺小動脈に閉塞性血管病変が生じる家族性・遺伝性の肺高血圧症。若年成人（特に女性）に発症しやすく、右心不全の進行で予後不良だったが近年治療法が飛躍的に進歩している。",
+    symptoms: [
+      "労作性息切れ・易疲労感（初期症状）",
+      "動悸・失神",
+      "右心不全症状（浮腫・腹水・頸静脈怒張）",
+      "胸痛",
+      "咳嗽・血痰（進行例）",
+    ],
+    causes:
+      "BMPR2遺伝子変異（約80%の遺伝性PAH）・ACVRL1・ENG・SMAD9・CAV1・KCNK3等の変異。常染色体優性遺伝（浸透率約20%）。TGF-β/BMP経路障害により肺血管平滑筋細胞の増殖・収縮が亢進する。",
+    diagnosis:
+      "右心カテーテル（平均肺動脈圧≥20mmHg・PVR≥2WU）で確定。遺伝子検査（BMPR2等）・肺血管拡張試験（急性血管反応性試験）・6分間歩行距離・BNP/NT-proBNP・心エコー・造影CT。",
+    treatment:
+      "肺血管拡張薬3系統：エンドセリン受容体拮抗薬（ボセンタン・アンブリセンタン・マシテンタン）・PDE-5阻害薬（シルデナフィル・タダラフィル）・プロスタサイクリン誘導体（エポプロステノール・トレプロスチニル・セレキシパグ）。積極的な初期併用療法が推奨される。",
+    prognosis:
+      "近年の治療進歩で5年生存率が大幅改善。早期診断・積極的治療・遺伝カウンセリングが重要。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Hereditary+Pulmonary+Arterial+Hypertension",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/255",
+  },
+  {
+    slug: "bronchiolitis-obliterans",
+    name: "閉塞性細気管支炎",
+    nameEn: "Bronchiolitis Obliterans",
+    nanbyoNumber: 87,
+    category: "呼吸器疾患",
+    categorySlug: "respiratory",
+    overview:
+      "細気管支の線維性閉塞による不可逆的な閉塞性換気障害を来す稀少疾患。感染後（アデノウイルス・マイコプラズマ）・造血幹細胞移植後（GVHD関連）・肺移植後・薬剤・吸入物質（バターフレーバー等）が原因となる。",
+    symptoms: [
+      "慢性咳嗽・喘鳴",
+      "進行性の息切れ・運動耐容能低下",
+      "気管支拡張薬に反応しない閉塞性換気障害",
+      "反復性呼吸器感染",
+      "チアノーゼ（進行例）",
+    ],
+    causes:
+      "細気管支への傷害後の異常修復・線維化で管腔が閉塞する。HSCT後GVHDが主な原因（慢性GVHDの肺病変として最多）。感染後（小児：アデノウイルス3型等）・薬剤・吸入化学物質も原因。",
+    diagnosis:
+      "高分解能CT（モザイク状陰影・空気捕捉）・呼吸機能検査（FEV1低下・気管支拡張薬反応不良）・肺生検（確定診断だが侵襲的）。HSCT後はBOS（閉塞性細気管支炎症候群）の診断基準を用いる。",
+    treatment:
+      "確立した治療なし。HSCT後BOS：カルシニューリン阻害薬・ステロイド・FAM（フルチカゾン・アジスロマイシン・モンテルカスト）療法・イマチニブ等。感染制御・気道管理・酸素療法・肺移植（重症例）。",
+    prognosis:
+      "不可逆的な肺機能低下が進行する。HSCT後BOS は5年死亡率が高く、移植後の重要な合併症。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Bronchiolitis+Obliterans",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/319",
+  },
+
+  // ─── 腎疾患（追加） ────────────────────────────────
+  {
+    slug: "fabry-renal",
+    name: "ファブリー病（腎型）",
+    nameEn: "Fabry Disease (Renal Type)",
+    nanbyoNumber: 98,
+    category: "腎疾患",
+    categorySlug: "renal",
+    overview:
+      "α-ガラクトシダーゼA欠損によるライソゾーム蓄積症の腎型。Gb3が腎実質（糸球体・尿細管）に蓄積し、蛋白尿・腎機能低下が生じ末期腎不全に至る。酵素補充療法で腎保護効果が期待される。",
+    symptoms: [
+      "蛋白尿（初期：微量アルブミン尿）",
+      "腎機能低下（慢性腎臓病の進行）",
+      "末期腎不全（透析・移植が必要）",
+      "高血圧",
+      "他臓器病変（心肥大・脳卒中・疼痛）の合併",
+    ],
+    causes:
+      "GLA遺伝子変異によるα-ガラクトシダーゼA欠損。Gb3が腎糸球体足細胞・内皮細胞・近位尿細管細胞等に蓄積し、線維化・硬化を引き起こす。",
+    diagnosis:
+      "α-Gal A酵素活性・血漿Gb3・リゾ-Gb3測定。GLA遺伝子検査。腎生検（電子顕微鏡：封入体の蓄積）。腎機能・蛋白尿の経時的評価。",
+    treatment:
+      "酵素補充療法（アガルシダーゼα・β）・シャペロン療法（ミガラスタット）。ACE阻害薬・ARBによる蛋白尿・腎保護。末期腎不全には透析・腎移植。",
+    prognosis:
+      "早期の酵素補充開始で腎機能低下を遅延できる。未治療では40〜50代で末期腎不全に至ることが多い。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Fabry+Disease+Renal",
+  },
+  {
+    slug: "hypocomplementemic-urticarial-vasculitis",
+    name: "低補体血症性蕁麻疹様血管炎症候群（マクダフィー症候群）",
+    nameEn: "Hypocomplementemic Urticarial Vasculitis Syndrome",
+    nanbyoNumber: 315,
+    category: "腎疾患",
+    categorySlug: "renal",
+    overview:
+      "慢性蕁麻疹様皮疹・低補体血症・全身性血管炎を特徴とする稀少疾患。腎炎・ぶどう膜炎・閉塞性肺疾患・関節炎・漿膜炎を合併する。抗C1q抗体が特徴的に検出される。",
+    symptoms: [
+      "慢性蕁麻疹様皮疹（24時間以上持続・灼熱感・疼痛）",
+      "低補体血症（C1q・C3・C4低下）",
+      "腎炎（メサンギウム増殖性・膜性増殖性）",
+      "ぶどう膜炎・眼症状",
+      "閉塞性肺疾患・漿膜炎・関節炎",
+    ],
+    causes:
+      "抗C1q抗体（C1q沈殿素）が補体系を活性化し小型血管に免疫複合体が沈着する。SLEとの関連・オーバーラップが見られることがある。",
+    diagnosis:
+      "臨床症状（慢性蕁麻疹様皮疹・低補体血症・全身合併症）・皮膚生検（白血球破砕性血管炎）・抗C1q抗体陽性・C1q・C3・C4の低下・ANA・抗dsDNA抗体検索。",
+    treatment:
+      "NSAIDs・ヒドロキシクロロキン（軽症）。ステロイド・免疫抑制薬（アザチオプリン・ミコフェノール酸モフェチル）。重症例にはリツキシマブ・ダプソン。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Hypocomplementemic+Urticarial+Vasculitis",
+  },
+
+  // ─── 消化器疾患（追加） ────────────────────────────────
+  {
+    slug: "intestinal-behcets",
+    name: "腸管ベーチェット病",
+    nameEn: "Intestinal Behcet's Disease",
+    nanbyoNumber: 56,
+    category: "消化器疾患",
+    categorySlug: "digestive",
+    overview:
+      "ベーチェット病の消化管病変で、回盲部を中心とした深い腸管潰瘍が特徴的。腹痛・下痢・消化管出血・穿孔・瘻孔形成を来す。難治性で生物学的製剤が有効な例がある。",
+    symptoms: [
+      "腹痛（右下腹部痛：回盲部病変）",
+      "下痢・血便・消化管出血",
+      "発熱・体重減少",
+      "腸管穿孔・瘻孔形成（重症合併症）",
+      "再発性口腔内アフタ・外陰部潰瘍（ベーチェット病の他症状）",
+    ],
+    causes:
+      "ベーチェット病の全身性自己炎症性疾患の一部として消化管（特に回盲部）に潰瘍が生じる。HLA-B51と強い関連あり。好中球機能亢進・Th1/Th17応答異常が関与。",
+    diagnosis:
+      "下部消化管内視鏡（回盲部の典型的な単発〜少数の深い類円形潰瘍）・造影CT・腹部MRI。ベーチェット病診断基準（反復性口腔アフタ＋他2主症状以上）と腸管病変の組み合わせで診断。",
+    treatment:
+      "メサラジン・ステロイド（軽〜中等症）。コルヒチン（再発予防）。重症・ステロイド依存例にアダリムマブ（TNF阻害薬：日本で承認）・インフリキシマブ。外科（穿孔・大量出血時）。",
+    prognosis:
+      "再発率が高く長期管理が必要。生物学的製剤の登場で外科手術率は低下傾向。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Intestinal+Behcets+Disease",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/224",
+  },
+  {
+    slug: "lymphangioleiomyomatosis",
+    name: "リンパ脈管筋腫症（LAM）",
+    nameEn: "Lymphangioleiomyomatosis",
+    nanbyoNumber: 189,
+    category: "呼吸器疾患",
+    categorySlug: "respiratory",
+    overview:
+      "TSC2またはTSC1遺伝子変異による平滑筋様細胞（LAM細胞）が肺・リンパ管・腎（血管筋脂肪腫）に増殖する多系統疾患。ほぼ女性のみに発症し、進行性の気流制限と気胸を繰り返す。",
+    symptoms: [
+      "労作性息切れ・咳嗽（進行性）",
+      "自然気胸（再発性）",
+      "乳び胸・乳び腹水",
+      "腎血管筋脂肪腫（AML：腹部腫瘤・出血）",
+      "結節性硬化症の他病変（皮膚・脳）",
+    ],
+    causes:
+      "TSC2（約80%）またはTSC1遺伝子の変異（孤発性LAMは通常体細胞変異）によりmTORC1経路が過剰活性化し、LAM細胞が異常増殖・浸潤する。",
+    diagnosis:
+      "高分解能CT（両肺野均等分布の薄壁嚢腫）・血清VEGF-D高値（＞800pg/mL：高特異度）・肺生検（LAM細胞：HMB-45陽性）・腎AML（CT）・TSC2/TSC1遺伝子検査。",
+    treatment:
+      "シロリムス（mTOR阻害薬：FEV1低下速度の抑制・VEGF-D低下・LAM症状改善）が第一選択。気胸管理（胸膜固定術）・乳び腹水（食事制限・オクトレオチド・シロリムス）・腎AML（エベロリムス・塞栓術）。",
+    prognosis:
+      "シロリムス治療で進行を抑制できる。重症例では肺移植が適応。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Lymphangioleiomyomatosis",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/274",
+  },
+
+  // ─── 内分泌疾患（追加） ────────────────────────────────
+  {
+    slug: "mccune-albright",
+    name: "マクーン・オルブライト症候群",
+    nameEn: "McCune-Albright Syndrome",
+    nanbyoNumber: 193,
+    category: "内分泌疾患",
+    categorySlug: "endocrine",
+    overview:
+      "GNAS遺伝子の体細胞変異による多骨性線維性骨異形成・皮膚カフェオレ斑・内分泌機能亢進（思春期早発症・甲状腺機能亢進症・GH過剰等）を三主徴とする稀少疾患。",
+    symptoms: [
+      "カフェオレ斑（不整形・地図状）",
+      "多骨性線維性骨異形成（病的骨折・骨変形）",
+      "思春期早発症（女児：月経・乳房発達の早期出現）",
+      "甲状腺機能亢進症・甲状腺腫",
+      "末端肥大症・クッシング症候群等の内分泌異常",
+    ],
+    causes:
+      "GNAS遺伝子（Gsα）のArg201（R201H/C）体細胞機能獲得変異がモザイク状に生じる。cAMP産生が恒常的に亢進し、骨・皮膚・内分泌腺の各細胞が異常活性化する。",
+    diagnosis:
+      "三主徴の組み合わせで臨床診断。GNAS遺伝子変異（病変組織：骨・皮膚・血液で検出感度が異なる）・X線・MRI（骨病変）・内分泌機能検査（LH・FSH・エストラジオール・GH・IGF-1・甲状腺機能等）。",
+    treatment:
+      "思春期早発症：アロマターゼ阻害薬（レトロゾール・アナストロゾール）・ビカルタミド。GH過剰：ソマトスタチンアナログ・ペグビソマント・ランレオチド。骨病変：ビスホスホネート。甲状腺機能亢進：抗甲状腺薬・外科。",
+    prognosis:
+      "骨折・変形・内分泌障害の程度により予後は多様。適切な管理で長期生存可能。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=McCune+Albright+Syndrome",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/308",
+  },
+  {
+    slug: "wolfram-syndrome",
+    name: "ウォルフラム症候群",
+    nameEn: "Wolfram Syndrome",
+    category: "内分泌疾患",
+    categorySlug: "endocrine",
+    overview:
+      "WFS1またはCISD2遺伝子変異による稀少常染色体劣性遺伝疾患。糖尿病・視神経萎縮・尿崩症・難聴（DIDMOAD症候群）を来し、進行性の神経変性を伴う。",
+    symptoms: [
+      "小児期発症1型様糖尿病（自己抗体陰性）",
+      "視神経萎縮（視力低下・色覚異常）",
+      "中枢性尿崩症",
+      "感音性難聴",
+      "神経変性（小脳失調・脳幹萎縮）",
+    ],
+    causes:
+      "WFS1遺伝子変異（小胞体ストレス応答・カルシウム恒常性）による膵β細胞・神経細胞の変性。常染色体劣性遺伝（まれに優性変異でWFS1関連疾患）。",
+    diagnosis:
+      "DIDMOAD症状の組み合わせ・WFS1遺伝子検査。MRI（脳幹・小脳萎縮）・聴力検査・視野検査・内分泌検査。",
+    treatment:
+      "根本治療なし。インスリン療法（糖尿病）・デスモプレシン（尿崩症）・補聴器（難聴）・視覚補助。神経変性への対症療法。",
+    prognosis:
+      "神経変性が進行し30〜40代で呼吸不全・腎不全等で死亡することが多い。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Wolfram+Syndrome",
+  },
+
+  // ─── 眼科疾患（追加） ────────────────────────────────
+  {
+    slug: "best-disease",
+    name: "ベスト病（卵黄様黄斑ジストロフィー）",
+    nameEn: "Best Disease",
+    nanbyoNumber: 308,
+    category: "眼科疾患",
+    categorySlug: "ophthalmology",
+    overview:
+      "BEST1（ベストロフィン1）遺伝子変異による常染色体優性黄斑ジストロフィー。RPE（網膜色素上皮）に卵黄様病変が形成され、中心視力が低下する。EOG（眼電図）のArden比低下が特徴的。",
+    symptoms: [
+      "中心視力の緩徐な低下（青年〜中年期に顕在化）",
+      "変視症・中心暗点",
+      "卵黄様黄斑病変（眼底検査・OCT）",
+      "色覚障害（軽度）",
+      "周辺視野は比較的保たれる",
+    ],
+    causes:
+      "BEST1遺伝子変異によるベストロフィン1チャネル（RPEのクロライドイオンチャネル）機能不全。RPEのリポフスチン代謝・液体輸送が障害され卵黄様物質が蓄積する。常染色体優性遺伝。",
+    diagnosis:
+      "眼底検査・OCT（黄斑部の卵黄様病変〜瘢痕）・眼電図（EOG：Arden比著明低下が本疾患の特徴）・ERG（正常）・BEST1遺伝子検査。",
+    treatment:
+      "根本治療なし。サングラス（光障害予防）・低視力補助（拡大鏡・電子補助具）。CNV（脈絡膜新生血管）合併時に抗VEGF薬（ベバシズマブ・ラニビズマブ）の適応あり。遺伝子治療の臨床試験進行中。",
+    prognosis:
+      "多くは中等度の視力低下にとどまり日常生活が可能。一部は中心視力が著しく低下する。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Best+Disease+Macular+Dystrophy",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/4877",
+  },
+  {
+    slug: "gyrate-atrophy",
+    name: "回旋状脈絡膜萎縮",
+    nameEn: "Gyrate Atrophy of Choroid and Retina",
+    nanbyoNumber: 311,
+    category: "眼科疾患",
+    categorySlug: "ophthalmology",
+    overview:
+      "OAT（オルニチンアミノトランスフェラーゼ）遺伝子変異による高オルニチン血症を伴う脈絡膜・網膜の進行性萎縮疾患。近視・夜盲・視野狭窄から始まり中心視力が低下する。アルギニン制限食・ビタミンB6で進行抑制が期待できる。",
+    symptoms: [
+      "夜盲（暗所での視力低下：10代から）",
+      "進行性視野狭窄（求心性）",
+      "高度近視",
+      "後嚢下白内障",
+      "黄斑変性による中心視力低下（進行期）",
+    ],
+    causes:
+      "OAT遺伝子変異によるオルニチンアミノトランスフェラーゼ欠損。血漿オルニチン著明高値（正常の10〜20倍）となりRPE・光受容体が障害される。常染色体劣性遺伝。",
+    diagnosis:
+      "血漿アミノ酸分析（オルニチン著明高値）・眼底検査（境界明瞭な地図状脈絡膜萎縮）・ERG（錐体・桿体機能低下）・OAT遺伝子検査。",
+    treatment:
+      "アルギニン制限食（オルニチン前駆体を減少）・ピリドキシン（ビタミンB6）反応型に大量B6投与。クレアチン補充（筋症状のある例）。定期的な眼科経過観察。",
+    prognosis:
+      "アルギニン制限食の厳格な継続で脈絡膜萎縮の進行を抑制できる。視力予後は管理の良否に依存する。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Gyrate+Atrophy+Choroid+Retina",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/4877",
+  },
+
+  // ─── 骨・筋肉疾患（さらに追加） ────────────────────────────────
+  {
+    slug: "cleidocranial-dysplasia",
+    name: "鎖骨頭蓋骨異形成症",
+    nameEn: "Cleidocranial Dysplasia",
+    nanbyoNumber: 203,
+    category: "骨・筋肉疾患",
+    categorySlug: "bone",
+    overview:
+      "RUNX2遺伝子変異による全身性の骨・歯発達障害。鎖骨の低形成・欠損（肩を前で合わせられる）・大泉門の晩期閉鎖・過剰歯・乳歯の晩期脱落が特徴的。",
+    symptoms: [
+      "鎖骨の低形成・欠損（両肩を前胸で接触できる）",
+      "大泉門の晩期閉鎖・縫合線開存",
+      "過剰歯・乳歯の脱落遅延",
+      "短身長",
+      "骨盤異形成（出産時問題となりうる）",
+    ],
+    causes:
+      "RUNX2（CBFA1）遺伝子のヘテロ接合性変異。骨芽細胞分化の転写因子が機能不全となり、軟骨内骨化・膜性骨化が障害される。常染色体優性遺伝（新生突然変異も多い）。",
+    diagnosis:
+      "臨床診断（特徴的な症状・X線所見）・骨格X線（鎖骨欠損・頭蓋縫合開存）・RUNX2遺伝子検査。",
+    treatment:
+      "根本治療なし。歯科管理（過剰歯抜去・矯正・インプラント）・聴覚評価と補聴器・脊柱管狭窄管理・帝王切開（骨盤変形例）。",
+    prognosis:
+      "知能は正常。身長は低いが日常生活に大きな障害はない。歯科問題が最も大きな日常的問題となる。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Cleidocranial+Dysplasia",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/4857",
+  },
+  {
+    slug: "camptodactyly-syndrome",
+    name: "先天性多発性関節拘縮症",
+    nameEn: "Arthrogryposis Multiplex Congenita",
+    nanbyoNumber: 214,
+    category: "骨・筋肉疾患",
+    categorySlug: "bone",
+    overview:
+      "出生時に複数の関節が固定した肢位で拘縮している先天性疾患群の総称。原因は多様（神経・筋・骨・子宮内運動制限等）で、早期からのリハビリ・装具・外科治療が機能改善に重要。",
+    symptoms: [
+      "複数の関節の固定した拘縮（出生時）",
+      "内反足・股関節脱臼・膝関節拘縮",
+      "上肢の関節拘縮（手関節屈曲・肘関節伸展拘縮）",
+      "脊柱側弯",
+      "筋萎縮・皮膚のくびれ",
+    ],
+    causes:
+      "胎内での胎動減少（fetal akinesia）が最終共通経路。原因として神経筋疾患（SMA・先天性ミオパチー）・結合組織異常・子宮内環境異常（羊水過少・子宮奇形）・骨格異常など多数。",
+    diagnosis:
+      "臨床診断（出生時の多発関節拘縮）・詳細な原因精査（筋電図・筋生検・遺伝子パネル・画像）が重要。",
+    treatment:
+      "理学療法（関節可動域訓練）・シリアルキャスティング（内反足等）・装具療法。外科的矯正術（腱延長・骨切り・脊柱側弯手術）。早期介入で歩行能力改善が期待できる。",
+    prognosis:
+      "原因と重症度により多様。多くが歩行可能となる。知能は正常なことが多い。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Arthrogryposis+Multiplex+Congenita",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/4859",
+  },
+
+  // ─── 希少遺伝疾患（さらに追加） ────────────────────────────────
+  {
+    slug: "noonan-syndrome",
+    name: "ヌーナン症候群",
+    nameEn: "Noonan Syndrome",
+    nanbyoNumber: 343,
+    category: "希少遺伝疾患",
+    categorySlug: "rare_genetic",
+    overview:
+      "RAS-MAPK経路遺伝子（PTPN11・SOS1・RAF1・RIT1等）変異による多発奇形症候群。先天性心疾患・低身長・翼状頸・特徴的顔貌・出血傾向・学習障害を特徴とする。RASopathiesの一つ。",
+    symptoms: [
+      "特徴的顔貌（内眼角贅皮・眼間開離・低耳介・翼状頸）",
+      "先天性心疾患（肺動脈弁狭窄・肥大型心筋症・ASD）",
+      "低身長（成長ホルモン分泌不全も合併しうる）",
+      "出血傾向（第XI因子欠乏・血小板機能異常）",
+      "学習障害・発達遅滞（軽度）",
+    ],
+    causes:
+      "PTPN11（約50%）・SOS1・RAF1・RIT1・KRAS・NRAS等のRAS-MAPKシグナル伝達経路遺伝子の機能獲得変異。多くは新生突然変異で、一部は常染色体優性遺伝。",
+    diagnosis:
+      "臨床診断（van der Burgt基準）。遺伝子パネル検査（NGS）で原因遺伝子を同定。心エコー・凝固検査・成長評価・認知評価。",
+    treatment:
+      "先天性心疾患の外科・カテーテル治療。成長ホルモン療法（低身長：日本で承認）。出血への対応（術前の凝固評価・新鮮凍結血漿）。発達支援・学習支援。",
+    prognosis:
+      "心疾患の重症度が最大の予後規定因子。多くが成人まで生存し、社会参加が可能。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Noonan+Syndrome",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/6249",
+  },
+  {
+    slug: "costello-syndrome",
+    name: "コステロ症候群",
+    nameEn: "Costello Syndrome",
+    category: "希少遺伝疾患",
+    categorySlug: "rare_genetic",
+    overview:
+      "HRAS遺伝子変異による稀少なRASopathy。生後の哺乳不良・成長障害・特徴的顔貌・皮膚乳頭腫・心疾患（肥大型心筋症・不整脈）・軽度〜中等度知的障害・悪性腫瘍リスク増大を特徴とする。",
+    symptoms: [
+      "哺乳不良・成長障害（乳児期）",
+      "特徴的顔貌（粗い顔立ち・厚い唇・大きな口）",
+      "手掌・足底の皮膚乳頭腫",
+      "肥大型心筋症・心室頻拍",
+      "軽度〜中等度知的障害・発達遅滞",
+    ],
+    causes:
+      "HRAS遺伝子の機能獲得型変異（p.G12S等）。ほぼ全例が新生突然変異。HRAS活性化によりRAS-MAPKシグナルが過剰活性化する。",
+    diagnosis:
+      "臨床診断・HRAS遺伝子検査（直接シーケンス・NGSパネル）。心エコー・認知評価・腫瘍サーベイランス（横紋筋肉腫・神経芽腫）。",
+    treatment:
+      "対症療法。肥大型心筋症・不整脈管理。哺乳不良への栄養支援（胃管・胃瘻）。乳頭腫の外科的切除。悪性腫瘍の定期的サーベイランス。発達支援。",
+    prognosis:
+      "悪性腫瘍リスク（横紋筋肉腫・膀胱がん等）が課題。心疾患管理と腫瘍サーベイランスが重要。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Costello+Syndrome",
+  },
+  {
+    slug: "kabuki-syndrome",
+    name: "歌舞伎症候群（Kabuki症候群）",
+    nameEn: "Kabuki Syndrome",
+    nanbyoNumber: 336,
+    category: "希少遺伝疾患",
+    categorySlug: "rare_genetic",
+    overview:
+      "KMT2D（MLL4）またはKDM6A遺伝子変異によるクロマチンリモデリング障害疾患。特徴的な歌舞伎役者様顔貌・成長障害・知的障害・骨格異常・持続する指紋の胎児様パターンが5主徴。",
+    symptoms: [
+      "特徴的顔貌（長い眼瞼裂・眼瞼下垂・弓型眉毛・耳介異常）",
+      "知的障害（中等度）",
+      "低身長・成長障害",
+      "骨格異常（短い指・脊柱側弯）",
+      "持続する指紋の胎児様隆線（指腹の豊かな肉付き）",
+    ],
+    causes:
+      "KMT2D遺伝子変異（約75%）またはKDM6A変異（約5%）。ヒストンH3K4・H3K27メチル化制御に関わるクロマチン修飾因子の機能喪失による遺伝子発現の広範な異常。多くは新生突然変異で、常染色体優性遺伝。",
+    diagnosis:
+      "臨床診断（Niikawa-Kuroki診断基準）。KMT2D・KDM6A遺伝子検査（NGSパネル・単一遺伝子）。",
+    treatment:
+      "根本治療なし。発達支援・特別支援教育。成長ホルモン療法（低身長例）。心疾患・腎奇形・内分泌異常等の合併症管理。",
+    prognosis:
+      "知能・行動面の支援で社会参加が可能。成人期の合併症管理（肥満・糖尿病・感染）が課題。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=Kabuki+Syndrome",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/6247",
+  },
+  {
+    slug: "charge-syndrome",
+    name: "CHARGE症候群",
+    nameEn: "CHARGE Syndrome",
+    nanbyoNumber: 107,
+    category: "希少遺伝疾患",
+    categorySlug: "rare_genetic",
+    overview:
+      "CHD7遺伝子変異による多臓器奇形症候群。コロボーマ（C）・先天性心疾患（H）・後鼻孔閉鎖（A）・成長発達遅滞（R）・性器低形成（G）・耳奇形/難聴（E）の頭文字から命名された。",
+    symptoms: [
+      "眼コロボーマ（虹彩・脈絡膜の欠損）",
+      "先天性心疾患（様々なタイプ）",
+      "後鼻孔閉鎖（片側または両側：新生児期呼吸困難）",
+      "外耳道狭窄・耳小骨奇形・感音性難聴",
+      "半規管低形成（前庭機能障害・バランス障害）",
+    ],
+    causes:
+      "CHD7遺伝子（ATP依存性クロマチンリモデリングヘリカーゼ）変異（約70%）。ほぼ全例が新生突然変異。発生期の多臓器の転写調節・神経堤細胞発達が障害される。",
+    diagnosis:
+      "CHARGE診断基準（Blake・Verloes）。CHD7遺伝子検査（シーケンス・MLPA）。全身評価（心エコー・内視鏡的後鼻孔確認・MRI・聴力検査・内分泌検査）。",
+    treatment:
+      "後鼻孔閉鎖：外科的開通術（緊急）。先天性心疾患：外科・カテーテル。難聴：補聴器・人工内耳。眼科フォロー。嚥下機能評価・栄養管理。発達支援（コミュニケーション支援）。",
+    prognosis:
+      "複数の重篤な奇形を合併する場合は新生児期が最もリスクが高い。適切な管理で多くが長期生存可能。",
+    jrctSearchUrl:
+      "https://jrct.niph.go.jp/search?query=CHARGE+Syndrome",
+    nanbyouInfoUrl: "https://www.nanbyou.or.jp/entry/6255",
+  },
 ];
 
 // カテゴリ別に疾患を取得するユーティリティ
