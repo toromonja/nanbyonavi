@@ -92,8 +92,8 @@ const categories = [
   },
   {
     icon: Newspaper,
-    title: "最新情報",
-    desc: "制度改正・新薬・治験ニュース",
+    title: "ガイド一覧",
+    desc: "制度・申請・支援・治験ガイドの一覧",
     href: "/guides",
     bg: "bg-amber-50",
     iconColor: "text-amber-600",
@@ -111,7 +111,7 @@ export default function Home() {
           </div>
           <h1 className="text-3xl md:text-5xl font-bold text-slate-800 leading-tight mb-4">
             難病と診断されたあなたへ。<br />
-            <span className="text-indigo-600">まず、深呼吸してください。</span>
+            <span className="text-indigo-600">必要な情報をわかりやすく。</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
             制度・支援・治験情報をわかりやすくまとめました。<br className="hidden md:block" />
