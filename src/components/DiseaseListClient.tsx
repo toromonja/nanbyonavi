@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { Search, ChevronRight, X } from "lucide-react";
 import type { Disease } from "@/data/diseases";
@@ -76,11 +77,11 @@ function DiseaseCard({ disease }: { disease: Disease }) {
 // ─── メインコンポーネント ─────────────────────────────────
 interface Props {
   diseases: Disease[];
-  initialSearch?: string;
 }
 
-export default function DiseaseListClient({ diseases, initialSearch = "" }: Props) {
-  const [query, setQuery] = useState(initialSearch);
+export default function DiseaseListClient({ diseases }: Props) {
+  const searchParams = useSearchParams();
+  const [query, setQuery] = useState(searchParams.get("search") ?? "");
   const [activeCategory, setActiveCategory] = useState<CategorySlug>("all");
 
   const filtered = useMemo(() => {

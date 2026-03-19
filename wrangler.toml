@@ -1,11 +1,6 @@
 name = "nanbyonavi"
-main = ".open-next/worker.js"
-compatibility_date = "2025-01-01"
-compatibility_flags = ["nodejs_compat"]
+compatibility_date = "2026-03-19"
+main = "worker.js"
 
 [assets]
-directory = ".open-next/assets"
-binding = "ASSETS"
-
-[vars]
-NEXT_PUBLIC_SITE_URL = "https://nanbyonavi.toromonja.com"
+directory = "out"
